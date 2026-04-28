@@ -1,1 +1,11 @@
-
+name: "uranium"
+descriptiom:
+'''
+text test
+'''
+author: "THT 2"
+minGameVersion: 156.2
+version: "0.1"
+displayName: "Uranium"
+subtitle: "Mod for uranium"
+repo: "TIRPIS/Uranium"
