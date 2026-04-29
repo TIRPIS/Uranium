@@ -1,1 +1,13 @@
-
+name: Uranium
+description: A highly radioactive material made from thorium 
+charge: 0.2
+radioactivity; 1.5
+cost: 1.3
+color: 1baebb
+research: {
+parent: thorium
+objectives: [
+preset: crash-0078 
+]
+}
+shownPlanets: [serpulo]
