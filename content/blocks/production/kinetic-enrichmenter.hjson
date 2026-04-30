@@ -8,7 +8,7 @@ research: enrichmenter
 researchCostMultiplier: 12
 requirements: [
 uranium/60
-titaniu./100
+titanium./100
 metaglass/30
 surge-alloy/10
 ]
