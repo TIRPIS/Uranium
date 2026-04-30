@@ -7,7 +7,7 @@ color: 1baebb
 research: {
 parent: thorium
 objectives: [
-preset: impact-0078 
+preset: impact0078 
 ]
 }
 shownPlanets: [serpulo]
