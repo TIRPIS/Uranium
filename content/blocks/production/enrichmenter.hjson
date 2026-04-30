@@ -30,9 +30,6 @@ craftEffect: smeltsmoke
 drawer: {
   type: DrawMulti
   drawers: [
-    {
-      type: DrawDefault
-    }
   {
       type: DrawFlame
 flameX: 3.8
@@ -56,6 +53,9 @@ flameRadiusIn: 1
 flameY: -3.8
 flameRadius: 2
 flameRadiusIn: 1
+}
+{
+type: DrawDefault
 }
   ]
 }
