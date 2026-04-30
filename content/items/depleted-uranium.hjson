@@ -1,0 +1,15 @@
+name: Depleted uranium
+description:  A by-product of uranium production
+radioactivity: 0.3
+cost: 0.9
+color: 545873
+research: {
+parent: thorium
+objectives: [
+{
+type: SectorComplete
+preset: impact0078
+}
+]
+}
+shownPlanets: [serpulo]
