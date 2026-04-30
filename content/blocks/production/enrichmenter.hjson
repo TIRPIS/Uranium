@@ -16,7 +16,7 @@ preset: impact0078
 researchCostMultiplier: 12
 requirements: [
 thorium/30
-titan/80
+titanium/80
 metaglass/30
 
 ]
