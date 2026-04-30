@@ -29,8 +29,8 @@ drawer: {
       type: DrawRegion
       suffix: -top
     }
-{
-      type: DrawCrucibleFlame
+  {
+      type: DrawArcSmelt
     }
     {
       type: DrawDefault
