@@ -31,19 +31,17 @@ drawer: {
   type: DrawMulti
   drawers: [
     {
-      type: DrawRegion
-      suffix: -top
-    }
-    {
       type: DrawDefault
     }
   {
       type: DrawFlame
 flameX: 3.8
+flameRadius: 1
     }
 {
       type: DrawFlame
 flameX: -3.8
+flameRadius: 0.5
 }
 {
       type: DrawFlame
@@ -52,6 +50,7 @@ flameY: 3.8
 {
       type: DrawFlame
 flameY: -3.8
+flameRadius: 1.5
 }
   ]
 }
