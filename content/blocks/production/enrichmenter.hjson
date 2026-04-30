@@ -38,10 +38,21 @@ drawer: {
       type: DrawDefault
     }
   {
-      type: DrawArcSmelt
-size: 0.5
+      type: DrawFlame
 x: 3.8
     }
+{
+      type: DrawFlame
+x: -3.8
+}
+{
+      type: DrawFlame
+y: 3.8
+}
+{
+      type: DrawFlame
+y: -3.8
+}
   ]
 }
 outputItems: [
