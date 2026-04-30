@@ -22,9 +22,20 @@ surge-alloy/1
 }
 craftTime: 180
 craftEffect: smeltsmoke
-drawers: {
-type: DrawRegion
-suffix: -top
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -top
+    }
+{
+      type: DrawCrucibleFlame
+    }
+    {
+      type: DrawDefault
+    }
+  ]
 }
 outputItems: [
 uranium/1
