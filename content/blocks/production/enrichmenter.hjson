@@ -38,7 +38,7 @@ drawer: {
       type: DrawDefault
     }
   {
-      type: DrawFlame
+      type: DrawArcSmelt
 x: 3.8
     }
 {
