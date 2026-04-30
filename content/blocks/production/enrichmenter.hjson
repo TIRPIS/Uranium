@@ -38,19 +38,19 @@ drawer: {
       type: DrawDefault
     }
   {
-      type: DrawArcSmelt
+      type: DrawGlowRegion
 x: 3.8
     }
 {
-      type: DrawArcSmelt
+      type: DrawGlowRegion
 x: -3.8
 }
 {
-      type: DrawArcSmelt
+      type: DrawGlowRegion
 y: 3.8
 }
 {
-      type: DrawArcSmelt
+      type: DrawGlowRegion
 y: -3.8
 }
   ]
