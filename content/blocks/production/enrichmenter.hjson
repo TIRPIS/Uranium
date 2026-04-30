@@ -38,19 +38,19 @@ drawer: {
       type: DrawDefault
     }
   {
-      type: DrawGlowRegion
+      type: DrawFlame
 x: 3.8
     }
 {
-      type: DrawGlowRegion
+      type: DrawFlame
 x: -3.8
 }
 {
-      type: DrawGlowRegion
+      type: DrawFlame
 y: 3.8
 }
 {
-      type: DrawGlowRegion
+      type: DrawFlame
 y: -3.8
 }
   ]
