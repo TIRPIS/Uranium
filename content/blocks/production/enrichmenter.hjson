@@ -27,9 +27,17 @@ items: thorium/6
 }
 craftTime: 360
 craftEffect: smeltsmoke
-drawers: {
-type: DrawRegion
-suffix: -top
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -top
+    }
+    {
+      type: DrawDefault
+    }
+  ]
 }
 outputItems: [
 uranium/1
