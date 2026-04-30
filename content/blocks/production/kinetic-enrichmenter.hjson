@@ -1,6 +1,6 @@
 type: GenericCrafter
-name: Kinetic enrichmenter
-description: Uses kinetic alloy to speed up the uranium creation process
+name: Surge enrichmenter
+description: Uses surge alloy to speed up the uranium creation process
 size: 2
 squareSprite: true
 category: crafting
@@ -10,12 +10,13 @@ requirements: [
 uranium/60
 titan/100
 metaglass/30
-kinetic-alloy/10
+surge-alloy/10
 ]
 consumes: {
+power: 2
 items: [
 thorium/6
-kinetic-alloy/1
+surge-alloy/1
 ]
 }
 craftTime: 180
