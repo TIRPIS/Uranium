@@ -37,12 +37,8 @@ drawer: {
     {
       type: DrawDefault
     }
-{
-      type: DrawPulseShape
-      color: 54776d
-      square: false
-      stroke: 0.8
-      minStroke: 0.2
+  {
+      type: DrawArcSmelt
     }
   ]
 }
