@@ -29,11 +29,11 @@ drawer: {
       type: DrawRegion
       suffix: -top
     }
-  {
-      type: DrawArcSmelt
-    }
     {
       type: DrawDefault
+    }
+  {
+      type: DrawArcSmelt
     }
   ]
 }
