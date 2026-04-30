@@ -33,7 +33,7 @@ drawer: {
       type: DrawDefault
     }
   {
-      type: DrawArcSmelt
+      type: DrawFlame
     }
   ]
 }
