@@ -2,6 +2,7 @@ type: GenericCrafter
 name: Enrichmenter
 description: Uses large amounts of thorium and energy to create uranium
 size: 2
+itemCapacity: 30
 squareSprite: true
 category: crafting
 research: {
