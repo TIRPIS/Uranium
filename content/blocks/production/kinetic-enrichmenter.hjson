@@ -25,7 +25,7 @@ drawers: {
 type: DrawRegion
 suffix: -top
 }
-outputItem: [
+outputItems: [
 uranium/1
 depleted-uranium/2
 ]
