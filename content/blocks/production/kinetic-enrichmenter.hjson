@@ -1,1 +1,25 @@
-
+type: GenericCrafter
+name: Kinetic enrichmenter
+description: Uses kinetic alloy to speed up the uranium creation process
+size: 2
+squareSprite: true
+category: crafting
+research: enrichmenter
+researchCostMultiplier: 12
+requirements: [
+uranium/60
+titan/100
+metaglass/30
+kinetic-alloy/10
+]
+consumes: {
+items: [
+thorium/6
+kinetic-alloy/1
+]
+}
+craftTime: 180
+craftEffect: smeltsmoke
+outputItem: [
+uranium/1
+depleted-uranium/2
