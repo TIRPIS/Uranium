@@ -39,19 +39,19 @@ drawer: {
     }
   {
       type: DrawFlame
-x: 3.8
+flameX: 3.8
     }
 {
       type: DrawFlame
-x: -3.8
+flameX: -3.8
 }
 {
       type: DrawFlame
-y: 3.8
+flameY: 3.8
 }
 {
       type: DrawFlame
-y: -3.8
+flameY: -3.8
 }
   ]
 }
