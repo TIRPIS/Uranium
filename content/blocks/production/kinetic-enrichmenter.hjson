@@ -21,7 +21,7 @@ surge-alloy/1
 }
 craftTime: 180
 craftEffect: smeltsmoke
-drawer: {
+drawers: {
 type: DrawRegion
 suffix: -top
 }
