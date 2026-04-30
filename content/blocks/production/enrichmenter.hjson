@@ -42,15 +42,15 @@ drawer: {
 x: 3.8
     }
 {
-      type: DrawFlame
+      type: DrawArcSmelt
 x: -3.8
 }
 {
-      type: DrawFlame
+      type: DrawArcSmelt
 y: 3.8
 }
 {
-      type: DrawFlame
+      type: DrawArcSmelt
 y: -3.8
 }
   ]
