@@ -4,9 +4,3 @@ heatCapacity: 0.30
 temperature: 0.5
 viscosity: 0.5
 color: 73789A
-research: {
-parent: water
-objectives: [
-uranium-reactor
-]
-}
