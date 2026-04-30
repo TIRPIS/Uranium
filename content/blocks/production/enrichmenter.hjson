@@ -36,21 +36,26 @@ drawer: {
   {
       type: DrawFlame
 flameX: 3.8
-flameRadius: 1
+flameRadius: 2
+flameRadiusIn: 1
     }
 {
       type: DrawFlame
 flameX: -3.8
-flameRadius: 0.5
+flameRadius: 2
+flameRadiusIn: 1
 }
 {
       type: DrawFlame
 flameY: 3.8
+flameRadius: 2
+flameRadiusIn: 1
 }
 {
       type: DrawFlame
 flameY: -3.8
-flameRadius: 1.5
+flameRadius: 2
+flameRadiusIn: 1
 }
   ]
 }
