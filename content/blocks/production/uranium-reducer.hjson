@@ -41,7 +41,7 @@ type: DrawDefault
       type: DrawArcSmelt
         flameRad: 2
         particleRad: 5
-        particles: 15
+        particles: 25
     }
   ]
 }
