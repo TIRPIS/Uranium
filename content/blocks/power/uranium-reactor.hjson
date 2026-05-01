@@ -35,6 +35,7 @@ itemDuration: 180
     {
       type: DrawRegion
         suffix: -top
+}
     {    
       type: DrawDefault
     }
