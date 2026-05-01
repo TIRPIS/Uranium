@@ -6,7 +6,7 @@ health: 1200
 range: 360
 rotateSpeed: 12
 force: -25
-  scaledForse: 15
+  scaledForse: -15
   damage: 1.5
 status: sapped
 statusDuration: 120
@@ -20,8 +20,8 @@ category: turret
 shootType: {
   type: PointLaserBulletType
   color: 7d0209
-  length: 140
-  width: 24
+  length: 50
+  width: 6
   damage: 1.5
 }
 requirements: [
