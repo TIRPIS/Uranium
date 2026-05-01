@@ -1,0 +1,48 @@
+type: ConsumeGenerator
+name: Uranium reactor
+description: Generates large amounts of energy by consuming uranium and water. It removes radioactive water and explodes if there is excess water 
+size: 4
+category: power
+squareSprite: true
+research: thorium-reactor
+requirements: [
+  uranium/40
+  silicon/100
+  metaglass/80
+  graphite/200
+]
+powerProduction: 23
+consumes: {
+  items: [
+    uranium/1
+  ]
+  liquid: water/0.2
+    }
+itemDuration: 180
+  drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawLiquidTile
+      drawLiquid: water
+      alpha: 0.7
+      padding: 2.05
+    }
+    {
+      type: DrawRegion
+        suffix: -top
+    {    
+      type: DrawDefault
+    }
+        ]
+        }
+        warmupSpeed: 0.005
+outputLiquid: radioactive-water
+liquidCapacity: 4
+explodeOnFull: true
+
+researchCostMultiplier: 8
