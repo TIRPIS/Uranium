@@ -41,9 +41,16 @@ itemDuration: 180
     }
         ]
         }
-        warmupSpeed: 0.005
+        warmupSpeed: 0.002
 outputLiquid: uranium-water/0.1
 liquidCapacity: 4
 explodeOnFull: true
+explodeSound: explosionReactor2
+explosionMinWarmup: 0.5
+explosionDamage: 9000
+ambientSound: loopFlux
+ambientSoundVolume: 0.13
+// 15 seconds
+unstableSpeed: 0.0011111111
 
 researchCostMultiplier: 8
