@@ -1,0 +1,48 @@
+type: GenericCrafter
+name: Uranium reducer
+description: Uses depleted uranium to synthesize conventional uranium 
+size: 2
+itemCapacity: 30
+squareSprite: true
+category: crafting
+research: {
+parent: enrichmenter
+objectives: [
+{
+type: SectorComplete
+preset: impact0078
+}
+]
+}
+researchCostMultiplier: 12
+requirements: [
+graphite/80
+titanium/120
+metaglass/30
+
+]
+consumes: {
+power: 4
+items: depleted-uranium/4
+}
+craftTime: 180
+craftEffect: smeltsmoke
+drawer: {
+  type: DrawMulti
+  drawers: [
+{
+type: DrawRegion
+suffix: -top
+}
+{
+type: DrawDefault
+}
+  {
+      type: DrawArcSmelt
+        flameRad: 2
+        particleRad: 5
+        particles: 15
+    }
+  ]
+}
+outputItem: uranium/1
