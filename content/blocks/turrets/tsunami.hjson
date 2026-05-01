@@ -6,12 +6,11 @@ uranium-water: {
     orbSize: 4.5
     drag: 0.002
     layer: 98
-    statusDuration: 300
-    knockback: 1
+    statusDuration: 240
+    knockback: 1.7
     lifetime: 58
     status: sapped
-    damage: 5
-    speed: 5
+    damage: 0.2
 
     lightOpacity: 0
     lightRadius: 0
