@@ -36,7 +36,8 @@ itemDuration: 180
       type: DrawFlame
       flameRadius: 3.5
 flameRadiusIn: 1.5
-flameRadiusScl: 10
+flameRadiusScl: 7
+flameColor: BFFBFF
 }
     {    
       type: DrawDefault
