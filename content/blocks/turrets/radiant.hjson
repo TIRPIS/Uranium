@@ -13,7 +13,7 @@ shootSound: beamParallax
 category: turret
 requirements: [
     lead/120
-    silicone/50
+    silicon/50
     uranium/60
 ]
 research: {
