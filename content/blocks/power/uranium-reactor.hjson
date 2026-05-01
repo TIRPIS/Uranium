@@ -16,7 +16,7 @@ consumes: {
   items: [
     uranium/1
   ]
-  liquid: water/0.2
+  liquid: water/0.0666
     }
 itemDuration: 180
   drawer: {
@@ -43,7 +43,7 @@ flameRadiusIn: 0.0001
         ]
         }
         warmupSpeed: 0.002
-outputLiquid: uranium-water/0.1
+outputLiquid: uranium-water/0.0333
 liquidCapacity: 40
 explodeOnFull: true
 explodeSound: explosionReactor2
