@@ -6,7 +6,7 @@ itemCapacity: 30
 squareSprite: true
 category: crafting
 research: enrichmenter
-researchCostMultiplier: 12
+researchCostMultiplier: 10
 requirements: [
 uranium/60
 titanium/100
