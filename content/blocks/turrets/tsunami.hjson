@@ -2,7 +2,6 @@ ammoTypes: {
 water: {
     type: LiquidBulletType
     liquid: water
-    scaleLife: true
     orbSize: 4.5
     layer: 98
     statusDuration: 240
@@ -14,7 +13,6 @@ status: wet
 slag: {
     type: LiquidBulletType
     liquid: slag
-    scaleLife: true
     orbSize: 4.5
     layer: 98
     statusDuration: 240
@@ -26,7 +24,6 @@ slag: {
 oil: {
     type: LiquidBulletType
     liquid: oil
-    scaleLife: true
     orbSize: 4.5
     layer: 98
     statusDuration: 240
@@ -38,7 +35,6 @@ oil: {
 cryofluid: {
     type: LiquidBulletType
     liquid: oil
-    scaleLife: true
     orbSize: 4.5
     layer: 98
     statusDuration: 240
@@ -50,7 +46,6 @@ cryofluid: {
 uranium-water: {
     type: LiquidBulletType
     liquid: uranium-water
-    scaleLife: true
     orbSize: 4.5
     layer: 98
     statusDuration: 240
