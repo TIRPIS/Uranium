@@ -11,7 +11,5 @@ uranium-water: {
     lifetime: 58
     status: sapped
     damage: 0.2
-
-    lightOpacity: 0
-    lightRadius: 0
+}
 }
