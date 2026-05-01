@@ -34,9 +34,8 @@ itemDuration: 180
     }
     {
       type: DrawFlame
-      flameRadius: 0.0001
-flameRadiusIn: 0.0001
-flameRadiusScl: 0.1
+      flameRadius: 3
+flameRadiusIn: 1.5
 }
     {    
       type: DrawDefault
