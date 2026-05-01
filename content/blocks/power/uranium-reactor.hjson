@@ -34,7 +34,8 @@ itemDuration: 180
     }
     {
       type: DrawFlame
-      flameRafius: 0.0
+      flameRafius: 0.0001
+flameRadiusIn: 0.0001
 }
     {    
       type: DrawDefault
@@ -43,11 +44,12 @@ itemDuration: 180
         }
         warmupSpeed: 0.002
 outputLiquid: uranium-water/0.1
-liquidCapacity: 4
+liquidCapacity: 40
 explodeOnFull: true
 explodeSound: explosionReactor2
-explosionMinWarmup: 0.5
+explosionMinWarmup: 0.8
 explosionDamage: 9000
+explosionRadius: 20
 ambientSound: loopFlux
 ambientSoundVolume: 0.13
 // 15 seconds
