@@ -1,0 +1,22 @@
+type: TractorBeamTurret
+size: 2
+health: 1200
+range: 350
+rotateSpeed: 12
+force: 25
+  scaledForse: 13
+  damage: 3
+consumes : {
+  power: 5
+}
+shootSound: beamParallax
+category: turret
+requirements: [
+    lead/120
+    silicone/50
+    uranium/60
+]
+research: {
+    parent: parallax
+}
+researchMultiplier: 10
