@@ -1,19 +1,29 @@
 type: TractorBeamTurret
+name: Radiant
+description: Attracts flying enemies with a powerful laser beam and inflicts sapped effect
 size: 3
 health: 1200
-range: 350
+range: 360
 rotateSpeed: 12
-force: 25
+force: -25
   scaledForse: 15
-  damage: 1.3
+  damage: 1.5
 status: sapped
 statusDuration: 120
-width: 10
+laserWidth: 8
 consumes : {
   power: 8
 }
 shootSound: beamParallax
+shootSoundVolume: 1.1
 category: turret
+shootType: {
+  type: PointLaserBulletType
+  color: 7d0209
+  length: 140
+  width: 24
+  damage: 1.5
+}
 requirements: [
     lead/120
     silicon/50
