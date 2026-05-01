@@ -1,6 +1,6 @@
 type: ConsumeGenerator
 name: Uranium reactor
-description: Generates large amounts of energy by consuming uranium and water. It removes radioactive water and explodes if there is excess water 
+description: Generates large amounts of energy by consuming uranium and water. It removes uranium water and explodes if there is excess water 
 size: 4
 category: power
 squareSprite: true
@@ -42,7 +42,7 @@ itemDuration: 180
         ]
         }
         warmupSpeed: 0.005
-outputLiquid: radioactive-water
+outputLiquid: uranium-water
 liquidCapacity: 4
 explodeOnFull: true
 
