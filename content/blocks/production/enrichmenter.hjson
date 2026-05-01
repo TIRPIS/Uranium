@@ -14,7 +14,7 @@ preset: impact0078
 }
 ]
 }
-researchCostMultiplier: 12
+researchCostMultiplier: 10
 requirements: [
 thorium/30
 titanium/80
