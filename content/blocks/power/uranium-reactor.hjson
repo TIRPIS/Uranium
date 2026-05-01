@@ -42,7 +42,7 @@ itemDuration: 180
         ]
         }
         warmupSpeed: 0.005
-outputLiquid: uranium-water
+outputLiquid: uranium-water/0.1
 liquidCapacity: 4
 explodeOnFull: true
 
