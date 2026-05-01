@@ -1,0 +1,18 @@
+ammoTypes: {
+uranium-water: {
+    type: LiquidBulletType
+    liquid: uranium-water
+    scaleLife: true
+    orbSize: 4.5
+    drag: 0.002
+    layer: 98
+    statusDuration: 300
+    knockback: 1
+    lifetime: 58
+    status: sapped
+    damage: 5
+    speed: 5
+
+    lightOpacity: 0
+    lightRadius: 0
+}
