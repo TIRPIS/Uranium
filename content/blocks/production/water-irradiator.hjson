@@ -1,5 +1,5 @@
 type: GenericCrafter
-name: Water irradiator
+name: water-irradiator
 description: Uses depleted uranium to contaminate water 
 size: 2
 itemCapacity: 30
