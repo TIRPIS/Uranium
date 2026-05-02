@@ -1,0 +1,20 @@
+ammoTypes: {
+surgeAlloy: {
+    type: RailBulletType
+    item: surgeAlloy
+    scaleLife: true
+    pointEffectSpace: 20
+  damage: 1350
+  buildingDamageMultiplier:  0.2
+  pierceDamageFactor: 1
+  length: 500
+  hitShake: 6
+  ammoMultiplier: 1
+  shootEffect: Fx.instShoot
+  hitEffect: Fx.instHit
+  pierceEffect: Fx.railHit
+  smokeEffect: Fx.smokeCloud
+  pointEffect: Fx.instTrail
+  despawnEffect: Fx.instBomb
+      }
+}
