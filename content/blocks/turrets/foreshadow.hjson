@@ -30,12 +30,51 @@ statusDuration: 300
   length: 500
   hitShake: 6
   ammoMultiplier: 1
-  shootEffect: instShoot
-  hitEffect: instHit
-  pierceEffect: railHit
+  shootEffect: {
+  type: MultiEffect
+  effects: [
+    {
+      type: instShoot
+color: BFFBFF
+    }
+  ]
+}
+  hitEffect: {
+  type: MultiEffect
+  effects: [
+    {
+      type: instHit
+color: BFFBFF
+    }
+  ]
+}
+  pirceEffect: {
+  type: MultiEffect
+  effects: [
+    {
+      type: railHit
+color: BFFBFF
+    }
+  ]
+}
   smokeEffect: smokeCloud
-  pointEffect: instTrail
-  despawnEffect: instBomb
-shootColor: BFFBFF
+pointEffect: {
+  type: MultiEffect
+  effects: [
+    {
+      type: instTrail
+color: BFFBFF
+    }
+  ]
+}
+despawnEffect: {
+  type: MultiEffect
+  effects: [
+    {
+      type: instBomb
+color: BFFBFF
+    }
+  ]
+}
       }
 }
