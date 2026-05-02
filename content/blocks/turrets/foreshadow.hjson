@@ -10,12 +10,12 @@ surgeAlloy: {
   length: 500
   hitShake: 6
   ammoMultiplier: 1
-  shootEffect: Fx.instShoot
-  hitEffect: Fx.instHit
-  pierceEffect: Fx.railHit
-  smokeEffect: Fx.smokeCloud
-  pointEffect: Fx.instTrail
-  despawnEffect: Fx.instBomb
+  shootEffect: instShoot
+  hitEffect: instHit
+  pierceEffect: railHit
+  smokeEffect: smokeCloud
+  pointEffect: instTrail
+  despawnEffect: instBomb
       }
 uranium: {
     type: RailBulletType
@@ -30,11 +30,12 @@ statusDuration: 300
   length: 500
   hitShake: 6
   ammoMultiplier: 1
-  shootEffect: Fx.instShoot
-  hitEffect: Fx.instHit
-  pierceEffect: Fx.railHit
-  smokeEffect: Fx.smokeCloud
-  pointEffect: Fx.instTrail
-  despawnEffect: Fx.instBomb
+  shootEffect: instShoot
+  hitEffect: instHit
+  pierceEffect: railHit
+  smokeEffect: smokeCloud
+  pointEffect: instTrail
+  despawnEffect: instBomb
+shootColor: BFFBFF
       }
 }
