@@ -31,7 +31,7 @@ statusDuration: 300
   hitShake: 6
   ammoMultiplier: 1
   shootEffect: instShoot
-  hitEffect: BFFBFF
+  hitEffect: instHit
   pirceEffect: railHit
   smokeEffect: smokeCloud
 pointEffect: {
