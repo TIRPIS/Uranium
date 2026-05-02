@@ -17,4 +17,23 @@ surgeAlloy: {
   pointEffect: Fx.instTrail
   despawnEffect: Fx.instBomb
       }
-}
+uranium: {
+    type: RailBulletType
+    item: uranium
+    scaleLife: true
+    pointEffectSpace: 20
+  damage: 675
+status: sapped
+status
+  buildingDamageMultiplier:  0.4
+  pierceDamageFactor: 1
+  length: 500
+  hitShake: 6
+  ammoMultiplier: 1
+  shootEffect: Fx.instShoot
+  hitEffect: Fx.instHit
+  pierceEffect: Fx.railHit
+  smokeEffect: Fx.smokeCloud
+  pointEffect: Fx.instTrail
+  despawnEffect: Fx.instBomb
+      }
