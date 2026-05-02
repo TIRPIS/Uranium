@@ -1,11 +1,11 @@
 name: "uranium"
 description:
 '''
-text test
+100% radioactive!
 '''
 author: "THT 2"
 minGameVersion: 156.2
-version: "0.1"
+version: "0.2"
 displayName: "Uranium"
-subtitle: "Mod for uranium"
+subtitle: "Mod that add uranium, turrets, and units"
 repo: "TIRPIS/Uranium"
