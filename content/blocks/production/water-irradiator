@@ -1,0 +1,45 @@
+type: GenericCrafter
+name: Water irradiator
+description:
+size: 2
+itemCapacity: 30
+squareSprite: true
+category: crafting
+research: {
+parent: enrichmenter
+objectives: [
+{
+type: SectorComplete
+preset: impact0078
+}
+]
+}
+researchCostMultiplier: 10
+requirements: [
+graphite/60
+titanium/90
+metaglass/120
+silicon/40
+
+]
+consumes: {
+power: 1
+items: depleted-uranium/2
+liquid: water/0.2
+}
+craftTime: 120
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -rotator
+      spinSprite: true
+      rotateSpeed: 5
+}
+    {
+      type: DrawDefault
+    }
+  ]
+}
+outputLiquid: uranium-water/0.2
