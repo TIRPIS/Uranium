@@ -30,15 +30,7 @@ statusDuration: 300
   length: 500
   hitShake: 6
   ammoMultiplier: 1
-  shootEffect: {
-  type: MultiEffect
-  effects: [
-    {
-      type: instShoot
-color: BFFBFF
-    }
-  ]
-}
+  shootEffect: instShoot
   hitEffect: {
   type: MultiEffect
   effects: [
