@@ -1,6 +1,6 @@
 ammoTypes: {
 surgeAlloy: {
-    type: RailBulletType
+    type: ContinuousLaserBulletType
     item: surgeAlloy
     scaleLife: true
     pointEffectSpace: 20
@@ -18,7 +18,7 @@ surgeAlloy: {
   despawnEffect: instBomb
       }
 uranium: {
-    type: RailBulletType
+    type: ContinuousLaserBulletType
     item: uranium
     scaleLife: true
     pointEffectSpace: 20
