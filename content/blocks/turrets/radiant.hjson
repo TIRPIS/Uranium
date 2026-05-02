@@ -25,9 +25,10 @@ shootType: {
   damage: 3
 }
 requirements: [
-    lead/120
-    silicon/50
+graphite/70
+    silicon/200
     uranium/60
+titanium/170
 ]
 research: {
     parent: parallax
