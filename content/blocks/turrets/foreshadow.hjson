@@ -36,6 +36,5 @@ statusDuration: 300
   smokeEffect: Fx.smokeCloud
   pointEffect: Fx.instTrail
   despawnEffect: Fx.instBomb
-shootColor: BFFBFF
       }
 }
