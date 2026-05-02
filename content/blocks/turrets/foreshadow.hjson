@@ -24,7 +24,7 @@ uranium: {
     pointEffectSpace: 20
   damage: 675
 status: sapped
-status
+statusDuration: 300
   buildingDamageMultiplier:  0.4
   pierceDamageFactor: 1
   length: 500
@@ -36,4 +36,5 @@ status
   smokeEffect: Fx.smokeCloud
   pointEffect: Fx.instTrail
   despawnEffect: Fx.instBomb
+shootColor: 
       }
