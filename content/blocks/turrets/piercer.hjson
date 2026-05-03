@@ -12,7 +12,7 @@ reload: 60
 shake: 5
 recoil: 6
 minWarmup: 0.99
-shootY: -1
+shootY: -0.3
 shoot:{
 type: ShootSpread
 shots: 1
