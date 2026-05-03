@@ -5,7 +5,7 @@ description:
 '''
 author: "THT 2"
 minGameVersion: 156.2
-version: "0.2"
+version: "0.3"
 displayName: "Uranium"
 subtitle: "Mod that add uranium, turrets, and units"
 repo: "TIRPIS/Uranium"
