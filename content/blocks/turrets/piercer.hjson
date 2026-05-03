@@ -3,7 +3,7 @@ name: Piercer
 description: Fires a single piercing beam with high damage 
 size: 4
 health: 3100
-range: 136
+range: 160
 rotateSpeed: 4
 shootSound: shootSmite
 shootSoundVolume: 1
