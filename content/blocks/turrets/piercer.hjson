@@ -49,6 +49,7 @@ ammoMultiplier: 2
 toColor: F9A3C7
 shootEffect: thoriumShoot
 smokeEffect: thoriumShoot
+shootY: -7.5
   }
 uranium: {
 type: ShrapnelBulletType
@@ -59,6 +60,7 @@ ammoMultiplier: 3
 toColor: BFFBFF
 status: sapped
 statusDuratiom: 240
+shootY: -7.5
   }
 }
 drawer: {
