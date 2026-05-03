@@ -1,7 +1,7 @@
 type: ItemTurret
 name: Piercer
 description: Fires a single piercing beam with high damage 
-size: 5
+size: 4
 health: 3100
 range: 200
 rotateSpeed: 4
