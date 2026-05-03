@@ -8,7 +8,7 @@ rotateSpeed: 12
 force: 25
   scaledForse: 15
   damage: 3
-status: sapped
+status: slow
 statusDuration: 120
 laserWidth: 1
 consumes : {
