@@ -6,7 +6,7 @@ health: 3100
 range: 160
 rotateSpeed: 4
 shootSound: shootSmite
-shootSoundVolume: 1
+shootSoundVolume: 1.5
 category: turret
 reload: 60
 shake: 5
