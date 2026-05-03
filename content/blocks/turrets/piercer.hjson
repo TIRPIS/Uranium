@@ -78,7 +78,7 @@ type: RegionPart
       under: true
       progress: warmup
 heatProgress: recoil
-      moveX: 1.5
+      moveX: 3
     }
 
 {
