@@ -8,7 +8,7 @@ rotateSpeed: 4
 shootSound: shootFuse
 shootSoundVolume: 1.1
 category: turret
-reload: 85
+reload: 60
 shake: 5
 recoil: 6
 firsShootDelay: 55
@@ -43,9 +43,18 @@ ammoTypes: {
 thorium: {
 type: ShrapnelBulletType
 length: 136
-damage: 105
-ammoMultiplier: 5
-toColor: thoriumPink
+damage: 800
+ammoMultiplier: 3
+toColor: Pal.thoriumPink
+shootEffect: thoriumShoot
+smokeEffect: thoriumShoot
+  }
+uranium: {
+type: ShrapnelBulletType
+length: 136
+damage: 700
+ammoMultiplier: 6
+toColor: 
 shootEffect: thoriumShoot
 smokeEffect: thoriumShoot
   }
