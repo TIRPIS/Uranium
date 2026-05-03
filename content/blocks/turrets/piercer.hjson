@@ -8,7 +8,7 @@ rotateSpeed: 6
 shootSound: shootFuse
 shootSoundVolume: 1.1
 category: turret
-reload: 100
+reload: 85
 shake: 5
 recoil: 6
 firsShootDelay: 55
@@ -37,7 +37,7 @@ coolant: {
   type: ConsumeCoolant
   allowGas: false
   allowLiquid: true
-  amount: 0.3
+  amount: 0.2
 }
 ammoTypes: {
 thorium: {
