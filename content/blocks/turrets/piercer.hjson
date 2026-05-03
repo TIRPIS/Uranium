@@ -75,10 +75,10 @@ heatProgress: recoil
 type: RegionPart
       suffix: -blade
       mirror: true
-      under: false
+      under: true
       progress: warmup
 heatProgress: recoil
-      moveX: 12
+      moveX: 3
     }
 ]
 }
