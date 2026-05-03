@@ -80,5 +80,12 @@ type: RegionPart
 heatProgress: recoil
       moveX: 1.5
     }
+{
+type: RegionPart
+      suffix: -barrel
+      mirror: false
+      under: true
+heatProgress: recoil
+    }
 ]
 }
