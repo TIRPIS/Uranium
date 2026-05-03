@@ -44,7 +44,7 @@ thorium: {
 type: ShrapnelBulletType
 length: 136
 damage: 800
-ammoMultiplier: 3
+ammoMultiplier: 2
 toColor: Pal.thoriumPink
 shootEffect: thoriumShoot
 smokeEffect: thoriumShoot
@@ -52,10 +52,10 @@ smokeEffect: thoriumShoot
 uranium: {
 type: ShrapnelBulletType
 length: 136
-damage: 700
-ammoMultiplier: 6
-toColor: 
-shootEffect: thoriumShoot
-smokeEffect: thoriumShoot
+damage: 650
+ammoMultiplier: 3
+toColor: BFFBFF
+status: sapped
+statusDuratiom: 240
   }
 }
