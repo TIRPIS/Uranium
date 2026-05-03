@@ -3,7 +3,7 @@ name: Piercer
 description: Fires a single piercing beam with high damage 
 size: 4
 health: 3100
-range: 160
+range: 200
 rotateSpeed: 4
 shootSound: shootSmite
 shootSoundVolume: 1.5
@@ -12,6 +12,7 @@ reload: 60
 shake: 5
 recoil: 6
 minWarmup: 0.99
+shootY: -7.5
 shoot:{
 type: ShootSpread
 shots: 1
@@ -44,23 +45,23 @@ thorium: {
 type: ShrapnelBulletType
 length: 136
 width: 25
-damage: 800
+damage: 700
 ammoMultiplier: 2
 toColor: F9A3C7
 shootEffect: thoriumShoot
 smokeEffect: thoriumShoot
-shootY: -7.5
   }
 uranium: {
 type: ShrapnelBulletType
 length: 136
 width: 20
-damage: 650
+damage: 500
+rangeChange: 240
+reloadMultiplier: 1.4
 ammoMultiplier: 3
 toColor: BFFBFF
 status: sapped
 statusDuratiom: 240
-shootY: -7.5
   }
 }
 drawer: {
