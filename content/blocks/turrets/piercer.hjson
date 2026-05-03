@@ -56,7 +56,6 @@ type: ShrapnelBulletType
 length: 240
 width: 20
 damage: 500
-rangeChange: 240
 reloadMultiplier: 1.4
 ammoMultiplier: 3
 toColor: BFFBFF
