@@ -25,6 +25,12 @@ uranium/100
 ]
 research: {
     parent: fuse
+objectives: [
+{
+type: SectorComplete
+preset: impact0078
+}
+]
 }
 researchMultiplier: 10
 coolant: {
