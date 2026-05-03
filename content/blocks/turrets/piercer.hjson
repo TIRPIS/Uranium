@@ -41,6 +41,7 @@ coolant: {
 }
 ammoTypes: {
 thorium: {
+type: ShrapnelBulletType
 length: 136
 damage: 105
 ammoMultiplier: 5
