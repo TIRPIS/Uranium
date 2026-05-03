@@ -66,12 +66,10 @@ type: drawTurret
 parts: [
 {
 type: RegionPart
-      suffix: -back
+      suffix: -barrel
       mirror: false
-      under: false
-      progress: recoil
+      under: true
 heatProgress: recoil
-      moveY: -4
     }
 {
 type: RegionPart
@@ -82,11 +80,12 @@ type: RegionPart
 heatProgress: recoil
       moveX: 1.5
     }
+
 {
 type: RegionPart
-      suffix: -barrel
+      suffix: -back
       mirror: false
-      under: true
+      under: false
 heatProgress: recoil
     }
 ]
