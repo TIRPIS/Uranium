@@ -43,7 +43,7 @@ coolant: {
 ammoTypes: {
 thorium: {
 type: ShrapnelBulletType
-length: 136
+length: 200
 width: 25
 damage: 700
 ammoMultiplier: 2
@@ -53,10 +53,10 @@ smokeEffect: thoriumShoot
   }
 uranium: {
 type: ShrapnelBulletType
-length: 136
+length: 240
 width: 20
 damage: 500
-rangeChange: 240
+rangeMultiplier: 1.2
 reloadMultiplier: 1.4
 ammoMultiplier: 3
 toColor: BFFBFF
