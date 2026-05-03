@@ -1,1 +1,45 @@
-
+type: ItemTurret
+name: Piercer
+description: .
+size: 4
+health: 3100
+range: 136
+rotateSpeed: 6
+shootSound: shootFuse
+shootSoundVolume: 1.1
+category: turret
+reload: 100
+shake: 5
+recoil: 6
+firsShootDelay: 55
+shoot:{
+type: ShootSpread
+shots: 1
+spread: 30
+}
+requirements: [
+graphite/350
+plastan/60
+copper/400
+uranium/100
+]
+research: {
+    parent: fuse
+}
+researchMultiplier: 10
+coolant: {
+  type: ConsumeCoolant
+  allowGas: false
+  allowLiquid: true
+  amount: 0.3
+}
+ammoTypes: {
+thorium: {
+length: 136
+damage: 105
+ammoMultiplier: 5
+toColor: thoriumPink
+shootEffect: thoriumShoot
+smokeEffect: thoriumShoot
+  }
+}
