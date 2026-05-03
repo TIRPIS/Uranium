@@ -11,7 +11,7 @@ category: turret
 reload: 60
 shake: 5
 recoil: 6
-firsShootDelay: 70
+minWarmup: 0.99
 shoot:{
 type: ShootSpread
 shots: 1
