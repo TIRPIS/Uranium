@@ -19,7 +19,7 @@ spread: 30
 }
 requirements: [
 graphite/350
-plastan/60
+plastanium/60
 copper/400
 uranium/100
 ]
