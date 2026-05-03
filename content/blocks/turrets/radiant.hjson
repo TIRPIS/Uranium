@@ -32,5 +32,11 @@ titanium/170
 ]
 research: {
     parent: parallax
+objectives: [
+{
+type: SectorComplete
+preset: impact0078
+}
+]
 }
 researchMultiplier: 10
