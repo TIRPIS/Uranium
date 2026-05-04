@@ -10,8 +10,8 @@ shootSoundVolume: 1.7
 category: turret
 reload: 300
 shoot: {
-  shots: 3
-  shotDelay: 10
+  shoots: 3
+delay: 3
 }
 shake: 5
 recoil: 1.5
@@ -20,9 +20,9 @@ minWarmup: 0.99
 shoot:{
 type: ShootBarrel
 barrels: [
- 0, 3, 0
- 3, 0, 0
- -3, 0, 0
+ 0, 4, 0
+ 7, 0, 0
+ -7, 0, 0
 ]
 }
 requirements: [
@@ -49,17 +49,33 @@ coolant: {
 }
 ammoTypes: {
 thorium: {
-type: ShrapnelBulletType
-length: 200
-width: 25
-damage: 600
-ammoMultiplier: 2
-toColor: F9A3C7
-shootEffect: thoriumShoot
-smokeEffect: thoriumShoot
+type: ArtilleryBulletType
+frontColor: ffffff
+    backColor: a78b6f
+    trailColor: a78b6f
+trailChance: -1
+    trailWidth: 2.2
+    trailLength: 18
+    speed: 4
+    lifetime: 95
+    width: 12
+    height: 20
+    splashDamage: 504
+    splashDamageRadius: 40
+    splashDamagePierce: true
+    status: blasted
+    ammoPerShot: 6
+    despawnSound: explosionCrawler
+    fragRandomSpread: 0
+    fragSpread: 45
+    fragLifeMin: 10
+    fragLifeMax: 10
+    fragVelocityMin: 3
+    fragVelocityMax: 3
+    fragBullets: 10
   }
 uranium: {
-type: ShrapnelBulletType
+type: ArtilleryBulletType
 length: 240
 width: 20
 damage: 300
@@ -107,7 +123,7 @@ heatProgress: recoil
     }
 {
 type: RegionPart
-      suffix: -hun
+      suffix: -gun
       mirror: false
       under: falss
       progress: recoil
