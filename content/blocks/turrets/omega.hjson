@@ -48,7 +48,7 @@ coolant: {
   amount: 0.2
 }
 ammoTypes: {
-thorium: {
+plastanium: {
 type: ArtilleryBulletType
 frontColor: ffffff
     backColor: a78b6f
