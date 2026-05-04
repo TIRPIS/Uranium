@@ -8,7 +8,11 @@ rotateSpeed: 2.5
 shootSound: shootSmite
 shootSoundVolume: 1.7
 category: turret
-reload: 240
+reload: 300
+shoot: {
+  shots: 3
+  shotDelay: 10
+}
 shake: 5
 recoil: 1.5
 minWarmup: 0.99
