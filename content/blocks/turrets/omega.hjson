@@ -9,12 +9,7 @@ shootSound: shootSmite
 shootSoundVolume: 1.7
 category: turret
 reload: 300
-shoot: {
-  shoots: 3
-delay: 3
-}
-shake: 5
-recoil: 1.5
+shake: 12
 minWarmup: 0.99
   consumes: liquid: uranium-water/0.83
 shoot:{
@@ -24,7 +19,10 @@ barrels: [
  7, 0, 0
  -7, 0, 0
 ]
+shoots: 3
+delay: 4
 }
+recoils: 5
 requirements: [
 uranium/1100
 plastanium/1400
@@ -48,18 +46,18 @@ coolant: {
   amount: 0.2
 }
 ammoTypes: {
-plastanium: {
+blastCompound: {
 type: ArtilleryBulletType
 frontColor: ffffff
     backColor: a78b6f
     trailColor: a78b6f
 trailChance: -1
-    trailWidth: 2.2
-    trailLength: 18
+    trailWidth: 10
+    trailLength: 50
     speed: 4
     lifetime: 95
-    width: 12
-    height: 20
+    width: 25
+    height: 40
     splashDamage: 504
     splashDamageRadius: 40
     splashDamagePierce: true
@@ -128,7 +126,7 @@ type: RegionPart
       under: falss
       progress: recoil
 heatProgress: recoil
-      moveX: -5.5
+      moveY: -5.5
     }
 {
 type: RegionPart
