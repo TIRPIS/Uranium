@@ -15,11 +15,11 @@ minWarmup: 0.99
   consumes: liquid: uranium-water/0.83
 shoot:{
 type: ShootBarrel
-barrels: {
+barrels: [
  0 3 0
  3 0 0
  -3 0 0
-}
+]
 }
 requirements: [
 uranium/1100
