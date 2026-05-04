@@ -25,7 +25,7 @@ requirements: [
 uranium/1100
 plastanium/1400
 titanium/1800
-surgeAlloy/780
+surge-alloy/780
 ]
 research: {
     parent: spector
