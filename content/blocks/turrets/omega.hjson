@@ -46,7 +46,7 @@ coolant: {
   amount: 0.2
 }
 ammoTypes: {
-blas-compound: {
+blast-compound: {
 type: ArtilleryBulletType
 frontColor: ffffff
     backColor: a78b6f
