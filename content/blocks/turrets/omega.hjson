@@ -1,0 +1,72 @@
+type: ItemTurret
+name: Omega
+description: . 
+size: 5
+health: 7300
+range: 480
+rotateSpeed: 2.5
+shootSound: shootSmite
+shootSoundVolume: 1.7
+category: turret
+reload: 240
+shake: 5
+recoil: 1.5
+minWarmup: 0.99
+  consumes: liquid: uranium-water/0.83
+shoot:{
+type: ShootBarrel
+barrels: {
+ 0, 3, 0
+ 3, 0, 0
+ -3, 0, 0
+}
+}
+requirements: [
+uranium/1100
+plastanium/1400
+titanium/1800
+surgeAlloy/780
+]
+research: {
+    parent: spector
+objectives: [
+{
+type: SectorComplete
+preset: impact0078
+}
+]
+}
+researchMultiplier: 12
+coolant: {
+  type: ConsumeCoolant
+  allowGas: false
+  allowLiquid: true
+  amount: 0.2
+}
+ammoTypes: {
+thorium: {
+type: ShrapnelBulletType
+length: 200
+width: 25
+damage: 600
+ammoMultiplier: 2
+toColor: F9A3C7
+shootEffect: thoriumShoot
+smokeEffect: thoriumShoot
+  }
+uranium: {
+type: ShrapnelBulletType
+length: 240
+width: 20
+damage: 300
+reloadMultiplier: 1.3
+ammoMultiplier: 2
+toColor: BFFBFF
+status: sapped
+statusDuratiom: 240
+  }
+}
+drawer: {
+type: drawTurret
+  basePrefix: uran-
+  }
