@@ -82,11 +82,12 @@ type: RegionPart
       progress: warmup
 heatProgress: warmup
       moveX: 2.5
-moves: [
+moves: {
 type: partMove
 progress: recoil
 y: -2
-]
+}
+}
 {
 type: RegionPart
       suffix: -wing
