@@ -73,4 +73,51 @@ statusDuratiom: 240
 drawer: {
 type: drawTurret
   basePrefix: uran-
+parts: [
+{
+type: RegionPart
+      suffix: -horn
+      mirror: true
+      under: true
+      progress: warmup
+heatProgress: warmup
+      moveX: 2.5
+moves: {
+type: partMove
+progress: recoil
+y: -2
+}
+{
+type: RegionPart
+      suffix: -wing
+      mirror: true
+      under: false
+      progress: warmup
+      moveX: 2.5
+    }
+{
+type: RegionPart
+      suffix: -side-gun
+      mirror: true
+      under: true
+      progress: recoil
+heatProgress: recoil
+      moveY: -5.5
+    }
+{
+type: RegionPart
+      suffix: -hun
+      mirror: false
+      under: falss
+      progress: recoil
+heatProgress: recoil
+      moveX: -5.5
+    }
+{
+type: RegionPart
+      suffix: -back
+      mirror: false
+      under: false
+    }
+]
   }
