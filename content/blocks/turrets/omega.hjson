@@ -16,9 +16,9 @@ minWarmup: 0.99
 shoot:{
 type: ShootBarrel
 barrels: [
- 0 3 0
- 3 0 0
- -3 0 0
+ 0, 3, 0
+ 3, 0, 0
+ -3, 0, 0
 ]
 }
 requirements: [
