@@ -106,9 +106,11 @@ type: RegionPart
 heatProgress: warmup
       moveX: 2.5
 moves: [
+{
 type: partMove
 progress: recoil
 y: -2
+}
 ]
 }
 {
