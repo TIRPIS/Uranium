@@ -7,7 +7,8 @@ range: 480
 rotateSpeed: 1.6
 shootSound: {
 shootTitan
-shoot
+shootRipple
+}
 shootSoundVolume: 1.7
 category: turret
 reload: 300
