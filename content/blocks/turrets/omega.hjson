@@ -85,7 +85,7 @@ buildingDamageMultiplier: 0.4
     fragLifeMin: 0.8
     fragRandomSpread: 360
     fragAngle: 0
-    fragBullets: 12
+    fragBullets: 6
     fragBullet: {
       frontColor: b1b1b1
       backColor: 757575
