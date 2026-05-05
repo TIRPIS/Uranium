@@ -64,6 +64,6 @@ flameRadiusIn: 1
   ]
 }
 outputItems: [
-uranium/1
+uranium/2
 depleted-uranium/2
 ]
