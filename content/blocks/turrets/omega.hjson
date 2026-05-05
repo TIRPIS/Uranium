@@ -9,7 +9,7 @@ shootSound: [
 shootTitan
 shootRipple
 ]
-smokeEffect: shootSmokeMissile
+smokeEffect: shootSmokeSquareSparse
 shootEffect: shootBig
 shootSoundVolume: 1.7
 category: turret
