@@ -4,25 +4,32 @@ description: .
 size: 5
 health: 7300
 range: 480
-rotateSpeed: 2.5
-shootSound: shootSmite
+rotateSpeed: 1.6
+shootSound: {
+shootTitan
+shoot
 shootSoundVolume: 1.7
 category: turret
 reload: 300
 shake: 12
+recoil: 1.5
 minWarmup: 0.99
-  consumes: liquid: uranium-water/0.83
-shoot:{
-type: ShootBarrel
-barrels: [
- 0, 4, 0
- 7, 0, 0
- -7, 0, 0
-]
-shoots: 3
-delay: 4
+consumes: {
+  liquid: uranium-water/0.8
 }
-recoils: 5
+shoot: {
+  type: ShootBarrel
+  barrels: 3
+  shots: 3
+  shotDelay: 6
+  barrelOffset: 1
+  barrels: [
+    0, 3, 0
+    7, 0, 0,
+    -7, 0, 0
+  ]
+}
+recoils: 4
 requirements: [
 uranium/1100
 plastanium/1400
@@ -52,13 +59,14 @@ frontColor: ffffff
     backColor: a78b6f
     trailColor: a78b6f
 trailChance: -1
-    trailWidth: 10
-    trailLength: 50
+    trailWidth: 5
+    trailLength: 15
     speed: 4
     lifetime: 95
-    width: 25
-    height: 40
-    splashDamage: 504
+    width: 10
+    height: 20
+damage: 200
+    splashDamage: 500
     splashDamageRadius: 40
     splashDamagePierce: true
     status: blasted
@@ -112,12 +120,23 @@ type: RegionPart
     }
 {
 type: RegionPart
-      suffix: -side-gun
-      mirror: true
+      suffix: -side-gun-r
+      mirror: false
       under: true
       progress: recoil
 heatProgress: recoil
       moveY: -5.5
+recoilIndex: 1
+    }
+{
+type: RegionPart
+      suffix: -side-gun-l
+      mirror: false
+      under: true
+      progress: recoil
+heatProgress: recoil
+      moveY: -5.5
+recoilIndex: 0
     }
 {
 type: RegionPart
