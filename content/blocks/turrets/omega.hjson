@@ -11,7 +11,7 @@ shootRipple
 ]
 shootSoundVolume: 1.7
 category: turret
-reload: 420
+reload: 300
 shake: 12
 recoil: 1.5
 minWarmup: 0.99
@@ -30,7 +30,7 @@ shoot: {
     -7, 0, 0
   ]
 }
-recoils: 4
+recoils: 3
 requirements: [
 uranium/1100
 plastanium/1400
@@ -105,11 +105,11 @@ type: RegionPart
       progress: warmup
 heatProgress: warmup
       moveX: 2.5
-moves: {
+moves: [
 type: partMove
 progress: recoil
 y: -2
-}
+]
 }
 {
 type: RegionPart
@@ -126,8 +126,8 @@ type: RegionPart
       under: true
       progress: recoil
 heatProgress: recoil
-      moveY: -5.5
-recoilIndex: 1
+      moveY: -4.5
+recoilIndex: 0
     }
 {
 type: RegionPart
@@ -136,17 +136,17 @@ type: RegionPart
       under: true
       progress: recoil
 heatProgress: recoil
-      moveY: -5.5
-recoilIndex: 0
+      moveY: -4.5
+recoilIndex: 1
     }
 {
 type: RegionPart
       suffix: -gun
       mirror: false
-      under: falss
+      under: false
       progress: recoil
 heatProgress: recoil
-      moveY: -5.5
+      moveY: -4.5
     }
 {
 type: RegionPart
