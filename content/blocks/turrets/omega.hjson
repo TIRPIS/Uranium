@@ -55,8 +55,8 @@ ammoTypes: {
 blast-compound: {
 type: ArtilleryBulletType
 frontColor: ffffff
-    backColor: a78b6f
-    trailColor: a78b6f
+    backColor: FF795E
+    trailColor: FF795E
 trailChance: -1
     trailWidth: 5
     trailLength: 20
@@ -70,6 +70,7 @@ blastExplosion
 shockwave
 titanExplosion
 ]
+hitColor: FF795E
     splashDamage: 200
     splashDamageRadius: 65
     splashDamagePierce: true
@@ -87,8 +88,8 @@ buildingDamageMultiplier: 0.2
     fragAngle: 0
     fragBullets: 6
     fragBullet: {
-      frontColor: b1b1b1
-      backColor: 757575
+      frontColor: E4FFD6
+      backColor: E4FFD6
       type: ArtilleryBulletType
       speed: 4
       lifetime: 14
