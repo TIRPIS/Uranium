@@ -11,7 +11,7 @@ shootRipple
 ]
 shootSoundVolume: 1.7
 category: turret
-reload: 300
+reload: 420
 shake: 12
 recoil: 1.5
 minWarmup: 0.99
