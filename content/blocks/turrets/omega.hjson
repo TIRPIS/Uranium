@@ -40,7 +40,7 @@ titanium/1800
 surge-alloy/780
 ]
 research: {
-    parent: specter
+    parent: spectre
 objectives: [
 {
 type: SectorComplete
