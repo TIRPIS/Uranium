@@ -5,6 +5,7 @@ size: 5
 health: 7300
 range: 480
 rotateSpeed: 1.6
+targetAir: false
 shootSound: [
 shootTitan
 shootRipple
@@ -74,7 +75,7 @@ explosionArtillery
 ]
 despawnSoundVolume: 1.2
 sprite: mine-bullet-back
-buildingDamageMultiplier: 0.4
+buildingDamageMultiplier: 0.2
  fragVelocityMin: 0.8
     fragLifeMin: 0.8
     fragRandomSpread: 360
