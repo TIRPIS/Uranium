@@ -1,6 +1,6 @@
 type: TractorBeamTurret
 name: Radiant
-description: Attracts flying enemies with a powerful laser beam and inflicts sapped effect
+description: Attracts flying enemies with a powerful laser beam and inflicts slownes effect
 size: 3
 health: 1200
 range: 360
