@@ -64,8 +64,7 @@ trailChance: -1
     lifetime: 95
     width: 14
     height: 30
-damage: 200
-    splashDamage: 500
+    splashDamage: 200
     splashDamageRadius: 56
     splashDamagePierce: true
     status: blasted
