@@ -33,6 +33,7 @@ shoot: {
   ]
 }
 recoils: 2.5
+ammoPerShot: 6
 requirements: [
 uranium/1100
 plastanium/1400
@@ -49,12 +50,6 @@ preset: impact0078
 ]
 }
 researchMultiplier: 9
-coolant: {
-  type: ConsumeCoolant
-  allowGas: false
-  allowLiquid: false
-  amount: 0.2
-}
 ammoTypes: {
 blast-compound: {
 type: ArtilleryBulletType
@@ -73,7 +68,6 @@ damage: 200
     splashDamageRadius: 56
     splashDamagePierce: true
     status: blasted
-    ammoPerShot: 6
     despawnSound: [
 explosionTitan
 explosionArtillery
