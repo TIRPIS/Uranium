@@ -9,6 +9,8 @@ shootSound: [
 shootTitan
 shootRipple
 ]
+smokeEffect: shootSmokeMissile
+shootEffect: shootBig
 shootSoundVolume: 1.7
 category: turret
 reload: 300
@@ -25,12 +27,12 @@ shoot: {
   shotDelay: 6
   barrelOffset: 1
   barrels: [
-    0, 3, 0
-    7, 0, 0,
-    -7, 0, 0
+    0, -2, 0
+    7, -5, 0,
+    -7, -5, 0
   ]
 }
-recoils: 3
+recoils: 2.5
 requirements: [
 uranium/1100
 plastanium/1400
@@ -38,7 +40,7 @@ titanium/1800
 surge-alloy/780
 ]
 research: {
-    parent: spector
+    parent: specter
 objectives: [
 {
 type: SectorComplete
@@ -46,11 +48,11 @@ preset: impact0078
 }
 ]
 }
-researchMultiplier: 12
+researchMultiplier: 9
 coolant: {
   type: ConsumeCoolant
   allowGas: false
-  allowLiquid: true
+  allowLiquid: false
   amount: 0.2
 }
 ammoTypes: {
@@ -61,26 +63,49 @@ frontColor: ffffff
     trailColor: a78b6f
 trailChance: -1
     trailWidth: 5
-    trailLength: 15
-    speed: 4
+    trailLength: 20
+    speed: 2.5
     lifetime: 95
-    width: 10
-    height: 20
+    width: 14
+    height: 30
 damage: 200
     splashDamage: 500
-    splashDamageRadius: 40
+    splashDamageRadius: 56
     splashDamagePierce: true
     status: blasted
     ammoPerShot: 6
-    despawnSound: explosionCrawler
-    fragRandomSpread: 0
-    fragSpread: 45
-    fragLifeMin: 10
-    fragLifeMax: 10
-    fragVelocityMin: 3
-    fragVelocityMax: 3
-    fragBullets: 10
+    despawnSound: [
+explosionTitan
+explosionArtillery
+]
+despawnSoundVolume: 1.2
   }
+sprite: mine-bullet-back
+ fragVelocityMin: 0.8
+    fragLifeMin: 0.8
+    fragRandomSpread: 0
+    fragAngle: 0
+    fragBullets: 8
+    fragBullet: {
+      frontColor: b1b1b1
+      backColor: 757575
+      trailColor: 757575
+      type: ArtilleryBulletType
+      speed: 5
+      lifetime: 20
+      splashDamage: 0
+      splashDamageRadius: 32
+      status: corroded
+      statusDuration: 10
+      width: 7.8
+      height: 7.8
+      sprite: large-orb
+      fragVelocityMin: 0.8
+      fragLifeMin: 0.8
+      fragRandomSpread: 0
+      fragAngle: 0
+      fragBullets: 1
+      buildingDamageMultiplier: 0.75
 uranium: {
 type: ArtilleryBulletType
 length: 240
@@ -128,8 +153,8 @@ type: RegionPart
       under: true
       progress: recoil
 heatProgress: recoil
-      moveY: -4.5
-recoilIndex: 0
+      moveY: -4
+recoilIndex: 2
     }
 {
 type: RegionPart
@@ -138,8 +163,8 @@ type: RegionPart
       under: true
       progress: recoil
 heatProgress: recoil
-      moveY: -4.5
-recoilIndex: 1
+      moveY: -4
+recoilIndex: 0
     }
 {
 type: RegionPart
@@ -148,7 +173,8 @@ type: RegionPart
       under: false
       progress: recoil
 heatProgress: recoil
-      moveY: -4.5
+      moveY: -4
+recoilIndex: 1
     }
 {
 type: RegionPart
