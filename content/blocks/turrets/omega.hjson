@@ -61,15 +61,17 @@ trailChance: -1
     trailWidth: 5
     trailLength: 20
     speed: 2.5
+knockback: 2
     lifetime: 95
     width: 14
     height: 30
 hitEffect: [
 blastExplosion
 shockwave
+titanExplosion
 ]
     splashDamage: 200
-    splashDamageRadius: 56
+    splashDamageRadius: 65
     splashDamagePierce: true
     status: blasted
     despawnSound: [
@@ -88,8 +90,8 @@ buildingDamageMultiplier: 0.2
       frontColor: b1b1b1
       backColor: 757575
       type: ArtilleryBulletType
-      speed: 5
-      lifetime: 20
+      speed: 4
+      lifetime: 14
       splashDamage: 20
       splashDamageRadius: 28
       status: corroded
@@ -143,7 +145,7 @@ type: RegionPart
     }
 {
 type: RegionPart
-      suffix: -side-gun-r
+      suffix: -side-gun-l
       mirror: false
       under: true
       progress: recoil
@@ -153,22 +155,22 @@ recoilIndex: 0
     }
 {
 type: RegionPart
-      suffix: -side-gun-l
-      mirror: false
-      under: true
-      progress: recoil
-heatProgress: recoil
-      moveY: -4
-recoilIndex: 1
-    }
-{
-type: RegionPart
       suffix: -gun
       mirror: false
       under: false
       progress: recoil
 heatProgress: recoil
       moveY: -4
+    }
+{
+type: RegionPart
+      suffix: -side-gun-r
+      mirror: false
+      under: true
+      progress: recoil
+heatProgress: recoil
+      moveY: -4
+recoilIndex: 1
     }
 {
 type: RegionPart
