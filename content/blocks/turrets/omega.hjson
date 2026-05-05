@@ -79,7 +79,6 @@ explosionTitan
 explosionArtillery
 ]
 despawnSoundVolume: 1.2
-  }
 sprite: mine-bullet-back
 buildingDamageMultiplier: 0.4
  fragVelocityMin: 0.8
@@ -103,6 +102,7 @@ buildingDamageMultiplier: 0.4
 despawnSound: blockExplode1Alt
 despawnSoundVolume: 0.6
       }
+}
 uranium: {
 type: ArtilleryBulletType
 length: 240
