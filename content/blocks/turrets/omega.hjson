@@ -5,10 +5,10 @@ size: 5
 health: 7300
 range: 480
 rotateSpeed: 1.6
-shootSound: {
+shootSound: [
 shootTitan
 shootRipple
-}
+]
 shootSoundVolume: 1.7
 category: turret
 reload: 300
