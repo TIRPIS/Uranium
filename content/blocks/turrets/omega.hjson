@@ -64,6 +64,10 @@ trailChance: -1
     lifetime: 95
     width: 14
     height: 30
+hitEffect: [
+blastExplosion
+shockwave
+]
     splashDamage: 200
     splashDamageRadius: 56
     splashDamagePierce: true
