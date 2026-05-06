@@ -29,8 +29,8 @@ shoot: {
   barrelOffset: 1
   barrels: [
     0, -2, 0
-    7, -5, 0,
-    -7, -5, 0
+    -7, -5, 0,
+    7, -5, 0
   ]
 }
 recoils: 2.5
@@ -152,7 +152,7 @@ type: RegionPart
       progress: recoil
 heatProgress: recoil
       moveY: -4
-recoilIndex: 1
+recoilIndex: 0
     }
 {
 type: RegionPart
@@ -171,7 +171,7 @@ type: RegionPart
       progress: recoil
 heatProgress: recoil
       moveY: -4
-recoilIndex: 0
+recoilIndex: 1
     }
 {
 type: RegionPart
