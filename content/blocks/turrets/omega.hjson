@@ -152,11 +152,11 @@ type: RegionPart
       progress: recoil
 heatProgress: recoil
       moveY: -4
-recoilIndex: 0
+recoilIndex: 1
     }
 {
 type: RegionPart
-      suffix: -gun
+      suffix: -gun-m
       mirror: false
       under: false
       progress: recoil
@@ -171,7 +171,7 @@ type: RegionPart
       progress: recoil
 heatProgress: recoil
       moveY: -4
-recoilIndex: 1
+recoilIndex: 0
     }
 {
 type: RegionPart
