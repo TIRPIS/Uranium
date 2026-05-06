@@ -33,7 +33,7 @@ shoot: {
     -7, -5, 0
   ]
 }
-recoils: 2.5
+recoils: 3
 ammoPerShot: 6
 requirements: [
 uranium/1100
