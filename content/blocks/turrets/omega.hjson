@@ -162,6 +162,7 @@ type: RegionPart
       progress: recoil
 heatProgress: recoil
       moveY: -4
+recoilIndex: 1
     }
 {
 type: RegionPart
@@ -171,7 +172,6 @@ type: RegionPart
       progress: recoil
 heatProgress: recoil
       moveY: -4
-recoilIndex: 1
     }
 {
 type: RegionPart
