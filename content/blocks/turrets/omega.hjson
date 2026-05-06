@@ -156,15 +156,6 @@ recoilIndex: 1
     }
 {
 type: RegionPart
-      suffix: -gun-m
-      mirror: false
-      under: false
-      progress: recoil
-heatProgress: recoil
-      moveY: -4
-    }
-{
-type: RegionPart
       suffix: -side-gun-r
       mirror: false
       under: true
@@ -172,6 +163,15 @@ type: RegionPart
 heatProgress: recoil
       moveY: -4
 recoilIndex: 0
+    }
+{
+type: RegionPart
+      suffix: -side-gun-m
+      mirror: false
+      under: false
+      progress: recoil
+heatProgress: recoil
+      moveY: -4
     }
 {
 type: RegionPart
