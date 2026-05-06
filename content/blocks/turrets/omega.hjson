@@ -113,7 +113,7 @@ reloadMultiplier: 1.3
 ammoMultiplier: 2
 toColor: BFFBFF
 status: sapped
-statusDuratiom: 240
+statusDuration: 240
   }
 }
 drawer: {
@@ -162,7 +162,6 @@ type: RegionPart
       progress: recoil
 heatProgress: recoil
       moveY: -4
-recoilIndex: 0.5
     }
 {
 type: RegionPart
