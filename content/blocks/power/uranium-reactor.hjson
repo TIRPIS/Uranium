@@ -1,4 +1,4 @@
-type: ConsumeGenerator
+type: NuclearReactor
 name: Uranium reactor
 description: Generates large amounts of energy by consuming uranium and water. It removes uranium water and explodes if there is excess water 
 size: 4
@@ -11,14 +11,14 @@ requirements: [
   metaglass/80
   graphite/200
 ]
-powerProduction: 23
+powerProduction: 68
 consumes: {
   items: [
     uranium/1
   ]
   liquid: water/0.2
     }
-itemDuration: 180
+itemDuration: 360
   drawer: {
   type: DrawMulti
   drawers: [
@@ -54,7 +54,7 @@ explosionDamage: 9000
 explosionRadius: 20
 explodeEffect: [massiveExplosion, impactReactorExplosion]
 ambientSound: loopFlux
-ambientSoundVolume: 0.13
+ambientSoundVolume: 0.4
 unstableSpeed: 0.0011111111
 
 researchCostMultiplier: 8
