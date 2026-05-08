@@ -11,12 +11,13 @@ shootTitan
 shootRipple
 ]
 smokeEffect: shootSmokeSquareSparse
-shootEffect: shootBig
+shootEffect: shootSmokeSquareBig
+shootColor: FF905D
 shootSoundVolume: 1.7
 category: turret
 reload: 300
 shake: 12
-recoil: 1.5
+recoil: 1
 minWarmup: 0.99
 consumes: {
   liquid: uranium-water/0.8
@@ -33,6 +34,7 @@ shoot: {
   ]
 }
 recoils: 3
+inaccuracy: 6
 ammoPerShot: 6
 requirements: [
 uranium/1100
@@ -62,6 +64,8 @@ trailChance: -1
     speed: 3
 knockback: 2.5
     lifetime: 95
+lifeScaleRandMax: 1.08
+lifeScaleRandMin: 0.95
     width: 14
     height: 30
 hitEffect: [
@@ -69,10 +73,8 @@ blastExplosion
 shockwave
 titanExplosion
 ]
-hitColor: FF795E
-shootEffect: shootSmokeSquareBig
 shootColor: FF905D
-    splashDamage: 200
+    splashDamage: 250
     splashDamageRadius: 65
     splashDamagePierce: true
     status: blasted
@@ -111,24 +113,24 @@ frontColor: 767A84
     backColor: 767A84
     trailColor: 8E9097
 trailChance: -1
-    trailWidth: 8
-    trailLength: 35
+    trailWidth: 10
+    trailLength: 30
     speed: 4.5
 knockback: 1
     lifetime: 95
-    width: 10
+lifeScaleRandMax: 1.08
+lifeScaleRandMin: 0.95
+    width: 15
     height: 20
-homingPower: 0.18
-homingRange: 100
+homingPower: 0.14
+homingRange: 60
 hitEffect: [
 teleportOut
 randLifeSpark
 ]
 hitColor: 767A84
-shootEffect: shootSmokeSquareBig
-shootColor: B7BED2
     splashDamage: 300
-    splashDamageRadius: 8
+    splashDamageRadius: 24
     splashDamagePierce: true
     status: corroded
 statusDuration: 600
@@ -137,8 +139,47 @@ shootBreachCarbide
 explosionAfflict
 ]
 despawnSoundVolume: 1
-sprite: large-bomb
+sprite: mine-bullet
 buildingDamageMultiplier: 0.4
+  }
+uranium: {
+type: ArtilleryBulletType
+frontColor: 87CEEB
+    backColor: 87CEEB
+    trailColor: C0ECFF
+trailChance: -1
+    trailWidth: 10
+    trailLength: 30
+    speed: 6.5
+knockback: 1.5
+    lifetime: 95
+lifeScaleRandMax: 1.08
+lifeScaleRandMin: 0.95
+    width: 10
+    height: 25
+homingPower: 0.04
+homingRange: 25
+hitEffect: [
+blastSmoke
+lanserLaserShootSmoke
+circleColorSpark
+]
+hitColor: C0ECFF
+    splashDamage: 150
+    splashDamageRadius: 16
+    splashDamagePierce: true
+    status: [
+corroded
+sapped
+]
+statusDuration: 650
+    despawnSound: [
+shootBreachCarbide
+shootCollaris
+]
+despawnSoundVolume: 1
+sprite: missile
+buildingDamageMultiplier: 0.2
   }
 }
 drawer: {
