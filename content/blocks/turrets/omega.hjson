@@ -53,14 +53,14 @@ researchMultiplier: 9
 ammoTypes: {
 blast-compound: {
 type: ArtilleryBulletType
-frontColor: ffffff
+frontColor: FFAC9B
     backColor: FF795E
     trailColor: FF795E
 trailChance: -1
     trailWidth: 5
     trailLength: 20
-    speed: 2.5
-knockback: 2
+    speed: 3
+knockback: 2.5
     lifetime: 95
     width: 14
     height: 30
@@ -70,6 +70,8 @@ shockwave
 titanExplosion
 ]
 hitColor: FF795E
+shootEffect: shootSmokeSquareBig
+shootColor: FF905D
     splashDamage: 200
     splashDamageRadius: 65
     splashDamagePierce: true
@@ -103,16 +105,40 @@ despawnSound: blockExplode1Alt
 despawnSoundVolume: 0.6
       }
 }
-uranium: {
+silicon: {
 type: ArtilleryBulletType
-length: 240
-width: 20
-damage: 300
-reloadMultiplier: 1.3
-ammoMultiplier: 2
-toColor: BFFBFF
-status: sapped
-statusDuration: 240
+frontColor: 767A84
+    backColor: 767A84
+    trailColor: 8E9097
+trailChance: -1
+    trailWidth: 8
+    trailLength: 35
+    speed: 4.5
+knockback: 1
+    lifetime: 95
+    width: 10
+    height: 20
+homingPower: 0.18
+homingRange: 100
+hitEffect: [
+teleportOut
+randLifeSpark
+]
+hitColor: 767A84
+shootEffect: shootSmokeSquareBig
+shootColor: B7BED2
+    splashDamage: 300
+    splashDamageRadius: 8
+    splashDamagePierce: true
+    status: corroded
+statusDuration: 600
+    despawnSound: [
+shootBreachCarbide
+explosionAfflict
+]
+despawnSoundVolume: 1
+sprite: large-bomb
+buildingDamageMultiplier: 0.4
   }
 }
 drawer: {
