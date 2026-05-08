@@ -160,8 +160,9 @@ lifeScaleRandMin: 0.95
 homingPower: 0.04
 homingRange: 25
 hitEffect: [
-lanserLaserShootSmoke
+lanсerLaserShootSmoke
 circleColorSpark
+mineImpact
 ]
 hitColor: C0ECFF
     splashDamage: 150
