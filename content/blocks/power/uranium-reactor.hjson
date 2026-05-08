@@ -1,4 +1,4 @@
-type: NuclearReactor
+type: ConsumeGenerator
 name: Uranium reactor
 description: Generates large amounts of energy by consuming uranium and water. It removes uranium water and explodes if there is excess water 
 size: 4
