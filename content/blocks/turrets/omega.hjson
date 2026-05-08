@@ -120,8 +120,8 @@ knockback: 1
     lifetime: 95
 lifeScaleRandMax: 1.08
 lifeScaleRandMin: 0.95
-    width: 15
-    height: 20
+    width: 10
+    height: 15
 homingPower: 0.14
 homingRange: 60
 hitEffect: [
@@ -148,14 +148,14 @@ frontColor: 87CEEB
     backColor: 87CEEB
     trailColor: C0ECFF
 trailChance: -1
-    trailWidth: 10
-    trailLength: 30
+    trailWidth: 2
+    trailLength: 20
     speed: 6.5
 knockback: 1.5
     lifetime: 95
 lifeScaleRandMax: 1.08
 lifeScaleRandMin: 0.95
-    width: 10
+    width: 8
     height: 25
 homingPower: 0.04
 homingRange: 25
