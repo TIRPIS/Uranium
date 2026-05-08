@@ -73,7 +73,7 @@ blastExplosion
 shockwave
 titanExplosion
 ]
-shootColor: FF905D
+hitColor: FF795E
     splashDamage: 250
     splashDamageRadius: 65
     splashDamagePierce: true
