@@ -168,10 +168,7 @@ hitColor: C0ECFF
     splashDamage: 150
     splashDamageRadius: 16
     splashDamagePierce: true
-    status: [
-corroded
-sapped
-]
+    status: sapped
 statusDuration: 650
     despawnSound: [
 shootBreachCarbide
@@ -180,6 +177,27 @@ shootCollaris
 despawnSoundVolume: 1
 sprite: missile
 buildingDamageMultiplier: 0.2
+fragVelocityMin: 0.8
+    fragLifeMin: 0.01
+    fragRandomSpread: 360
+    fragAngle: 0
+    fragBullets: 1
+    fragBullet: {
+      frontColor: C0ECFF
+      backColor: C0ECFF
+      type: ArtilleryBulletType
+      speed: 0.01
+      lifetime: 0.1
+      splashDamage: 0
+      splashDamageRadius: 16
+      status: corroded
+      statusDuration: 600
+      width: 0.5
+      height: 0.5
+      sprite: circle-bullet
+despawnSound: blockExplode1Alt
+despawnSoundVolume: 0
+      }
   }
 }
 drawer: {
