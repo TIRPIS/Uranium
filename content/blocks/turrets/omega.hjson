@@ -20,7 +20,7 @@ shake: 12
 recoil: 1
 minWarmup: 0.99
 consumes: {
-  liquid: uranium-water/0.8
+  liquid: uranium-water/0.4
 }
 shoot: {
   type: ShootBarrel
