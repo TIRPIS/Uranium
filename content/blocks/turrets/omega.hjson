@@ -160,7 +160,6 @@ lifeScaleRandMin: 0.95
 homingPower: 0.04
 homingRange: 25
 hitEffect: [
-blastSmoke
 lanserLaserShootSmoke
 circleColorSpark
 ]
