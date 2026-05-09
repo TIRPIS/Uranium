@@ -45,25 +45,27 @@ weapons: [
         mirror: false
         bullet: {
             type: BasicBulletType
+            collideFloor: true
             knockback: 2
             underwater: true
             collidesAir: false
-            lifetime: 170
+            lifetime: 220
             homingPower: 0.3
             homingDelay: 2
             splashDamage: 55
             splashDamageRadius: 32
-            speed: 0.6
+            speed: 0.7
             keepVelocity: false
             sprite: mine-bullet
             hitSize: 22
             width: 8
             height: 8
-            trailColor: 4769cc
-            backColor: 4769cc
+            trailColor: 83a4ff
+            trailWidth: 2
+            trailLength: 6
+            backColor: 83a4ff
             frontColor: 83a4ff
             hitEffect: [
-greenCloud
 blastExplosion
 ]
 hitColor: 83a4ff
