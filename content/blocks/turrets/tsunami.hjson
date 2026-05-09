@@ -34,7 +34,7 @@ oil: {
 }
 cryofluid: {
     type: LiquidBulletType
-    liquid: oil
+    liquid: cryofluid
     orbSize: 4.5
     layer: 98
     statusDuration: 240
