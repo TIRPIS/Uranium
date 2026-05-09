@@ -5,7 +5,7 @@ immunities: [wet]
 canDrown: false
 targetAir: false
 health: 140
-armor: 1
+armor: 2
 speed: 1
 drag: 0.13
 hitSize: 10
@@ -49,6 +49,7 @@ weapons: [
 knockback: 2
 underwater: true
 collidesAir: false
+lifetime: 127
             homingPower: 0.3
             homingDelay: 2
             splashDamage: 55
