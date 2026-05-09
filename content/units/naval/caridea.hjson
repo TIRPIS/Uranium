@@ -58,14 +58,14 @@ weapons: [
             speed: 0.75
             keepVelocity: false
             sprite: mine-bullet
-            hitSize: 22
+            hitSize: 5
             width: 8
             height: 8
             trailColor: 83a4ff
             trailWidth: 2
             trailLength: 20
             backColor: 83a4ff
-            frontColor: 83a4ff
+            frontColor: ffffff
             hitEffect: [
 blastExplosion
 ]
