@@ -49,13 +49,14 @@ weapons: [
             knockback: 8
             underwater: true
             collidesAir: false
-            lifetime: 250
+            lifetime: 120
+            range: 200
             homingPower: 0.7
             homingRange: 44
-            homingDelay: 10
+            homingDelay: 8
             Damage: 65
             speed: 0.75
-            drag: -0.02
+            drag: -0.01
             keepVelocity: false
             sprite: mine-bullet
             hitSize: 5
@@ -63,7 +64,7 @@ weapons: [
             height: 8
             trailColor: 83a4ff
             trailWidth: 2
-            trailLength: 20
+            trailLength: 15
             backColor: 83a4ff
             frontColor: ffffff
             hitEffect: [
