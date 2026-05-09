@@ -1,6 +1,6 @@
 name: Caridea
 description: WIP
-type: naval
+type: ship
 immunities: [wet]
 targetAir: false
 health: 140
