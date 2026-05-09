@@ -52,7 +52,7 @@ weapons: [
             lifetime: 250
             homingPower: 0.3
             homingRange: 24
-            homingDelay: 4.5
+            homingDelay: 10
             splashDamage: 55
             splashDamageRadius: 32
             speed: 0.75
@@ -62,8 +62,8 @@ weapons: [
             width: 8
             height: 8
             trailColor: 83a4ff
-            trailWidth: 4
-            trailLength: 15
+            trailWidth: 2
+            trailLength: 20
             backColor: 83a4ff
             frontColor: 83a4ff
             hitEffect: [
