@@ -1,5 +1,5 @@
 name: Caridea
-description: WIP
+description: Launches long-range homing torpedoes
 type: naval
 immunities: [wet]
 targetAir: false
