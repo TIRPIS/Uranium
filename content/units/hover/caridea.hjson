@@ -1,6 +1,7 @@
 name: Caridea
 description: WIP
 type: naval
+naval: true
 immunities: [wet]
 canDrown: false
 targetAir: false
