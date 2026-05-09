@@ -56,6 +56,7 @@ weapons: [
             splashDamage: 55
             splashDamageRadius: 32
             speed: 0.75
+            drag: -0.02
             keepVelocity: false
             sprite: mine-bullet
             hitSize: 5
@@ -71,7 +72,9 @@ blastExplosion
 ]
 hitColor: 83a4ff
 hitSound: explosionPlasmaSmall
-shootSound: shootRetusa
+shootSound: none
+smokeEffect: none
+shootEffect: none
 }
 }
 ]
