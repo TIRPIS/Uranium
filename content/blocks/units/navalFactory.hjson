@@ -1,0 +1,30 @@
+plans: [
+  {
+    type: AssemblerUnitPlan
+    unit: risso
+    requirements: [
+    silicon/20
+    metaglass/35
+    ]
+    time: 2700
+      }
+  {
+    type: AssemblerUnitPlan
+    unit: retusa
+    requirements: [
+    silicon/15
+    titanium/20
+    ]
+    time: 2100
+      }
+{
+    type: AssemblerUnitPlan
+    unit: caridea
+    requirements: [
+    silicon/20
+    metaglass/20
+    lead/15
+    ]
+    time: 2400
+      }
+]
