@@ -50,7 +50,7 @@ weapons: [
             underwater: true
             collidesAir: false
             lifetime: 135
-            range: 200
+            range: 248
             homingPower: 0.2
             homingRange: 44
             homingDelay: 8
