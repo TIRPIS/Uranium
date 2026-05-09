@@ -1,6 +1,6 @@
 name: Caridea
 description: WIP
-immunities: wet
+immunitie: [ wet ]
 canDrown: false
 targetAir: false
 health: 140
