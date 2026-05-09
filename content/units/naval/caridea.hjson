@@ -46,23 +46,24 @@ weapons: [
         bullet: {
             type: BasicBulletType
             collideFloor: true
-            knockback: 2
+            knockback: 5
             underwater: true
             collidesAir: false
-            lifetime: 220
+            lifetime: 250
             homingPower: 0.3
-            homingDelay: 2
+            homingRange: 24
+            homingDelay: 4.5
             splashDamage: 55
             splashDamageRadius: 32
-            speed: 0.7
+            speed: 0.75
             keepVelocity: false
             sprite: mine-bullet
             hitSize: 22
             width: 8
             height: 8
             trailColor: 83a4ff
-            trailWidth: 2
-            trailLength: 6
+            trailWidth: 4
+            trailLength: 15
             backColor: 83a4ff
             frontColor: 83a4ff
             hitEffect: [
