@@ -49,9 +49,9 @@ weapons: [
             knockback: 8
             underwater: true
             collidesAir: false
-            lifetime: 120
+            lifetime: 160
             range: 200
-            homingPower: 0.7
+            homingPower: 0.2
             homingRange: 44
             homingDelay: 8
             Damage: 65
