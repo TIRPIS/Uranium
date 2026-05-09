@@ -46,12 +46,12 @@ weapons: [
         bullet: {
             type: BasicBulletType
             collideFloor: true
-            knockback: 5
+            knockback: 8
             underwater: true
             collidesAir: false
             lifetime: 250
-            homingPower: 0.3
-            homingRange: 24
+            homingPower: 0.7
+            homingRange: 44
             homingDelay: 10
             splashDamage: 55
             splashDamageRadius: 32
