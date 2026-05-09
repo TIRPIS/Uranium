@@ -1,13 +1,14 @@
 name: Caridea
 description: WIP
-immunitie: wet
+immunities: wet
+canDrown: false
 health: 140
 armor: 1
 naval: true
-speed: 0.85
+speed: 1
 drag: 0.13
 hitSize: 10
-accel: 0.5
+accel: 0.6
 faceTarget: false
 rotateSpeed: 3
 trailLength: 20
