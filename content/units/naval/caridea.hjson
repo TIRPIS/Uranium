@@ -1,0 +1,83 @@
+name: Caridea
+description: WIP
+type: naval
+immunities: [wet]
+targetAir: false
+health: 140
+armor: 2
+speed: 1
+drag: 0.13
+hitSize: 10
+accel: 0.6
+faceTarget: false
+rotateSpeed: 3
+trailLength: 20
+waveTrailX: 6
+waveTrailY: -4.5
+trailScl: 1.9
+range: 140
+moveSoundVolume: 0.4
+moveSound: shipMove
+deathExplosionEffect: {
+    type: ExplosionEffect
+    waveLife: 8
+    waveRad: 24
+    waveColor: ffffff
+    waveStroke: 2
+    sparks: 8
+    sparkLen: 3.5
+    sparkColor: 83a4ff
+    sparkStroke: 2
+    sparkRad: 28
+    smokes: 9
+    smokeColor: 83a4ff85
+    smokeSize: 7
+    smokeRad: 28
+    lifetime: 140
+}
+weapons: [
+    {   name: caridea-weapon
+        reload: 80
+        x: 0
+        y: 0
+        rotate: false
+        shootCone: 360
+        mirror: false
+        bullet: {
+            type: BasicBulletType
+            knockback: 2
+            underwater: true
+            collidesAir: false
+            lifetime: 170
+            homingPower: 0.3
+            homingDelay: 2
+            splashDamage: 55
+            splashDamageRadius: 32
+            speed: 0.6
+            keepVelocity: false
+            sprite: mine-bullet
+            hitSize: 22
+            width: 8
+            height: 8
+            trailColor: 4769cc
+            backColor: 4769cc
+            frontColor: 83a4ff
+            hitEffect: [
+greenCloud
+blastExplosion
+]
+hitColor: 83a4ff
+hitSound: explosionPlasmaSmall
+shootSound: shootRetusa
+}
+}
+]
+research: {
+    parent: retusa
+    objectives: [additive-reconstructor]
+    requirements: [
+        silicon/4500
+        titanium/4000
+        metaglass/3000
+    ]
+}
