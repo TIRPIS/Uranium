@@ -53,8 +53,7 @@ weapons: [
             homingPower: 0.7
             homingRange: 44
             homingDelay: 10
-            splashDamage: 55
-            splashDamageRadius: 32
+            Damage: 65
             speed: 0.75
             drag: -0.02
             keepVelocity: false
