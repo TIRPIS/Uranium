@@ -8,7 +8,7 @@ mechFrontSway: 0
 mechSideSway: 0
 mechStride: 0
 drag: 0.08
-speed: 1.2
+speed: 1.5
 rotateSpeed: 5
 accel: 0.095
 groundLayer: 60
@@ -24,7 +24,7 @@ moveSoundPitchMax: 1
 research: {
   parent: caridea
   objectives: [
-  
+  additiveReconstructor
   ]
 }
 abilities: [
@@ -33,16 +33,100 @@ abilities: [
     teamColor: true
     effect: missileTrailShort
     x: 0
-    y: -6.6
-    interval: 4
+    y: -7.5
+    interval: 5
+    minVelocity: 0.6
+  }
+{
+    type: MoveEffectAbility
+    teamColor: true
+    effect: missileTrailShort
+    x: 4
+    y: -7.5
+    interval: 5
+    minVelocity: 0.6
+  }
+{
+    type: MoveEffectAbility
+    teamColor: true
+    effect: missileTrailShort
+    x: -4
+    y: -7.5
+    interval: 5
+    minVelocity: 0.6
+  }
+{
+    type: MoveEffectAbility
+    teamColor: true
+    effect: missileTrailShort
+    x: 7.5
+    y: -2.5
+    interval: 5
+    minVelocity: 0.6
+  }
+{
+    type: MoveEffectAbility
+    teamColor: true
+    effect: missileTrailShort
+    x: -7.5
+    y: -2.5
+    interval: 5
+    minVelocity: 0.6
+  }
+{
+    type: MoveEffectAbility
+    teamColor: true
+    effect: missileTrailShort
+    x: 7.5
+    y: 4.25
+    interval: 5
+    minVelocity: 0.6
+  }
+{
+    type: MoveEffectAbility
+    teamColor: true
+    effect: missileTrailShort
+    x: -7.5
+    y: 4.25
+    interval: 5
     minVelocity: 0.6
   }
 ]
 engines: [
   {
     x: 0
-    y: -6.6
-    radius: 1.5
+    y: -7.5
+    radius: 2
+  }
+{
+    x: 4
+    y: -7.5
+    radius: 3
+  }
+{
+    x: -4
+    y: -7.5
+    radius: 3
+  }
+{
+    x: 7.5
+    y: -2.5
+    radius: 3
+  }
+{
+    x: -7.5
+    y: -2.5
+    radius: 3
+  }
+{
+    x: 7.5
+    y: 4.25
+    radius: 3
+  }
+{
+    x: -7.5
+    y: 4.25
+    radius: 3
   }
 ]
 itemCapacity: 0
