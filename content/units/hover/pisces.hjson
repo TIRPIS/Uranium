@@ -111,13 +111,13 @@ weapons: [
         rotate: false
         shootCone: 360
         mirror: false
-recoil: 2
 shoot: {
              shots: 2
              shotDelay: 0
             }
         bullet: {
             type: MissileBulletType
+            recoil: 2
             knockback: 1.5
             lifetime: 70
 inaccuracy: 5
