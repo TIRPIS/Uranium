@@ -14,7 +14,7 @@ accel: 0.095
 groundLayer: 60
 health: 520
 armor: 2
-hitSize: 16
+hitSize: 12
 canDrown: false
 researchCostMultiplier: 1.5
 moveSound: loopExtract
