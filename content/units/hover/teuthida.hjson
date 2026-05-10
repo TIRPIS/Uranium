@@ -105,7 +105,7 @@ weapons: [
             knockback: 1.5
             lifetime: 80
             keepVelocity: false
-            range: 130
+            range: 140
             homingPower: 0.25
             homingRange: 44
             homingDelay: 14
@@ -147,9 +147,9 @@ shootColor: BF92F9
   y: 5.75
   bullet: {
   type: SapBulletType
-  sapStrength: 0.7
+  sapStrength: 0.8
   length: 130
-  damage: 40
+  damage: 50
   shootEffect: shootSmall
   shootSound: shootSap
   hitColor: bf92f9
