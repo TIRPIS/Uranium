@@ -132,3 +132,51 @@ engines: [
 itemCapacity: 0
 useEngineElevation: false
 lowAltitude: true
+weapons: [
+    {   name: pisces-weapon
+        reload: 25
+        x: 4
+        y: 0
+        rotate: false
+        shootCone: 360
+        mirror: false
+        bullet: {
+            type: MissileBulletType
+            knockback: 1.5
+            lifetime: 140
+            range: 248
+            homingPower: 0.2
+            homingRange: 44
+            homingDelay: 12
+            damage: 40
+            splashDamage: 20
+            splashDamageRadius: 20
+            shoot: {
+             shots: 2
+             shotDelay: 3
+            }
+            weaveScale: 5
+            weaveMag: 3
+            speed: 1.2
+            sprite: missile-back
+            hitSize: 6
+            width: 10
+            height: 12
+            trailColor: 665C9F
+            trailWidth: 2
+            trailLength: 8
+            backColor: 665C9F
+            frontColor: BF92F9
+            hitEffect: [
+blastExplosion
+circleColorSpark
+]
+hitColor: BF92F9
+hitSound: explosionPlasmaSmall
+shootSound: shootMissile
+smokeEffect: shootBigSmoke
+shootEffect: colorSpark
+shootColor: BF92F9
+}
+}
+]
