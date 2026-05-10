@@ -101,7 +101,7 @@ weapons: [
         mirror: false
         bullet: {
             type: MissileBulletType
-            recoil: 2
+            recoil: 0.25
             knockback: 1.5
             lifetime: 80
             keepVelocity: false
@@ -132,7 +132,7 @@ hitColor: BF92F9
 hitSound: explosionPlasmaSmall
 shootSound: shootMissileLarge
 smokeEffect: shootBigSmoke
-shootEffect: colorSpark
+shootEffect: randLifeSpark
 shootColor: BF92F9
 }
 }
