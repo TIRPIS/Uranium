@@ -16,7 +16,7 @@ health: 520
 armor: 2
 hitSize: 12
 canDrown: false
-researchCostMultiplier: 1.5
+researchCostMultiplier: 2.5
 moveSound: loopExtract
 moveSoundVolume: 0.25
 moveSoundPitchMin: 0.5
@@ -24,10 +24,7 @@ moveSoundPitchMax: 1
 research: {
   parent: caridea
   objectives: [
-{
-type: ResearchComplete
-preset: additive-reconstructor
-}
+additive-reconstructor
 ]
 }
 abilities: [
