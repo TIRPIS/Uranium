@@ -111,6 +111,7 @@ weapons: [
         rotate: false
         shootCone: 360
         mirror: false
+recoil: 2
 shoot: {
              shots: 2
              shotDelay: 0
