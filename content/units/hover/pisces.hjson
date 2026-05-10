@@ -1,0 +1,50 @@
+type: mech
+name: Pisces
+description: wip
+hovering: true
+hoverable: true
+shadowElevation: 0.1
+mechFrontSway: 0
+mechSideSway: 0
+mechStride: 0
+drag: 0.08
+speed: 1.
+rotateSpeed: 5
+accel: 0.095
+groundLayer: 60
+health: 210
+armor: 1
+hitSize: 6
+canDrown: false
+researchCostMultiplier: 1.5
+moveSound: loopExtract
+moveSoundVolume: 0.25
+moveSoundPitchMin: 0.5
+moveSoundPitchMax: 1
+research: {
+  parent: 10j-03-hover-mounting-bay
+  objectives: [
+    10j-03-hover-mounting-bay
+  ]
+}
+abilities: [
+  {
+    type: MoveEffectAbility
+    teamColor: true
+    effect: missileTrailShort
+    x: 0
+    y: -6.6
+    interval: 4
+    minVelocity: 0.6
+  }
+]
+engines: [
+  {
+    x: 0
+    y: -6.6
+    radius: 1.5
+  }
+]
+itemCapacity: 0
+useEngineElevation: false
+lowAltitude: true
