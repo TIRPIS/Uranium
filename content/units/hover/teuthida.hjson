@@ -1,0 +1,162 @@
+type: mech
+name: Teuthida
+description: wip
+hovering: true
+hoverable: true
+shadowElevation: 0.25
+mechFrontSway: 0
+mechSideSway: 0
+mechStride: 0
+drag: 0.04
+speed: 0.9
+rotateSpeed: 4.5
+accel: 0.07
+groundLayer: 60
+health: 820
+armor: 3
+hitSize: 20
+canDrown: false
+researchCostMultiplier: 3.5
+moveSound: loopExtract
+moveSoundVolume: 0.25
+moveSoundPitchMin: 0.5
+moveSoundPitchMax: 1
+research: {
+  parent: pisces
+  objectives: [
+multiplicative-reconstructor
+]
+}
+abilities: [
+  {
+    type: MoveEffectAbility
+    teamColor: true
+    effect: missileTrailShort
+    x: 0
+    y: -12.5
+    interval: 9
+    minVelocity: 0.6
+  }
+{
+    type: MoveEffectAbility
+    teamColor: true
+    effect: missileTrailShort
+    x: 8.5
+    y: -14.75
+    interval: 9
+    minVelocity: 0.6
+  }
+{
+    type: MoveEffectAbility
+    teamColor: true
+    effect: missileTrailShort
+    x: -8.5
+    y: -14.75
+    interval: 9
+    minVelocity: 0.6
+  }
+]
+engines: [
+  {
+    x: 0
+    y: -12.5
+    radius: 5
+rotation: -90
+  }
+{
+    x: 8.5
+    y: -14.75
+    radius: 4
+rotation: -45
+  }
+{
+    x: -8.5
+    y: -14.75
+    radius: 4
+rotation: -135
+  }
+{
+    x: 9.75
+    y: 2.75
+    radius: 3
+rotation: -45
+  }
+{
+    x: -9.75
+    y: 2.75
+    radius: 3
+rotation: -135
+  }
+]
+itemCapacity: 20
+useEngineElevation: false
+lowAltitude: true
+weapons: [
+    {   name: front-weapon
+        reload: 280
+        x: 0
+        y: 6
+        rotate: false
+        shootCone: 25
+        mirror: false
+        recoil: 2
+        bullet: {
+            type: MissileBulletType
+            knockback: 1.5
+            lifetime: 80
+            keepVelocity: false
+            range: 130
+            homingPower: 0.25
+            homingRange: 44
+            homingDelay: 14
+            damage: 60
+            splashDamage: 30
+            splashDamageRadius: 36
+            weaveScale: 4
+            weaveMag: 3
+            speed: 3
+            sprite: missile-back
+            hitSize: 6
+            width: 8
+            height: 10
+            trailColor: 665C9F
+            trailWidth: 1.5
+            trailLength: 10
+            backColor: 665C9F
+            frontColor: BF92F9
+            hitEffect: [
+blastExplosion
+circleColorSpark
+]
+hitColor: BF92F9
+hitSound: explosionPlasmaSmall
+shootSound: shootMissile
+smokeEffect: shootBigSmoke
+shootEffect: colorSpark
+shootColor: BF92F9
+}
+}
+{ name: teuthida-weapon
+  reload: 60
+  rotate: true
+  mirror: true
+  shootY: 4
+  recoil: 2
+  ejectEffect: none
+  x: 7.5
+  y: 5.75
+  bullet: {
+  type: SapBulletType
+  sapStrength: 0.7
+  length: 130
+  damage: 40
+  shootEffect: shootSmall
+  hitColor: bf92f9
+  color: bf92f9
+  despawnEffect: none
+  width: 0.65
+  lifetime: 35
+  knockback: -1
+}
+}
+]
