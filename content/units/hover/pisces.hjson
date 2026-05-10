@@ -117,7 +117,7 @@ shoot: {
             }
         bullet: {
             type: MissileBulletType
-            recoil: 2
+            recoil: 0.3
             knockback: 1.5
             lifetime: 70
 inaccuracy: 5
@@ -141,16 +141,16 @@ keepVelocity: false
             trailLength: 8
             backColor: 665C9F
             frontColor: BF92F9
-            hitEffect: [
-blastExplosion
-circleColorSpark
-]
 hitColor: BF92F9
 hitSound: explosionPlasmaSmall
 shootSound: shootMissile
 smokeEffect: shootBigSmoke
 shootEffect: colorSpark
 shootColor: BF92F9
+            hitEffect: [
+blastExplosion
+circleColorSpark
+]
 }
 }
 ]
