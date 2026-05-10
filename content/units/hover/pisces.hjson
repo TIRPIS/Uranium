@@ -1,6 +1,6 @@
 type: mech
 name: Pisces
-description: wip
+description: Fires pairs of homing missiles. Can cross rivers 
 hovering: true
 hoverable: true
 shadowElevation: 0.2
