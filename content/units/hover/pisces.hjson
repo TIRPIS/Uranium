@@ -23,9 +23,11 @@ moveSoundPitchMin: 0.5
 moveSoundPitchMax: 1
 research: {
   parent: caridea
-  objectives: [
-  caridea
-  ]
+  objectives: [additive-reconstructor]
+{
+type: ResearchComplete
+preset: 
+}
 }
 abilities: [
   {
@@ -144,6 +146,7 @@ weapons: [
             type: MissileBulletType
             knockback: 1.5
             lifetime: 140
+inaccuracy: 5
             range: 248
             homingPower: 0.2
             homingRange: 44
