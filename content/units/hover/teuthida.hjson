@@ -66,24 +66,24 @@ rotation: -90
 {
     x: 8.5
     y: -14.75
-    radius: 4
+    radius: 3.5
 rotation: -45
   }
 {
     x: -8.5
     y: -14.75
-    radius: 4
+    radius: 3.5
 rotation: -135
   }
 {
-    x: 9.75
-    y: 2.75
+    x: 10
+    y: 2.5
     radius: 3
 rotation: -45
   }
 {
-    x: -9.75
-    y: 2.75
+    x: -10
+    y: 2.5
     radius: 3
 rotation: -135
   }
@@ -99,9 +99,9 @@ weapons: [
         rotate: false
         shootCone: 25
         mirror: false
-        recoil: 2
         bullet: {
             type: MissileBulletType
+            recoil: 2
             knockback: 1.5
             lifetime: 80
             keepVelocity: false
@@ -130,7 +130,7 @@ circleColorSpark
 ]
 hitColor: BF92F9
 hitSound: explosionPlasmaSmall
-shootSound: shootMissile
+shootSound: shootMissileLarge
 smokeEffect: shootBigSmoke
 shootEffect: colorSpark
 shootColor: BF92F9
@@ -151,6 +151,7 @@ shootColor: BF92F9
   length: 130
   damage: 40
   shootEffect: shootSmall
+  shootSound: shootSap
   hitColor: bf92f9
   color: bf92f9
   despawnEffect: none
