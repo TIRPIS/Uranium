@@ -37,7 +37,7 @@ abilities: [
     effect: missileTrailShort
     x: 0
     y: -7.5
-    interval: 5
+    interval: 9
     minVelocity: 0.6
   }
 {
@@ -46,7 +46,7 @@ abilities: [
     effect: missileTrailShort
     x: 4
     y: -7.5
-    interval: 5
+    interval: 9
     minVelocity: 0.6
   }
 {
@@ -55,7 +55,7 @@ abilities: [
     effect: missileTrailShort
     x: -4
     y: -7.5
-    interval: 5
+    interval: 9
     minVelocity: 0.6
   }
 {
@@ -64,7 +64,7 @@ abilities: [
     effect: missileTrailShort
     x: 7.5
     y: -2.5
-    interval: 5
+    interval: 9
     minVelocity: 0.6
   }
 {
@@ -73,7 +73,7 @@ abilities: [
     effect: missileTrailShort
     x: -7.5
     y: -2.5
-    interval: 5
+    interval: 9
     minVelocity: 0.6
   }
 {
@@ -82,7 +82,7 @@ abilities: [
     effect: missileTrailShort
     x: 7.5
     y: 4.25
-    interval: 5
+    interval: 9
     minVelocity: 0.6
   }
 {
@@ -91,7 +91,7 @@ abilities: [
     effect: missileTrailShort
     x: -7.5
     y: 4.25
-    interval: 5
+    interval: 9
     minVelocity: 0.6
   }
 ]
@@ -100,36 +100,43 @@ engines: [
     x: 0
     y: -7.5
     radius: 2
+rotation: -90
   }
 {
     x: 4
     y: -7.5
-    radius: 3
+    radius: 2
+rotation: -45
   }
 {
     x: -4
     y: -7.5
-    radius: 3
+    radius: 2
+rotation: -135
   }
 {
     x: 7.5
     y: -2.5
-    radius: 3
+    radius: 2
+rotation: -45
   }
 {
     x: -7.5
     y: -2.5
-    radius: 3
+    radius: 2
+rotation: -135
   }
 {
     x: 7.5
     y: 4.25
-    radius: 3
+    radius: 2
+rotation: -45
   }
 {
     x: -7.5
     y: 4.25
-    radius: 3
+    radius: 2
+rotation: -135
   }
 ]
 itemCapacity: 0
@@ -137,35 +144,35 @@ useEngineElevation: false
 lowAltitude: true
 weapons: [
     {   name: pisces-weapon
-        reload: 25
-        x: 4
-        y: 0
+        reload: 50
+        x: 0
+        y: 4
         rotate: false
         shootCone: 360
         mirror: false
+shoot: {
+             shots: 2
+             shotDelay: 3
+            }
         bullet: {
-            type: MissileBulletType
+            type: BasicBulletType
             knockback: 1.5
             lifetime: 140
 inaccuracy: 5
             range: 248
-            homingPower: 0.2
+            homingPower: 0.15
             homingRange: 44
-            homingDelay: 12
+            homingDelay: 10
             damage: 40
             splashDamage: 20
             splashDamageRadius: 20
-            shoot: {
-             shots: 2
-             shotDelay: 3
-            }
-            weaveScale: 5
-            weaveMag: 3
-            speed: 1.2
+            weaveScale: 6
+            weaveMag: 5
+            speed: 2
             sprite: missile-back
             hitSize: 6
-            width: 10
-            height: 12
+            width: 5
+            height: 5
             trailColor: 665C9F
             trailWidth: 2
             trailLength: 8
