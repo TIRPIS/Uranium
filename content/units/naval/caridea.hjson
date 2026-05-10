@@ -65,9 +65,6 @@ shootEffect: none
 research: {
     parent: retusa
     objectives: [naval-factory]
-    requirements: [
-        silicon/4500
-        titanium/4000
-        metaglass/3000
-    ]
-}
+} 
+researchCostMultiplier: 8
+
