@@ -33,7 +33,7 @@ abilities: [
     teamColor: true
     effect: missileTrailShort
     x: 0
-    y: -7.5
+    y: -9
     interval: 9
     minVelocity: 0.6
   }
@@ -41,8 +41,8 @@ abilities: [
     type: MoveEffectAbility
     teamColor: true
     effect: missileTrailShort
-    x: 4
-    y: -7.5
+    x: 4.5
+    y: -9
     interval: 9
     minVelocity: 0.6
   }
@@ -50,44 +50,8 @@ abilities: [
     type: MoveEffectAbility
     teamColor: true
     effect: missileTrailShort
-    x: -4
-    y: -7.5
-    interval: 9
-    minVelocity: 0.6
-  }
-{
-    type: MoveEffectAbility
-    teamColor: true
-    effect: missileTrailShort
-    x: 7.5
-    y: -2.5
-    interval: 9
-    minVelocity: 0.6
-  }
-{
-    type: MoveEffectAbility
-    teamColor: true
-    effect: missileTrailShort
-    x: -7.5
-    y: -2.5
-    interval: 9
-    minVelocity: 0.6
-  }
-{
-    type: MoveEffectAbility
-    teamColor: true
-    effect: missileTrailShort
-    x: 7.5
-    y: 4.25
-    interval: 9
-    minVelocity: 0.6
-  }
-{
-    type: MoveEffectAbility
-    teamColor: true
-    effect: missileTrailShort
-    x: -7.5
-    y: 4.25
+    x: -4.5
+    y: -9
     interval: 9
     minVelocity: 0.6
   }
@@ -95,43 +59,43 @@ abilities: [
 engines: [
   {
     x: 0
-    y: -8.5
-    radius: 2
+    y: -9
+    radius: 3
 rotation: -90
   }
 {
-    x: 4
-    y: -8.5
+    x: 4.5
+    y: -9
+    radius: 3
+rotation: -45
+  }
+{
+    x: -4.5
+    y: -9
+    radius: 3
+rotation: -135
+  }
+{
+    x: 8
+    y: -4
     radius: 2
 rotation: -45
   }
 {
-    x: -4
-    y: -8.5
+    x: -8
+    y: -4
     radius: 2
 rotation: -135
   }
 {
-    x: 7.5
-    y: -3.5
+    x: 8
+    y: 3.75
     radius: 2
 rotation: -45
   }
 {
-    x: -7.5
-    y: -3.5
-    radius: 2
-rotation: -135
-  }
-{
-    x: 7.5
-    y: 3.25
-    radius: 2
-rotation: -45
-  }
-{
-    x: -7.5
-    y: 3.25
+    x: -8
+    y: 3.75
     radius: 2
 rotation: -135
   }
@@ -158,10 +122,10 @@ shoot: {
 inaccuracy: 5
 keepVelocity: false
             range: 124
-            homingPower: 0.15
+            homingPower: 0.25
             homingRange: 44
             homingDelay: 10
-            damage: 40
+            damage: 30
             splashDamage: 20
             splashDamageRadius: 20
             weaveScale: 5
