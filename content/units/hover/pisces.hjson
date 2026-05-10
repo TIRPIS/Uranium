@@ -24,7 +24,7 @@ moveSoundPitchMax: 1
 research: {
   parent: caridea
   objectives: [
-  additiveReconstructor
+  additive-reconstructor
   ]
 }
 abilities: [
