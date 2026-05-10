@@ -23,11 +23,12 @@ moveSoundPitchMin: 0.5
 moveSoundPitchMax: 1
 research: {
   parent: caridea
-  objectives: [additive-reconstructor]
+  objectives: [
 {
 type: ResearchComplete
-preset: 
+preset: additive-reconstructor
 }
+]
 }
 abilities: [
   {
