@@ -64,7 +64,7 @@ shootEffect: none
 ]
 research: {
     parent: retusa
-    objectives: [additive-reconstructor]
+    objectives: [naval-factory]
     requirements: [
         silicon/4500
         titanium/4000
