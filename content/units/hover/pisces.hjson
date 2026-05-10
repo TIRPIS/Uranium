@@ -89,13 +89,13 @@ rotation: -135
   }
 {
     x: 8
-    y: 3.75
+    y: 2.75
     radius: 2
 rotation: -45
   }
 {
     x: -8
-    y: 3.75
+    y: 2.75
     radius: 2
 rotation: -135
   }
