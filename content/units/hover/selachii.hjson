@@ -118,7 +118,7 @@ shootSound: shootSap
   hitColor: bf92f9
   color: bf92f9
   despawnEffect: none
-  width: 0.85
+  width: 0.6
   lifetime: 45
   knockback: -2.5
 }
@@ -143,7 +143,7 @@ shootSound: shootSap
   hitColor: bf92f9
   color: bf92f9
   despawnEffect: none
-  width: 0.85
+  width: 0.6
   lifetime: 45
   knockback: -2.5
 }
