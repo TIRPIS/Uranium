@@ -33,7 +33,7 @@ type: UnitSpawnAbility
 unit: loidron
 spawnTime: 1800
 x: 0
-y: -12
+y: -20
 }
   {
     type: MoveEffectAbility
@@ -99,7 +99,7 @@ itemCapacity: 40
 useEngineElevation: false
 lowAltitude: true
 weapons: [
-  { name: teuthida-weapon
+  { name: selachii-weapon
   reload: 60
   rotate: true
   mirror: true
@@ -124,7 +124,7 @@ shootSound: shootSap
   knockback: -2.5
 }
 }
-  { name: teuthida-weapon
+  { name: selachii-weapon
   reload: 60
   rotate: true
   mirror: true
