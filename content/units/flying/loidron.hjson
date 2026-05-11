@@ -39,30 +39,30 @@ controller: SuicideAI
 ]
 weapons: [
 {
-                shootOnDeath: true
-                targetUnderBlocks: false
-                reload: 24
-                shootCone: 180
-                ejectEffect: none
-                shootSound: explosionCrawler
-                shootSoundVolume: 0.6
-                x: 0
-                shootY: 0
-                mirror: false
-                bullet: {
-                type: BulletType
-                collidesTiles: false
-                collides: false
-                rangeOverride: 25
-                hitEffect: pulverize;
-                speed: 0
-                splashDamageRadius: 60
-                instantDisappear: true
-                splashDamage: 100
-                buildingDamageMultiplier:  0.8
-                killShooter: true
-                hittable: false
-                collidesAir: true
-                  }
+shootOnDeath: true
+targetUnderBlocks: false
+reload: 24
+shootCone: 180
+ejectEffect: none
+shootSound: explosionCrawler
+shootSoundVolume: 0.6
+x: 0
+shootY: 0
+mirror: false
+bullet: {
+type: BulletType
+collidesTiles: false
+collides: false
+rangeOverride: 25
+hitEffect: pulverize
+speed: 0
+splashDamageRadius: 60
+instantDisappear: true
+splashDamage: 100
+buildingDamageMultiplier:  0.8
+killShooter: true
+hittable: false
+collidesAir: true
 }
-  ]
+}
+]
