@@ -17,18 +17,19 @@ controller: SuicideAI
             moveSoundPitchMin: 0.3
             moveSoundPitchMax: 1.5
             moveSoundVolume: 0.3
+range: 40
   abilities: [
   {
   type: ShieldArcAbility
-                regen: 0.3
+                regen: 0.5
                 cooldown: 240
-                max: 280
+                max: 300
                 whenShooting: false
                 chanceDeflect: -1
-radius: 10
-width: 2
+radius: 8
+width: 2.5
 angle: 180
-y: -3
+y: -1
     }
 {
     type: SuppressionFieldAbility
@@ -36,7 +37,7 @@ y: -3
     particleColor: bf92f9
     effectColor: bf92f9
     orbRadius: 1.5
-    range: 50
+    range: 65
 particles: 0
     }
 ]
