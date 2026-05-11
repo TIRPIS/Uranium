@@ -64,4 +64,5 @@ weapons: [
                 hittable: false
                 collidesAir: true
                   }
+}
   ]
