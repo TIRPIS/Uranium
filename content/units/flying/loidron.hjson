@@ -1,7 +1,7 @@
 type: flying
 name: Loitering drone
 description: Suiciding against enemies
-aiController: SuicideAI
+controller: SuicideAI
             speed: 2
             accel: 0.06
             drag: 0.04
