@@ -49,7 +49,7 @@ weapons: [
                 x: 0
                 shootY: 0
                 mirror: false
-                bullet {
+                bullet: {
                 type: BulletType
                 collidesTiles: false
                 collides: false
