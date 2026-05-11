@@ -1,0 +1,152 @@
+type: mech
+name: Selachii
+description: .
+hovering: true
+hoverable: true
+shadowElevation: 0.3.5
+mechFrontSway: 0
+mechSideSway: 0
+mechStride: 0
+drag: 0.03
+speed: 0.65
+rotateSpeed: 3
+accel: 0.045
+groundLayer: 60
+health: 10000
+armor: 4
+hitSize: 40
+canDrown: false
+researchCostMultiplier: 5
+moveSound: loopExtract
+moveSoundVolume: 0.4
+moveSoundPitchMin: 0.5
+moveSoundPitchMax: 1
+research: {
+  parent: teuthida
+  objectives: [
+exponential-reconstructor
+]
+}
+abilities: [
+{
+type: UnitSpawnAbility
+unit: loidron
+spawnTime: 1800
+x: 0
+y: -12
+}
+  {
+    type: MoveEffectAbility
+    teamColor: true
+    effect: missileTrailShort
+    x: 0
+    y: -20.5
+    interval: 9
+    minVelocity: 0.6
+  }
+{
+    type: MoveEffectAbility
+    teamColor: true
+    effect: missileTrailShort
+    x: 17.5
+    y: -17.75
+    interval: 9
+    minVelocity: 0.6
+  }
+{
+    type: MoveEffectAbility
+    teamColor: true
+    effect: missileTrailShort
+    x: -17.5
+    y: -17.75
+    interval: 9
+    minVelocity: 0.6
+  }
+]
+engines: [
+  {
+    x: 0
+    y: -20.5
+    radius: 7.5
+rotation: -90
+  }
+{
+    x: 17.5
+    y: -17.75
+    radius: 4.5
+rotation: -45
+  }
+{
+    x: -17.5
+    y: -17.75
+    radius: 4.5
+rotation: -135
+  }
+{
+    x: 20.25
+    y: 5.5
+    radius: 3
+rotation: -45
+  }
+{
+    x: -20.25
+    y: 5.5
+    radius: 3
+rotation: -135
+  }
+]
+itemCapacity: 40
+useEngineElevation: false
+lowAltitude: true
+weapons: [
+  { name: teuthida-weapon
+  reload: 60
+  rotate: true
+  mirror: true
+  shootY: 2
+  recoil: 2
+  ejectEffect: none
+  x: 8
+  y: 10
+shootSound: shootSap
+  bullet: {
+  type: SapBulletType
+  sapStrength: 1.2
+  length: 170
+  damage: 80
+  buildingDamageMultiplier: 0.65
+  shootEffect: shootSmall
+  hitColor: bf92f9
+  color: bf92f9
+  despawnEffect: none
+  width: 0.85
+  lifetime: 4
+  knockback: -2.5
+}
+}
+  { name: teuthida-weapon
+  reload: 60
+  rotate: true
+  mirror: true
+  shootY: 2
+  recoil: 2
+  ejectEffect: none
+  x: 11
+  y: -10
+shootSound: shootSap
+  bullet: {
+  type: SapBulletType
+  sapStrength: 1.2
+  length: 170
+  damage: 80
+  buildingDamageMultiplier: 0.65
+  shootEffect: shootSmall
+  hitColor: bf92f9
+  color: bf92f9
+  despawnEffect: none
+  width: 0.85
+  lifetime: 4
+  knockback: -2.5
+}
+}
+]
