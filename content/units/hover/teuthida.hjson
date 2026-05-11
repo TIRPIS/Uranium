@@ -99,6 +99,8 @@ weapons: [
         rotate: false
         shootCone: 25
         mirror: false
+hitSound: explosionPlasmaSmall
+shootSound: shootMissileLarge
         bullet: {
             type: MissileBulletType
             recoil: 0.25
@@ -129,8 +131,6 @@ blastExplosion
 circleColorSpark
 ]
 hitColor: BF92F9
-hitSound: explosionPlasmaSmall
-shootSound: shootMissileLarge
 smokeEffect: shootBigSmoke
 shootEffect: randLifeSpark
 shootColor: BF92F9
