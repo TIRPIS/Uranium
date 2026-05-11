@@ -27,6 +27,15 @@ controller: SuicideAI
                 whenShooting: false
                 chanceDeflect: 0
     }
+{
+    type: SuppressionFieldAbility
+    color: bf92f9
+    particleColor: bf92f9
+    effectColor: bf92f9
+    orbRadius: 1.5
+    range: 50
+particles: 0
+    }
 ]
 weapons: [
 {
