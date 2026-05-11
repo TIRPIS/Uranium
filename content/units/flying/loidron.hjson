@@ -20,12 +20,13 @@ controller: SuicideAI
   abilities: [
   {
   type: ShieldArcAbility
-  suffix: -shield
+  region: loidron-shield
                 regen: 0.3
                 cooldown: 240
                 max: 280
                 whenShooting: false
                 chanceDeflect: 0
+radius: 0.0001
     }
 {
     type: SuppressionFieldAbility
