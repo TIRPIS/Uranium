@@ -11,7 +11,7 @@ controller: SuicideAI
             hitSize: 10
             itemCapacity: 0
             omniMovement: false
-            rotateSpeed: 6
+            rotateSpeed: 5
             wreckSoundVolume: 0.8
             moveSound: loopThruster
             moveSoundPitchMin: 0.3
@@ -20,13 +20,12 @@ controller: SuicideAI
   abilities: [
   {
   type: ShieldArcAbility
-  region: loidron-shield
+  region: -shield
                 regen: 0.3
                 cooldown: 240
-                max: 300
+                max: 280
                 whenShooting: false
                 chanceDeflect: 0
-                y: 0.75
     }
 ]
 weapons: [
@@ -48,7 +47,7 @@ collides: false
 rangeOverride: 10
 hitEffect: pulverize
 speed: 0
-splashDamageRadius: 60
+splashDamageRadius: 50
 instantDisappear: true
 splashDamage: 100
 buildingDamageMultiplier:  0.8
