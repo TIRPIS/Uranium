@@ -20,7 +20,7 @@ controller: SuicideAI
   abilities: [
   {
   type: ShieldArcAbility
-  region: loidron-shield
+  region: uranium-loidron-shield
                 regen: 0.3
                 cooldown: 240
                 max: 280
