@@ -18,7 +18,7 @@ controller: SuicideAI
             moveSoundPitchMin: 0.3
             moveSoundPitchMax: 1.5
             moveSoundVolume: 0.3
-range: 40
+range: 1
   abilities: [
   {
   type: ShieldArcAbility
