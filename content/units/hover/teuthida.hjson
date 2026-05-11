@@ -1,6 +1,6 @@
 type: mech
 name: Teuthida
-description: wip
+description: Fires long-range missiles and sapping beams. Can cross rivers
 hovering: true
 hoverable: true
 shadowElevation: 0.25
