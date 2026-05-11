@@ -1,0 +1,67 @@
+type: flying
+name: Loitering drone
+description: Suiciding against enemies
+aiController: SuicideAI
+            speed: 2
+            accel: 0.06
+            drag: 0.04
+            flying: true
+            health: 170
+            engineOffset: 5.75
+            hitSize: 10
+            itemCapacity: 0
+            omniMovement: false
+            rotateSpeed: 6
+            wreckSoundVolume: 0.8
+            moveSound: loopThruster
+            moveSoundPitchMin: 0.3
+            moveSoundPitchMax: 1.5
+            moveSoundVolume: 0.3
+  abilities: [
+  {
+  type: ShieldArcAbility
+  region: loidron-shield
+                regen: 45
+                cooldown: 200
+                max: 300
+                whenShooting: false
+                chanceDeflect: 0
+                y: 0.75
+    }
+{
+    type: SuppressionFieldAbility
+    color: bf92f9
+    particleColor: bf92f9
+    effectColor: bf92f9
+    orbRadius: 1.5
+    range: 14
+      }
+]
+weapons: [
+{
+                shootOnDeath: true
+                targetUnderBlocks: false
+                reload: 24
+                shootCone: 180
+                ejectEffect: none
+                shootSound: explosionCrawler
+                shootSoundVolume: 0.6
+                x: 0
+                shootY: 0
+                mirror: false
+                bullet {
+                type: BulletType
+                collidesTiles: false
+                collides: false
+                rangeOverride: 25
+                hitEffect: pulverize;
+                speed: 0
+                splashDamageRadius: 60
+                instantDisappear: true
+                splashDamage: 100
+                buildingDamageMultiplier:  0.8
+                killShooter: true
+                hittable: false
+                collidesAir: true
+                  }
+  ]
