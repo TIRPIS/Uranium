@@ -20,13 +20,15 @@ controller: SuicideAI
   abilities: [
   {
   type: ShieldArcAbility
-  region: uranium-loidron-shield
                 regen: 0.3
                 cooldown: 240
                 max: 280
                 whenShooting: false
-                chanceDeflect: 0
-radius: 0.0001
+                chanceDeflect: -1
+radius: 10
+width: 2
+angle: 180
+y: -3
     }
 {
     type: SuppressionFieldAbility
