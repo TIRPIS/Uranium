@@ -115,6 +115,8 @@ shoot: {
              shots: 2
              shotDelay: 0
             }
+hitSound: explosionPlasmaSmall
+shootSound: shootMissile
         bullet: {
             type: MissileBulletType
             recoil: 0.3
@@ -142,8 +144,6 @@ keepVelocity: false
             backColor: 665C9F
             frontColor: BF92F9
 hitColor: BF92F9
-hitSound: explosionPlasmaSmall
-shootSound: shootMissile
 smokeEffect: shootBigSmoke
 shootEffect: colorSpark
 shootColor: BF92F9
