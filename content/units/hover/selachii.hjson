@@ -9,7 +9,7 @@ mechSideSway: 0
 mechStride: 0
 drag: 0.03
 speed: 0.65
-rotateSpeed: 3
+rotateSpeed: 2
 accel: 0.045
 groundLayer: 60
 health: 10000
@@ -31,9 +31,8 @@ abilities: [
 {
 type: UnitSpawnAbility
 unit: loidron
-spawnTime: 1800
-x: 0
-y: -20
+spawnTime: 1500
+spawnY: -12
 }
   {
     type: MoveEffectAbility
@@ -120,7 +119,7 @@ shootSound: shootSap
   color: bf92f9
   despawnEffect: none
   width: 0.85
-  lifetime: 4
+  lifetime: 45
   knockback: -2.5
 }
 }
@@ -145,7 +144,7 @@ shootSound: shootSap
   color: bf92f9
   despawnEffect: none
   width: 0.85
-  lifetime: 4
+  lifetime: 45
   knockback: -2.5
 }
 }
