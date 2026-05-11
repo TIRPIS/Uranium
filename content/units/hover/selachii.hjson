@@ -3,7 +3,7 @@ name: Selachii
 description: .
 hovering: true
 hoverable: true
-shadowElevation: 0.3.5
+shadowElevation: 0.35
 mechFrontSway: 0
 mechSideSway: 0
 mechStride: 0
