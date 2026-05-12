@@ -8,7 +8,7 @@ mechFrontSway: 0
 mechSideSway: 0
 mechStride: 0
 drag: 0.03
-speed: 2.5
+speed: 1.3
 rotateSpeed: 1
 accel: 0.06
 groundLayer: 60
@@ -41,7 +41,7 @@ spawnY: -30.5
     x: 19.5
     y: -26.5
     interval: 7
-    minVelocity: 0.6
+    minVelocity: 0.2
   }
 {
     type: MoveEffectAbility
@@ -50,7 +50,7 @@ spawnY: -30.5
     x: -19.5
     y: -26.5
     interval: 7
-    minVelocity: 0.6
+    minVelocity: 0.2
   }
 {
     type: MoveEffectAbility
@@ -59,7 +59,7 @@ spawnY: -30.5
     x: 14.5
     y: 8.25
     interval: 7
-    minVelocity: 0.6
+    minVelocity: 0.2
   }
       {
     type: MoveEffectAbility
@@ -68,7 +68,7 @@ spawnY: -30.5
     x: -14.5
     y: 8.25
     interval: 7
-    minVelocity: 0.6
+    minVelocity: 0.2
       }
 ]
 engines: [
