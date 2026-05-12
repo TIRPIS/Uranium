@@ -1,0 +1,167 @@
+type: mech
+name: Balaenidae
+description: Produces loitering drones 
+hovering: true
+hoverable: true
+shadowElevation: 0.5
+mechFrontSway: 0
+mechSideSway: 0
+mechStride: 0
+drag: 0.03
+speed: 0.5
+rotateSpeed: 1.3
+accel: 0.03
+groundLayer: 60
+health: 18000
+armor: 7
+hitSize: 52
+canDrown: false
+researchCostMultiplier: 8
+moveSound: loopExtract
+moveSoundVolume: 0.6
+moveSoundPitchMin: 0.5
+moveSoundPitchMax: 1
+research: {
+  parent: selachii
+  objectives: [
+tetrative-reconstructor
+]
+}
+abilities: [
+{
+type: UnitSpawnAbility
+unit: loidron
+spawnTime: 1200
+spawnY: -30.5
+}
+  {
+    type: MoveEffectAbility
+    teamColor: true
+    effect: missileTrailShort
+    x: 19.5
+    y: -26.5
+    interval: 7
+    minVelocity: 0.6
+  }
+{
+    type: MoveEffectAbility
+    teamColor: true
+    effect: missileTrailShort
+    x: -19.5
+    y: -26.5
+    interval: 7
+    minVelocity: 0.6
+  }
+{
+    type: MoveEffectAbility
+    teamColor: true
+    effect: missileTrailShort
+    x: 14.5
+    y: 8.25
+    interval: 7
+    minVelocity: 0.6
+  }
+      {
+    type: MoveEffectAbility
+    teamColor: true
+    effect: missileTrailShort
+    x: -14.5
+    y: 8.25
+    interval: 7
+    minVelocity: 0.6
+      }
+]
+engines: [
+  {
+    x: 19.5
+    y: -26.5
+    radius: 10
+rotation: -90
+  }
+{
+    x: -19.5
+    y: -26.5
+    radius: 10
+rotation: -90
+  }
+{
+    x: -14.5
+    y: 8.25
+    radius: 7
+rotation: -135
+  }
+{
+    x: 14.5
+    y: 8.25
+    radius: 7
+rotation: -45
+  }
+]
+itemCapacity: 110
+useEngineElevation: false
+lowAltitude: true
+weapons: [
+  { name: balaenidae-weapon
+    buildingDamageMultiplier: 0.75
+  reload: 120
+  rotate: true
+  mirror: false
+  shootY: 4
+  recoil: 3
+  ejectEffect: none
+  x: 0
+  y: -11.75
+shootSound: shootSap
+  bullet: {
+  type: SapBulletType
+  sapStrength: 0.8
+  length: 420
+  damage: 900
+  shootEffect: shootSmall
+  hitColor: bf92f9
+  color: bf92f9
+  despawnEffect: none
+  width: 1
+  lifetime: 60
+  knockback: -6
+}
+}
+  { 
+  name: balaenidae-pointdefence
+    type: PointDefenseWeapon
+  reload: 3
+  mirror: true
+  shootY: 2
+  recoil: 0.5
+  x: 11.25
+  y: 25
+shootSound: lasershoot
+targetInterval: 6
+targetSwitchInterval: 6
+ bullet: {
+shootEffect: sparkShoot
+hitEffect: pointHit
+maxRange: 180
+damage: 35
+}
+}
+{ 
+  name: balaenidae-pointdefence
+    type: PointDefenseWeapon
+  reload: 3
+  mirror: true
+  shootY: 2
+  recoil: 0.5
+  x: 26.5
+  y: -17.5
+shootSound: lasershoot
+targetInterval: 6
+targetSwitchInterval: 6
+ bullet: {
+shootEffect: sparkShoot
+hitEffect: pointHit
+maxRange: 180
+damage: 35
+}
+}
+]
