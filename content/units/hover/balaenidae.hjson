@@ -1,6 +1,6 @@
 type: mech
 name: Balaenidae
-description: Produces loitering drones 
+description: Fires a powerful, long-range sapping beam. Protects itself with a point defense. Produces loitering drones 
 hovering: true
 hoverable: true
 shadowElevation: 0.5
@@ -75,25 +75,25 @@ engines: [
   {
     x: 19.5
     y: -26.5
-    radius: 10
+    radius: 9
 rotation: -90
   }
 {
     x: -19.5
     y: -26.5
-    radius: 10
+    radius: 9
 rotation: -90
   }
 {
     x: -14.5
     y: 8.25
-    radius: 7
+    radius: 6
 rotation: -135
   }
 {
     x: 14.5
     y: 8.25
-    radius: 7
+    radius: 6
 rotation: -45
   }
 ]
