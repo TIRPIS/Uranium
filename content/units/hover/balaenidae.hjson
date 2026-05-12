@@ -115,7 +115,7 @@ rotateSpeed: 1.5
 shootSound: shootSap
   bullet: {
   type: SapBulletType
-  sapStrength: 0.8
+  sapStrength: 0.65
   length: 464
   damage: 800
   shootEffect: shootSmall
