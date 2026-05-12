@@ -61,13 +61,14 @@ collides: false
 rangeOverride: 10
 hitEffect: pulverize
 speed: 0
-splashDamageRadius: 50
+splashDamageRadius: 55
 instantDisappear: true
 splashDamage: 100
-buildingDamageMultiplier:  0.8
 killShooter: true
 hittable: false
 collidesAir: true
+status: sapped
+statusDuration: 480
 }
 }
 ]
