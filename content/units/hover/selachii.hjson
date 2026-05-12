@@ -1,6 +1,6 @@
 type: mech
 name: Selachii
-description: .
+description: Fires long-range sapping lasers. Produces loitering drones 
 hovering: true
 hoverable: true
 shadowElevation: 0.35
