@@ -8,9 +8,9 @@ mechFrontSway: 0
 mechSideSway: 0
 mechStride: 0
 drag: 0.03
-speed: 0.5
-rotateSpeed: 1.3
-accel: 0.03
+speed: 2.5
+rotateSpeed: 1
+accel: 0.06
 groundLayer: 60
 health: 18000
 armor: 7
@@ -111,11 +111,12 @@ weapons: [
   ejectEffect: none
   x: 0
   y: -11.75
+rotateSpeed: 1.5
 shootSound: shootSap
   bullet: {
   type: SapBulletType
   sapStrength: 0.8
-  length: 420
+  length: 464
   damage: 900
   shootEffect: shootSmall
   hitColor: bf92f9
