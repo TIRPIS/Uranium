@@ -102,8 +102,8 @@ useEngineElevation: false
 lowAltitude: true
 weapons: [
   { name: balaenidae-weapon
-    buildingDamageMultiplier: 0.75
-  reload: 120
+    buildingDamageMultiplier: 0.7
+  reload: 180
   rotate: true
   mirror: false
   shootY: 4
@@ -117,7 +117,7 @@ shootSound: shootSap
   type: SapBulletType
   sapStrength: 0.8
   length: 464
-  damage: 900
+  damage: 800
   shootEffect: shootSmall
   hitColor: bf92f9
   color: bf92f9
@@ -143,7 +143,7 @@ targetSwitchInterval: 6
 shootEffect: sparkShoot
 hitEffect: pointHit
 maxRange: 180
-damage: 35
+damage: 40
 }
 }
 { 
@@ -162,7 +162,7 @@ targetSwitchInterval: 6
 shootEffect: sparkShoot
 hitEffect: pointHit
 maxRange: 180
-damage: 35
+damage: 40
 }
 }
 ]
