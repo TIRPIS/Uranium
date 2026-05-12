@@ -111,9 +111,8 @@ shootSound: shootSap
   bullet: {
   type: SapBulletType
   sapStrength: 1.2
-  length: 170
-  damage: 100
-  buildingDamageMultiplier: 0.7
+  length: 200
+  damage: 120
   shootEffect: shootSmall
   hitColor: bf92f9
   color: bf92f9
@@ -137,8 +136,7 @@ shootSound: shootSap
   type: SapBulletType
   sapStrength: 1.2
   length: 170
-  damage: 100
-  buildingDamageMultiplier: 0.7
+  damage: 120
   shootEffect: shootSmall
   hitColor: bf92f9
   color: bf92f9
