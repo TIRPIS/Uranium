@@ -4,8 +4,9 @@ description:
 100% radioactive!
 '''
 author: "THT 2"
-minGameVersion: 156.2
-version: "1.0"
+minGameVersion: 157.2
+version: "1.5"
 displayName: "Uranium"
-subtitle: "Mod that add uranium, turrets, and units"
+subtitle: "Mod that add uranium, turrets, and units.
+Languages: English, Russian"
 repo: "TIRPIS/Uranium"
