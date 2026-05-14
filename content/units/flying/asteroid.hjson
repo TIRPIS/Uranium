@@ -29,8 +29,9 @@ autoDropBombs: true
 engines: [
 {
 x: 0
-y: 0.5
+y: 0
 radius: 3
+rotation: -90
 }
 ]
 weapons: [
