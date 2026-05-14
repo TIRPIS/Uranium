@@ -17,13 +17,13 @@ parent: air-factory
 researchCostMultiplier: 0.5
 circleTarget: true
 omniMovement: false
-circleTargetRadius: 35
+circleTargetRadius: 20
 wreckSoundVolume: 0.6
 moveSound: loopThruster
 moveSoundPitchMin: 0.3
 moveSoundPitchMax: 1.5
 moveSoundVolume: 0.2
-range: 60
+range: 140
 faceTarget: false
 autoDropBombs: true
 engines: [
