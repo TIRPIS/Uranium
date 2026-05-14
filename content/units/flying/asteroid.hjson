@@ -49,7 +49,7 @@ bullet: {
 type: BombBulletType
                     width: 8
                     height: 10
-                    hitEffect: flakExplosion;
+                    hitEffect: flakExplosion
                     shootEffect: none
                     smokeEffect: none
                     status: blasted
