@@ -55,8 +55,7 @@ type: BombBulletType
                     smokeEffect: none
                     status: blasted
                     statusDuration: 30
-                    damage: 15
-splashDamage: 20
+splashDamage: 40
 }
 }
 ]
