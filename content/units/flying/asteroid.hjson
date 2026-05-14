@@ -1,1 +1,61 @@
-
+name: Asteroid
+description: Drops a constant stream of small bombs 
+health: 100
+armor: 1
+speed: 2.3
+drag: 0.04
+flying: true
+accel: 0.1
+targetFlags: [storage]
+hitSize: 8
+itemCapacity: 0
+lowAltitude: true
+rotateSpeed: 4
+research: {
+parent: air-factory
+}
+researchCostMultiplier: 0.5
+circleTarget: true
+omniMovement: false
+circleTargetRadius: 35
+wreckSoundVolume: 0.6
+moveSound: loopThruster
+moveSoundPitchMin: 0.3
+moveSoundPitchMax: 1.5
+moveSoundVolume: 0.2
+range: 60
+faceTarget: false
+autoDropBombs: true
+engines: [
+{
+x: 0
+y: 0.5
+radius: 3
+}
+]
+weapons: [
+{
+                minShootVelocity: 1
+                x: 2
+                shootY: 0
+                reload: 15
+                shootCone: 180f
+                ejectEffect: none
+                inaccuracy: 15
+                ignoreRotation: true
+                shootSound: shootHorizon
+                soundPitchMax: 0.8
+bullet: {
+type: BombBulletType
+                    width: 8
+                    height: 10
+                    hitEffect: flakExplosion;
+                    shootEffect: none
+                    smokeEffect: none
+                    status: blasted
+                    statusDuration: 30
+                    damage: 15
+splashDamage: 20
+}
+}
+]
