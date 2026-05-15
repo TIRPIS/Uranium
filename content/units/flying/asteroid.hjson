@@ -56,7 +56,7 @@ type: BombBulletType
                     status: blasted
                     statusDuration: 30
 splashDamage: 40
-splashRadius: 35
+splashDamageRadius: 35
 }
 }
 ]
