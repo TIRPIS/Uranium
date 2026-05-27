@@ -22,7 +22,7 @@ metaglass/30
 
 ]
 consumes: {
-power: 7
+power: 5
 items: thorium/6
 }
 craftTime: 360
