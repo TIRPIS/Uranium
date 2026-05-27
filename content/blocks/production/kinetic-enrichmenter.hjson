@@ -14,7 +14,7 @@ metaglass/30
 surge-alloy/10
 ]
 consumes: {
-power: 2
+power: 1.4
 items: [
 thorium/6
 surge-alloy/1
@@ -38,6 +38,6 @@ drawer: {
   ]
 }
 outputItems: [
-uranium/2
+uranium/3
 depleted-uranium/2
 ]
