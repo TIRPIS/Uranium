@@ -218,8 +218,8 @@ type: RegionPart
       under: true
       progress: warmup
 heatProgress: warmup
-      moveX: 6
-      moveY: 0
+      moveX: 9.25
+      moveY: 7
       moveRot: -45
 }
 {
