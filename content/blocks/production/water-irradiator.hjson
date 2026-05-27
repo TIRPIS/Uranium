@@ -23,11 +23,11 @@ silicon/40
 
 ]
 consumes: {
-power: 1
-items: depleted-uranium/2
-liquid: water/0.2
+power: 0.7
+items: depleted-uranium/1
+liquid: water/0.3
 }
-craftTime: 120
+craftTime: 60
 drawer: {
   type: DrawMulti
   drawers: [
@@ -42,4 +42,4 @@ drawer: {
 }
   ]
 }
-outputLiquid: uranium-water/0.2
+outputLiquid: uranium-water/0.3
