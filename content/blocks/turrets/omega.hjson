@@ -28,7 +28,7 @@ consumes: {
     booster: false
   }
 }
-liquidCapacity: 15
+liquidCapacity: 300
 shoot: {
   type: ShootBarrel
   barrels: 3
