@@ -136,7 +136,7 @@ teleportOut
 randLifeSpark
 ]
 hitColor: 767A84
-    splashDamage: 320
+    splashDamage: 350
     splashDamageRadius: 24
     splashDamagePierce: true
     status: corroded
@@ -158,6 +158,7 @@ trailChance: -1
     trailWidth: 2
     trailLength: 20
     speed: 6.5
+pierceCap: 3
 knockback: 1.5
     lifetime: 95
 lifeScaleRandMax: 1.08
@@ -173,7 +174,7 @@ mineImpact
 ]
 hitColor: C0ECFF
     splashDamage: 200
-    splashDamageRadius: 16
+    splashDamageRadius: 8
     splashDamagePierce: true
     status: sapped
 statusDuration: 650
