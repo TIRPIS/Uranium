@@ -4,7 +4,7 @@ description: Fires a volley of 3 corrosive rounds at long range. Requires uraniu
 size: 5
 health: 7300
 range: 480
-rotateSpeed: 1.5
+rotateSpeed: 0.8
 targetAir: false
 shootSound: [
 shootTitan
@@ -219,7 +219,7 @@ type: RegionPart
       progress: warmup
 heatProgress: warmup
       moveX: 9.25
-      moveY: 4.5
+      moveY: 3.5
       moveRot: -45
 }
 {
