@@ -35,6 +35,8 @@ weapons: [
       lightningDamage: 40
       lightning: 5
       lightningLength: 50
+status: electrified
+statusDurration: 2
     }
   } 
 ]
