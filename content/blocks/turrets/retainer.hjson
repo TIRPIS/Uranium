@@ -53,7 +53,7 @@ pyratite: {
     shootEffect: hitBulletBig
       shootColor: FFAA5F
     smokeEffect: shootPyraFlame
-      smokeColor FFAA5F
+      smokeColor: FFAA5F
     instantDisappear: true
     damage: 0
     spawnUnit: retainer-missile-pyratite
