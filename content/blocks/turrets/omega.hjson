@@ -146,7 +146,7 @@ shootBreachCarbide
 explosionAfflict
 ]
 despawnSoundVolume: 1
-sprite: mine-bullet
+sprite: missile
 buildingDamageMultiplier: 0.4
   }
 uranium: {
