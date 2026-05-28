@@ -33,6 +33,8 @@ weapons: [
       shootColor: FFAA5F
       hitSize: 4
       collidesAir: false
+status: melting
+statusDuration: 10
    }
   } 
 ]
