@@ -1,0 +1,133 @@
+type: ItemTurret
+name: Retainer
+description: wip
+predictTarget: false
+size: 4
+health: 3300
+range: 800
+rotateSpeed: 0.8
+targetAir: false
+shootSound: [
+shootScathe
+]
+smokeEffect: shootSmokeMissile
+shootEffect: shootPayloadDriver
+shootColor: FF905D
+shootSoundVolume: 0.8
+category: turret
+reload: 180
+shake: 4
+recoil: 0
+minWarmup: 0.99
+coolant: {
+  type: ConsumeCoolant
+  allowGas: false
+  allowLiquid: true
+  amount: 0.35
+}
+liquidCapacity: 125
+  coolantMultiplier: 2
+inaccuracy: 0
+ammoPerShot: 8
+requirements: [
+uranium/300
+silicon/500
+titanium/300
+copper/870
+graphite/270
+]
+research: {
+    parent: swarmer
+objectives: [
+{
+type: SectorComplete
+preset: impact0078
+}
+]
+}
+researchMultiplier: 5
+ammoTypes: {
+pyratite: {
+    ammoMultiplier: 1
+    reloadMultiplier: 1
+    shootEffect: hitBulletBig
+      shootColor: FFAA5F
+    smokeEffect: shootPyraFlame
+      smokeColor FFAA5F
+    instantDisappear: true
+    damage: 0
+    spawnUnit: retainer-missile-pyratite
+      }
+  surge-alloy: {
+    ammoMultiplier: 1
+    reloadMultiplier: 1
+    shootEffect: randLifeSpark
+      shootColor: FCF387
+    smokeEffect: shootSmokeSquareBig
+      smokeColor: FCF387
+    instantDisappear: true
+    damage: 0
+    spawnUnit: retainer-missile-surge
+      }
+  silicon: {
+    ammoMultiplier: 1
+    reloadMultiplier: 0.8
+    shootEffect: randLifeSpark
+      shootColor: 8E9097
+    smokeEffect: shootSmokeSquareBig
+      smokeColor: 8E9097
+    instantDisappear: true
+    damage: 0
+    spawnUnit: retainer-missile-silicon
+      }
+  uranium: {
+    ammoMultiplier: 1
+    reloadMultiplier: 1.2
+    shootEffect: colorSparkBig
+      shootColor: C0ECFF
+    smokeEffect: shootSmokeTitan
+      smokeColor: C0ECFF
+    instantDisappear: true
+    damage: 0
+    spawnUnit: retainer-missile-uranium
+      }
+}
+drawer: {
+type: drawTurret
+parts: [
+{
+type: RegionPart
+      suffix: -legs
+      mirror: no
+      under: true
+      moveY: -2.5
+  progress: warmup
+}
+{
+type: RegionPart
+      suffix: -wings
+      mirror: false
+      under: true
+      progress: warmup
+heatProgress: warmup
+      moveY: 4
+    }
+{
+type: RegionPart
+      suffix: -ribs
+      mirror: false
+      under: true
+      progress: warmup
+heatProgress: recoil
+      moveY: -2
+    }
+{
+type: RegionPart
+      suffix: -back
+      mirror: false
+      under: false
+      progress: recoil
+heatProgress: recoil
+    }
+]
+  }
