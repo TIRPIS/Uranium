@@ -1,0 +1,40 @@
+type: missile
+template: MissileUnitType
+flying: true
+speed: 4
+physics: false
+lifetime: 200
+rotateSpeed: 1.2
+homingDelay: 3
+trailLength: 8
+useUnitCap: false
+drawCell: false
+outlines: true
+weapons: [
+  {
+    reload: 1
+    predictTarget: false 
+    useAttackRange: false
+    shootOnDeath: true
+    mirror: false
+    shootCone: 360
+    shake: 4
+    bullet: {
+      type: LaserBulletType
+      damage: 800
+      buildingDamageMultiplier: 0.25
+      armorMultiplier: 0.75
+      hitEffect: instTrail
+      shootEffect: instBomb
+      hitSize: 4
+      lifetime: 10
+      drawSize: 200
+      collidesAir: false
+      length: 75
+      pierceCap: 6
+      lightningDamage: 40
+      lightning: 5
+      lightningLength: 50
+    }
+  } 
+]
