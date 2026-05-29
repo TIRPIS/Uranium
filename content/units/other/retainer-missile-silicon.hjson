@@ -1,0 +1,50 @@
+type: missile
+template: MissileUnitType
+flying: true
+speed: 5
+physics: false
+lifetime: 200
+rotateSpeed: 2.4
+homingDelay: 3
+trailLength: 10
+useUnitCap: false
+drawCell: false
+outlines: true
+weapons: [
+  {
+    reload: 1
+    predictTarget: false 
+    useAttackRange: false
+    shootOnDeath: true
+    mirror: false
+    shootCone: 360
+    shake: 8
+    bullet: {
+      type: explosionBulletType
+      splashDamage: 430
+        splashRadius: 20
+      buildingDamageMultiplier: 0.25
+      hitEffect: mineBig
+        hitColor: 8E9097
+      shootEffects: mineImpactWave
+      shootColor: 8E9097
+      hitSize: 4
+      collidesAir: false
+    fragSpread: 360
+    fragBullets: 12
+    fragBullet: {
+      frontColor: 
+      backColor: 8E9097
+      trailColor: 8E9097
+      type: BasicBulletType
+      speed: 4
+      lifetime: 80
+      damage: 45
+      fragRandomSpread: 350
+      fragAngle: 360
+        homingPower: 0.6
+        
+   }
+    }
+  } 
+]
