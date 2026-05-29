@@ -13,14 +13,13 @@ outlines: true
 weapons: [
   {
     reload: 10000
-minWarmup: 100
+targetInterval: 100
     predictTarget: false 
     useAttackRange: false
     shootOnDeath: true
     mirror: false
     shootCone: 360
     shake: 4
-killShooter: true
     bullet: {
       type: LaserBulletType
       damage: 750
