@@ -22,7 +22,7 @@ weapons: [
     bullet: {
       type: ExplosionBulletType
       splashDamage: 430
-        splashRadius: 20
+        splashDamageRadius: 20
       buildingDamageMultiplier: 0.25
       hitEffect: mineBig
         hitColor: 8E9097
