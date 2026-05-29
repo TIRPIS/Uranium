@@ -22,7 +22,7 @@ targetInterval: 100
     shake: 4
     bullet: {
       type: LaserBulletType
-      damage: 750
+      damage: 400
       buildingDamageMultiplier: 0.25
       armorMultiplier: 0.75
       hitEffect: instTrail
@@ -35,9 +35,9 @@ hitColor: FCF387
       collidesAir: false
       length: 80
       pierceCap: 5
-      lightningDamage: 40
+      lightningDamage: 20
       lightning: 5
-      lightningLength: 18
+      lightningLength: 12
 status: electrified
 statusDurration: 2
     }
