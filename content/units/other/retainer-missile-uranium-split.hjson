@@ -44,7 +44,7 @@ weapons: [
     bullet: {
       type: ArtilleryBulletType
 lifetime: 1
-      splashDamage: 0
+      splashDamage: 1
       splashDamageRadius: 40
       hitSize: 4
       collidesAir: false
