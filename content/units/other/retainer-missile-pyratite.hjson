@@ -27,7 +27,7 @@ weapons: [
       buildingDamageMultiplier: 0.25
       hitEffect: hitLaserBlast
         hitColor: FFAA5F
-      shootEffect: titanSmoke
+      shootEffect: scatheExplosion
       shootColor: FFAA5F
       hitSize: 4
       collidesAir: false
