@@ -39,8 +39,6 @@ lifetime: 1
       splashDamageRadius: 40
       hitSize: 4
       collidesAir: false
-status: sapped
-statusDuration: 2.5
     }
 }
 }
