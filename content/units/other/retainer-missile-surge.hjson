@@ -16,6 +16,7 @@ weapons: [
     predictTarget: false 
     useAttackRange: false
     shootOnDeath: true
+
     mirror: false
     shootCone: 360
     shake: 4
@@ -25,16 +26,18 @@ weapons: [
       buildingDamageMultiplier: 0.25
       armorMultiplier: 0.75
       hitEffect: instTrail
+hitColor: FCF387
       shootEffect: instBomb
+killShooter: true
       hitSize: 4
-      lifetime: 10
+      lifetime: 20
       drawSize: 200
       collidesAir: false
-      length: 75
-      pierceCap: 6
+      length: 80
+      pierceCap: 5
       lightningDamage: 40
       lightning: 5
-      lightningLength: 50
+      lightningLength: 12
 status: electrified
 statusDurration: 2
     }
