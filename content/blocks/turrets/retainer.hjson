@@ -16,7 +16,7 @@ shootColor: FF905D
 shootSoundVolume: 0.8
 shootY: 5.5
 category: turret
-reload: 180
+reload: 220
 shake: 4
 recoil: 1.5
 minWarmup: 0.99
@@ -29,9 +29,10 @@ coolant: {
 liquidCapacity: 125
   coolantMultiplier: 2
 inaccuracy: 0
-ammoPerShot: 8
+ammoPerShot: 16
+maxAmmo: 48
 requirements: [
-uranium/300
+uranium/200
 silicon/500
 titanium/300
 copper/870
