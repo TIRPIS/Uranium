@@ -16,19 +16,19 @@ weapons: [
     predictTarget: false 
     useAttackRange: false
     shootOnDeath: true
-
     mirror: false
     shootCone: 360
     shake: 4
+killShooter: true
     bullet: {
       type: LaserBulletType
-      damage: 800
+      damage: 750
       buildingDamageMultiplier: 0.25
       armorMultiplier: 0.75
       hitEffect: instTrail
 hitColor: FCF387
       shootEffect: instBomb
-killShooter: true
+
       hitSize: 4
       lifetime: 20
       drawSize: 200
@@ -37,7 +37,7 @@ killShooter: true
       pierceCap: 5
       lightningDamage: 40
       lightning: 5
-      lightningLength: 12
+      lightningLength: 18
 status: electrified
 statusDurration: 2
     }
