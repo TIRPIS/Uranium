@@ -38,12 +38,12 @@ weapons: [
       trailColor: 8E9097
       type: BasicBulletType
       speed: 4
-      lifetime: 80
-      damage: 45
-      fragRandomSpread: 350
+      lifetime: 70
+      damage: 50
+      fragRandomSpread: 360
       fragAngle: 360
         homingPower: 0.6
-        homingRange: 90
+        homingRange: 180
         pierceCap: 2
    }
     }
