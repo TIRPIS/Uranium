@@ -22,7 +22,9 @@ weapons: [
     shake: 8
     bullet: {
       type: ExplosionBulletType
+buildingDamageMultiplier: 0.25
       splashDamage: 200
+armorMultiplier: 0.45
         splashDamageRadius: 40
       hitEffect: regenSuppressParticle
         hitColor: C0ECFF
