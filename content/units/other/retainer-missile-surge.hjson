@@ -4,7 +4,7 @@ flying: true
 speed: 4
 physics: false
 lifetime: 200
-rotateSpeed: 1.2
+rotateSpeed: 0.8
 homingDelay: 3
 trailLength: 8
 useUnitCap: false
