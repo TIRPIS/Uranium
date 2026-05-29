@@ -43,7 +43,8 @@ weapons: [
       fragRandomSpread: 350
       fragAngle: 360
         homingPower: 0.6
-        
+        homingRange: 90
+        pierceCap: 2
    }
     }
   } 
