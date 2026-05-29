@@ -33,7 +33,7 @@ weapons: [
     fragSpread: 360
     fragBullets: 12
     fragBullet: {
-      frontColor: 
+      frontColor: 767A84
       backColor: 8E9097
       trailColor: 8E9097
       type: BasicBulletType
