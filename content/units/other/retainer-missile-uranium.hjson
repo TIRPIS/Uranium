@@ -22,7 +22,7 @@ weapons: [
     shake: 8
     bullet: {
       type: ExplosionBulletType
-      splashDamage: 120
+      splashDamage: 200
         splashDamageRadius: 40
       hitEffect: regenSuppressParticle
         hitColor: C0ECFF
@@ -30,7 +30,7 @@ weapons: [
       shootColor: C0ECFF
       hitSize: 4
       collidesAir: false
-    fragSpread: 20
+    fragSpread: 30
     fragBullets: 3
     fragRandomSpread: 0
     fragBullet: {
