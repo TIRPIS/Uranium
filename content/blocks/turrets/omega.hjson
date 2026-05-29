@@ -157,8 +157,8 @@ frontColor: 87CEEB
 trailChance: -1
     trailWidth: 2
     trailLength: 20
-weaveScale: 5
-weaveMag: 4
+weaveScale: 4
+weaveMag: 2
     speed: 6.5
 pierceCap: 3
 knockback: 1.5
