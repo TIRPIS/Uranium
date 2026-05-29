@@ -1,6 +1,6 @@
 type: ItemTurret
 name: Retainer
-description: wip
+description: Fires long-range missiles 
 predictTarget: false
 size: 4
 health: 3300
@@ -18,7 +18,7 @@ shootY: 5.5
 category: turret
 reload: 180
 shake: 4
-recoil: 0
+recoil: 1.5
 minWarmup: 0.99
 coolant: {
   type: ConsumeCoolant
@@ -112,7 +112,6 @@ type: RegionPart
       progress: warmup
 heatProgress: warmup
       moveY: 4
-heatColor: 8CA9E8
     }
 {
 type: RegionPart
@@ -130,7 +129,6 @@ type: RegionPart
       under: false
       progress: recoil
 heatProgress: warmup
-heatColor: 8CA9E8
     }
 ]
   }
