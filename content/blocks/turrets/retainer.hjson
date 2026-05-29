@@ -14,6 +14,7 @@ smokeEffect: shootSmokeMissile
 shootEffect: shootPayloadDriver
 shootColor: FF905D
 shootSoundVolume: 0.8
+shootY: 5.5
 category: turret
 reload: 180
 shake: 4
@@ -111,6 +112,7 @@ type: RegionPart
       progress: warmup
 heatProgress: warmup
       moveY: 4
+heatColor: D1EFFF
     }
 {
 type: RegionPart
@@ -118,7 +120,7 @@ type: RegionPart
       mirror: false
       under: true
       progress: warmup
-heatProgress: recoil
+heatProgress: warmup
       moveY: -2
     }
 {
@@ -127,7 +129,8 @@ type: RegionPart
       mirror: false
       under: false
       progress: recoil
-heatProgress: recoil
+heatProgress: warmup
+heatColor: D1EFFF
     }
 ]
   }
