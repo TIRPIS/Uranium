@@ -42,4 +42,20 @@ status: electrified
 statusDurration: 2
     }
   } 
+{
+    reload: 1
+    predictTarget: false 
+    useAttackRange: false
+    shootOnDeath: true
+    mirror: false
+    shootCone: 360
+    shake: 0
+    bullet: {
+      type: ExplosionBulletType
+      splashDamage: 0
+      splashDamageRadius: 0
+      hitSize: 4
+      collidesAir: false
+    }
+}
 ]
