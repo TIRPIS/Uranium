@@ -20,6 +20,8 @@ weapons: [
     mirror: false
     shootCone: 360
     shake: 8
+shootSound: blockExplodeFlammable
+shootVolume: 1
     bullet: {
       type: ExplosionBulletType
       splashDamage: 650
