@@ -12,7 +12,7 @@ drawCell: false
 outlines: true
 weapons: [
   {
-    reload: 1
+    reload: 10000
     predictTarget: false 
     useAttackRange: false
     shootOnDeath: true
