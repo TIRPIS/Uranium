@@ -5,7 +5,7 @@ health: 120
 speed: 4
 physics: false
 lifetime: 100
-rotateSpeed: 3
+rotateSpeed: 2
 homingDelay: 0
 trailLength: 8
 useUnitCap: false
