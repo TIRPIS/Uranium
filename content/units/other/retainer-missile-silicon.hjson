@@ -42,7 +42,7 @@ shootVolume: 0.8
       type: BasicBulletType
       speed: 4
       lifetime: 70
-      damage: 50
+      damage: 25
       fragRandomSpread: 360
       fragAngle: 360
         homingPower: 0.2
