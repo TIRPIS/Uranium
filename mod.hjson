@@ -1,11 +1,11 @@
 name: "uranium"
 description:
 '''
-100% radioactive!
+101% radioactive!
 '''
 author: "THT 2"
-minGameVersion: 157.2
-version: "1.5"
+minGameVersion: 158.1
+version: "1.6"
 displayName: "Uranium"
 subtitle: "Mod that add uranium, turrets, and units.
 Languages: English, Russian"
