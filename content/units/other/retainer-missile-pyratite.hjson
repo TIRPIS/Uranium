@@ -19,12 +19,11 @@ weapons: [
     mirror: false
     shootCone: 360
     shake: 8
-lifetime: 1
     bullet: {
-      type: ArtilleryBulletType
+      type: ExplosionBulletType
       splashDamage: 650
         splashRadius: 65
-      buildingDamageMultiplier: 0.15
+      buildingDamageMultiplier: 0.25
       hitEffect: hitLaserBlast
         hitColor: FFAA5F
       shootEffects: [
