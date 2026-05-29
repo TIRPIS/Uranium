@@ -23,7 +23,7 @@ weapons: [
     bullet: {
       type: ExplosionBulletType
       splashDamage: 100
-        splashRadius: 40
+        splashDamageRadius: 40
       buildingDamageMultiplier: 0.25
       hitEffect: colorSpark
         hitColor: C0ECFF
@@ -32,7 +32,7 @@ weapons: [
       hitSize: 4
       collidesAir: false
 status: sapped
-statusDuration: 10
+statusDuration: 2
    }
   } 
 ]
