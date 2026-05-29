@@ -31,25 +31,17 @@ weapons: [
       shootColor: C0ECFF
       hitSize: 4
       collidesAir: false
-   }
-  } 
-{
-    reload: 1
-    predictTarget: false 
-    useAttackRange: false
-    shootOnDeath: true
-    mirror: false
-    shootCone: 360
-    shake: 0
-    bullet: {
+fragBullets: 1
+   fragBullet: {
       type: ArtilleryBulletType
 lifetime: 1
-      splashDamage: 1
+      splashDamage: 0
       splashDamageRadius: 40
       hitSize: 4
       collidesAir: false
 status: sapped
-statusDuration: 2
+statusDuration: 2.5
     }
+}
 }
 ]
