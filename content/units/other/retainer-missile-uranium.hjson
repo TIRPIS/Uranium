@@ -33,8 +33,6 @@ weapons: [
     fragSpread: 20
     fragBullets: 3
     fragRandomSpread: 0
-status: sapped
-statusDuration: 5
     fragBullet: {
       type: BasicBulletType
         instantDisappear: true
