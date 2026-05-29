@@ -45,5 +45,25 @@ statusDuration: 5
       collides: false
    }
   } 
+ } 
+{
+    reload: 1
+    predictTarget: false 
+    useAttackRange: false
+    shootOnDeath: true
+    mirror: false
+    shootCone: 360
+    shake: 0
+    bullet: {
+      type: ArtilleryBulletType
+lifetime: 1
+      splashDamage: 0
+      splashDamageRadius: 40
+      hitSize: 4
+      collidesAir: false
+status: sapped
+statusDuration: 4
+    }
+}
 }
 ]
