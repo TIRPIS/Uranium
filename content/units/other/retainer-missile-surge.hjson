@@ -3,6 +3,7 @@ template: MissileUnitType
 flying: true
 speed: 5.5
 physics: false
+health: 180
 lifetime: 200
 rotateSpeed: 0.8
 homingDelay: 3
