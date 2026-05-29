@@ -24,7 +24,7 @@ shootSound: wreckFallBig
 shootVolume: 0.8
     bullet: {
       type: ExplosionBulletType
-      splashDamage: 320
+      splashDamage: 380
         splashDamageRadius: 20
       buildingDamageMultiplier: 0.25
       hitEffect: mineBig
