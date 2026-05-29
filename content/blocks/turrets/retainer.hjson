@@ -112,7 +112,7 @@ type: RegionPart
       progress: warmup
 heatProgress: warmup
       moveY: 4
-heatColor: D1EFFF
+heatColor: 8CA9E8
     }
 {
 type: RegionPart
@@ -130,7 +130,7 @@ type: RegionPart
       under: false
       progress: recoil
 heatProgress: warmup
-heatColor: D1EFFF
+heatColor: 8CA9E8
     }
 ]
   }
