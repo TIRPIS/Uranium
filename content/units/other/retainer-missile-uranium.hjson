@@ -20,6 +20,8 @@ weapons: [
     mirror: false
     shootCone: 360
     shake: 8
+shootSound: explosionNavanax
+shootVolume: 0.8
     bullet: {
       type: ExplosionBulletType
 buildingDamageMultiplier: 0.25
