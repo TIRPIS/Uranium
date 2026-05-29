@@ -52,6 +52,7 @@ statusDurration: 0.5
     shootCone: 360
     shake: 3
 shootSound: explosionCore
+shootVolume: 0.8
     bullet: {
       type: ExplosionBulletType
       splashDamage: 0
