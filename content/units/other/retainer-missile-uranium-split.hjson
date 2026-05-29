@@ -1,0 +1,38 @@
+type: missile
+template: MissileUnitType
+flying: true
+health: 120
+speed: 4
+physics: false
+lifetime: 100
+rotateSpeed: 3
+homingDelay: 0
+trailLength: 8
+useUnitCap: false
+drawCell: false
+outlines: true
+weapons: [
+  {
+    reload: 1
+    predictTarget: false 
+    useAttackRange: false
+    shootOnDeath: true
+    mirror: false
+    shootCone: 360
+    shake: 4
+    bullet: {
+      type: explosionBulletType
+      splashDamage: 100
+        splashRadius: 40
+      buildingDamageMultiplier: 0.25
+      hitEffect: colorSpark
+        hitColor: C0ECFF
+      shootEffect: mineImpact
+      shootColor: C0ECFF
+      hitSize: 4
+      collidesAir: false
+status: sapped
+statusDuration: 10
+   }
+  } 
+]
