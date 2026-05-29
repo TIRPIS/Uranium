@@ -13,6 +13,7 @@ outlines: true
 weapons: [
   {
     reload: 10000
+minWarmup: 100
     predictTarget: false 
     useAttackRange: false
     shootOnDeath: true
