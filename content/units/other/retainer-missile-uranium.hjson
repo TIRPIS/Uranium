@@ -24,7 +24,7 @@ weapons: [
       type: explosionBulletType
       splashDamage: 120
         splashRadius: 40
-      hitEffect: regenSuppresParticle
+      hitEffect: regenSuppressParticle
         hitColor: C0ECFF
       shootEffect: teleportActivate
       shootColor: C0ECFF
