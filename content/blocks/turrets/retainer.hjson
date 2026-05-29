@@ -48,7 +48,7 @@ preset: impact0078
 ]
 }
 researchMultiplier: 5
-shootCone: 30
+shootCone: 15
 ammoTypes: {
 pyratite: {
     ammoMultiplier: 1
