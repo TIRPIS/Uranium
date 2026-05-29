@@ -20,7 +20,7 @@ targetInterval: 100
     shootOnDeath: true
     mirror: false
     shootCone: 360
-    shake: 4
+    shake: 0
     bullet: {
       type: LaserBulletType
       damage: 400
@@ -50,7 +50,7 @@ statusDurration: 0.5
     shootOnDeath: true
     mirror: false
     shootCone: 360
-    shake: 3
+    shake: 8
 shootSound: explosionCore
 shootVolume: 0.8
     bullet: {
