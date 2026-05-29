@@ -46,7 +46,7 @@ statusDuration: 2.5
     bullet: {
       type: ArtilleryBulletType
 lifetime: 1
-      splashDamage: 0
+      splashDamage: 1
       splashDamageRadius: 65
       hitSize: 4
       collidesAir: false
