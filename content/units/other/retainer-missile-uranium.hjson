@@ -45,6 +45,7 @@ statusDuration: 5
       collides: false
    }
   } 
+}
 {
     reload: 1
     predictTarget: false 
