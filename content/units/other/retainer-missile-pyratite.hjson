@@ -26,10 +26,10 @@ weapons: [
       buildingDamageMultiplier: 0.15
       hitEffect: hitLaserBlast
         hitColor: FFAA5F
-      shootEffects: {
+      shootEffects: [
         titanSmoke
         scatheExplosion
-      }
+      ]
       shootColor: FFAA5F
       hitSize: 4
       collidesAir: false
