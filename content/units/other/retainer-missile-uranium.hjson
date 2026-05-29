@@ -1,6 +1,6 @@
 type: missile
 template: MissileUnitType
-health: 280
+health: 240
 flying: true
 speed: 4
 physics: false
@@ -23,7 +23,7 @@ weapons: [
     bullet: {
       type: ExplosionBulletType
       splashDamage: 120
-        splashRadius: 40
+        splashDamageRadius: 40
       hitEffect: regenSuppressParticle
         hitColor: C0ECFF
       shootEffect: teleportActivate
@@ -40,7 +40,7 @@ fragSpread: 20
       lifetime: 0
       damage: 0
       collides: false
-      fragRandomSpread: 60
+      fragRandomSpread: 0
    }
   } 
 }
