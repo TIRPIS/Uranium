@@ -32,7 +32,7 @@ hitColor: FCF387
 
       hitSize: 4
       lifetime: 20
-      drawSize: 200
+      drawSize: 80
       collidesAir: false
       length: 80
       pierceCap: 5
@@ -40,7 +40,7 @@ hitColor: FCF387
       lightning: 5
       lightningLength: 12
 status: electrified
-statusDurration: 2
+statusDurration: 0.5
     }
   } 
 {
