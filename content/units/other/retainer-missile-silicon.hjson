@@ -20,7 +20,7 @@ weapons: [
     shootCone: 360
     shake: 8
     bullet: {
-      type: explosionBulletType
+      type: ExplosionBulletType
       splashDamage: 430
         splashRadius: 20
       buildingDamageMultiplier: 0.25
