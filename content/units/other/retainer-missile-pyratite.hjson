@@ -19,8 +19,10 @@ weapons: [
     mirror: false
     shootCone: 360
     shake: 8
+killShooter: true
     bullet: {
-      type: ExplosionBulletType
+      type: ArtilleryBulletType
+lifetime: 1
       splashDamage: 650
         splashRadius: 65
       buildingDamageMultiplier: 0.25
