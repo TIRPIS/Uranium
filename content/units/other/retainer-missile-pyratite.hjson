@@ -50,7 +50,7 @@ lifetime: 1
       splashDamageRadius: 65
       hitSize: 4
       collidesAir: false
-status: melted
+status: melting
 statusDuration: 2.5
     }
 }
