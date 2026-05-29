@@ -7,6 +7,7 @@ range: 200
 rotateSpeed: 4
 shootSound: shootSmite
 shootSoundVolume: 1.7
+shootY: 5.5
 category: turret
 reload: 60
 shake: 5
