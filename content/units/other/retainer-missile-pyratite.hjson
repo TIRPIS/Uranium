@@ -31,27 +31,17 @@ weapons: [
       shootColor: FFAA5F
       hitSize: 4
       collidesAir: false
-status: melting
-statusDuration: 2.5
-   }
-  } 
-{
-    reload: 1
-    predictTarget: false 
-    useAttackRange: false
-    shootOnDeath: true
-    mirror: false
-    shootCone: 360
-    shake: 0
-    bullet: {
+fragBullets: 1
+fragBullet: {
       type: ArtilleryBulletType
 lifetime: 1
-      splashDamage: 1
+      splashDamage: 0
       splashDamageRadius: 65
       hitSize: 4
       collidesAir: false
 status: melting
 statusDuration: 2.5
     }
+}
 }
 ]
