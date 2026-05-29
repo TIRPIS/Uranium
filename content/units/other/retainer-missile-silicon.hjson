@@ -3,6 +3,7 @@ template: MissileUnitType
 flying: true
 speed: 4
 physics: false
+health: 180
 lifetime: 200
 rotateSpeed: 2.4
 homingDelay: 3
@@ -42,7 +43,7 @@ weapons: [
       damage: 50
       fragRandomSpread: 360
       fragAngle: 360
-        homingPower: 0.3
+        homingPower: 0.2
         homingRange: 75
         pierceCap: 2
    }
