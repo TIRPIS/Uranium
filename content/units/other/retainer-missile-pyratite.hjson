@@ -3,6 +3,7 @@ template: MissileUnitType
 flying: true
 speed: 4
 physics: false
+health: 200
 lifetime: 200
 rotateSpeed: 0.8
 homingDelay: 3
@@ -22,19 +23,16 @@ weapons: [
     bullet: {
       type: ExplosionBulletType
       splashDamage: 650
-        splashRadius: 65
+        splashDamageRadius: 65
       buildingDamageMultiplier: 0.25
       hitEffect: hitLaserBlast
         hitColor: FFAA5F
-      shootEffects: [
-        titanSmoke
-        scatheExplosion
-      ]
+      shootEffect: titanSmoke
       shootColor: FFAA5F
       hitSize: 4
       collidesAir: false
 status: melting
-statusDuration: 10
+statusDuration: 2.5
    }
   } 
 ]
