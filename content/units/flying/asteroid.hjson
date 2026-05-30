@@ -19,7 +19,7 @@ parent: air-factory
 researchCostMultiplier: 0.5
 circleTarget: true
 omniMovement: false
-circleTargetRadius: 20
+circleTargetRadius: 16
 wreckSoundVolume: 0.6
 moveSound: loopThruster
 moveSoundPitchMin: 0.3
@@ -34,6 +34,7 @@ weapons: [
                 x: 2
                 shootY: 0
                 reload: 15
+range: 140
                 shootCone: 180f
                 ejectEffect: none
                 inaccuracy: 15
