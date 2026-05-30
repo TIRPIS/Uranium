@@ -48,9 +48,9 @@ type: BombBulletType
                     shootEffect: none
                     smokeEffect: none
                     status: blasted
-                    statusDuration: 30
-splashDamage: 40
-splashDamageRadius: 35
+                    statusDuration: 0.25
+splashDamage: 15
+splashDamageRadius: 30
 }
 }
 ]
