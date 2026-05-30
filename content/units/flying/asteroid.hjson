@@ -1,6 +1,6 @@
 name: Asteroid
 description: Drops a constant stream of small bombs 
-health: 100
+health: 90
 armor: 1
 speed: 2.3
 drag: 0.04
