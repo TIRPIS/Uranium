@@ -23,7 +23,7 @@ circleTargetRadius: 16
 wreckSoundVolume: 0.6
 moveSound: loopThruster
 moveSoundPitchMin: 0.3
-moveSoundPitchMax: 1.5
+moveSoundPitchMax: 0.7
 moveSoundVolume: 0.2
 range: 140
 faceTarget: false
