@@ -34,6 +34,8 @@ drawer: {
     }
   {
       type: DrawFlame
+flameRadius: 1.5
+flameRadiusIn: 0.8
     }
   ]
 }
