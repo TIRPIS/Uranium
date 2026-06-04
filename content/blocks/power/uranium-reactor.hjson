@@ -4,7 +4,13 @@ description: Generates large amounts of energy by consuming uranium and water. I
 size: 4
 category: power
 squareSprite: true
-research: thorium-reactor
+research: {
+parent: thorium-reactor
+objectives: [
+{
+type: SectorComplete
+preset: impact0078
+}
 requirements: [
   uranium/40
   silicon/100
