@@ -39,8 +39,8 @@ hitColor: FCF387
       lightningDamage: 30
       lightning: 5
       lightningLength: 12
-status: electrified
-statusDurration: 0.5
+status: shocked
+statusDurration: 2
     }
   } 
 {
