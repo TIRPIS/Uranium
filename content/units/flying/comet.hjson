@@ -27,7 +27,7 @@ faceTarget: true
 weapons: [
 {
 x: 0
-y: 9
+y: 6.5
 rotate: true
 rotateSpeed: 2
 rotationLimit: 35
