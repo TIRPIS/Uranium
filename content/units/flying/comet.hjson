@@ -41,13 +41,14 @@ continuous: true
 alwaysContinuous: true
 bullet: {
 type: PointLaserBulletType
-length: 50
+length: 140
+range: 140
   buildingDamageMultiplier: 2
   damage: 6
 color: D0ACFF
 hitColor: D0ACFF
 oscScl: 1
-beamEffectSize: 1
+beamEffectSize: 0
 }
 }
 ]
