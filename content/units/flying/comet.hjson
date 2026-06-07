@@ -1,0 +1,31 @@
+name: Comet
+description: .
+health: 180
+armor: 1
+speed: 1.8
+drag: 0.08
+flying: true
+accel: 0.15
+targetFlags: [reactor]
+hitSize: 20
+itemCapacity: 0
+lowAltitude: true
+rotateSpeed: 3
+engineSize: 4.5
+engineOffset: 2
+research: {
+parent: asteroid
+}
+researchCostMultiplier: 3
+wreckSoundVolume: 0.7
+moveSound: loopThruster
+moveSoundPitchMin: 0.4
+moveSoundPitchMax: 0.7
+moveSoundVolume: 0.25
+range: 140
+faceTarget: true
+weapons: [
+{
+
+}
+]
