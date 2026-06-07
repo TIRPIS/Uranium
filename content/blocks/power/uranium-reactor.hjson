@@ -62,5 +62,4 @@ explodeEffect: [massiveExplosion, impactReactorExplosion]
 ambientSound: loopFlux
 ambientSoundVolume: 0.4
 unstableSpeed: 0.0011111111
-
 researchCostMultiplier: 8
