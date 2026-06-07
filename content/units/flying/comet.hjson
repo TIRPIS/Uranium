@@ -34,12 +34,14 @@ shootCone: 35
 layerOffset: -0.001
 mirror: false
 shootSound: beamLustre
-shootSoundVolume: 0.5
+shootSoundVolume: 0.3
 reload: 60
-aimChangeSpeed: 3
+aimChangeSpeed: 0.8
+continuous: true
+alwaysContinuous: true
 bullet: {
 type: PointLaserBulletType
-length: 140
+length: 50
   buildingDamageMultiplier: 2
   damage: 6
 color: D0ACFF
