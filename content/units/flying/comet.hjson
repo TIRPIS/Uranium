@@ -29,7 +29,8 @@ weapons: [
 x: 0
 y: 9
 rotateSpeed: 4
-rotationLimit: 10
+rotationLimit: 35
+shootCone: 35
 layerOffset: -0.001
 mirror: false
 shootSound: beamLustre
