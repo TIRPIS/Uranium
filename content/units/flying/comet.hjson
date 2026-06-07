@@ -41,6 +41,7 @@ continuous: true
 alwaysContinuous: true
 bullet: {
 type: ContinuousFlameBulletType
+pierceCap: 1
 flareLength: 0
 length: 140
   buildingDamageMultiplier: 2
