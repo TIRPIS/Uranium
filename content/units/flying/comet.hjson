@@ -2,7 +2,7 @@ name: Comet
 description: .
 health: 180
 armor: 1
-speed: 1.8
+speed: 1.6
 drag: 0.08
 flying: true
 accel: 0.15
@@ -12,7 +12,7 @@ itemCapacity: 0
 lowAltitude: true
 rotateSpeed: 3
 engineSize: 4.5
-engineOffset: 2
+engineOffset: 4
 research: {
 parent: asteroid
 }
@@ -34,6 +34,8 @@ layerOffset: -0.001
 mirror: false
 shootSound: beamLustre
 shootSoundVolume: 0.5
+reload: 60
+aimChangeSpeed: 3
 bullet: {
 type: PointLaserBulletType
   buildingDamageMultiplier: 2
@@ -42,6 +44,7 @@ color: D0ACFF
 hitColor: D0ACFF
 oscScl: 1
 beamEffectSize: 0
+range: 140
 }
 }
 ]
