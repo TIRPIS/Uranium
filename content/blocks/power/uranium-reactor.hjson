@@ -11,6 +11,7 @@ objectives: [
 type: SectorComplete
 preset: impact0078
 }
+]
 requirements: [
   uranium/40
   silicon/100
