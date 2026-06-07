@@ -45,7 +45,7 @@ type: ContinuousFlameBulletType
 pierceCap: 1
 flareLength: 0
 length: 140
-width: 10
+width: 3
   buildingDamageMultiplier: 2
   damage: 6
 color: D0ACFF
