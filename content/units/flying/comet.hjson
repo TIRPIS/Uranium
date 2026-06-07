@@ -1,6 +1,6 @@
 name: Comet
 description: Fires a constant disassembly laser 
-health: 180
+health: 650
 armor: 1
 speed: 1.6
 drag: 0.08
