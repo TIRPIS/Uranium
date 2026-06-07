@@ -41,7 +41,6 @@ continuous: true
 alwaysContinuous: true
 bullet: {
 type: PointLaserBulletType
-length: 140
 range: 140
   buildingDamageMultiplier: 2
   damage: 6
