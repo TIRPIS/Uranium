@@ -40,8 +40,9 @@ aimChangeSpeed: 0.8
 continuous: true
 alwaysContinuous: true
 bullet: {
-type: PointLaserBulletType
-range: 140
+type: ContinuousFlameBulletType
+flareLength: 0
+length: 140
   buildingDamageMultiplier: 2
   damage: 6
 color: D0ACFF
