@@ -23,15 +23,15 @@ moveSoundPitchMin: 0.4
 moveSoundPitchMax: 0.7
 moveSoundVolume: 0.25
 range: 140
-faceTarget: true
+faceTarget: false
 weapons: [
 {
 x: 0
 y: 6.5
 rotate: true
 rotateSpeed: 2
-rotationLimit: 35
-shootCone: 35
+rotationLimit: 50
+shootCone: 50
 layerOffset: -0.001
 mirror: false
 shootSound: beamLustre
