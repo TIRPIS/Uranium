@@ -13,6 +13,7 @@ type: SectorComplete
 preset: impact0078
 }
 ]
+}
 researchCostMultiplier: 10
 requirements: [
 uranium/60
