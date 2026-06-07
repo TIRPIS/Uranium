@@ -28,7 +28,8 @@ weapons: [
 {
 x: 0
 y: 9
-rotateSpeed: 4
+rotate: true
+rotateSpeed: 2
 rotationLimit: 35
 shootCone: 35
 layerOffset: -0.001
