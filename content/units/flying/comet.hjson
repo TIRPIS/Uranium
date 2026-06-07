@@ -1,5 +1,5 @@
 name: Comet
-description: .
+description: Fires a constant disassembly laser 
 health: 180
 armor: 1
 speed: 1.6
@@ -29,9 +29,9 @@ weapons: [
 x: 0
 y: 6.5
 rotate: true
-rotateSpeed: 1
-rotationLimit: 35
-shootCone: 35
+rotateSpeed: 2
+rotationLimit: 40
+shootCone: 40
 layerOffset: -0.001
 mirror: false
 shootSound: beamLustre
