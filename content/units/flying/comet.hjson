@@ -23,7 +23,7 @@ moveSoundPitchMin: 0.4
 moveSoundPitchMax: 0.7
 moveSoundVolume: 0.25
 range: 140
-faceTarget: false
+faceTarget: true
 weapons: [
 {
 x: 0
