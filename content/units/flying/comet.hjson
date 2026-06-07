@@ -26,6 +26,22 @@ range: 140
 faceTarget: true
 weapons: [
 {
-
+x: 0
+y: 9
+rotateSpeed: 4
+rotationLimit: 10
+layerOffset: -0.001
+mirror: false
+shootSound: beamLustre
+shootSoundVolume: 0.5
+bullet: {
+type: PointLaserBulletType
+  buildingDamageMultiplier: 2
+  damage: 6
+color: D0ACFF
+hitColor: D0ACFF
+oscScl: 1
+beamEffectSize: 0
+}
 }
 ]
