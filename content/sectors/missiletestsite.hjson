@@ -1,7 +1,7 @@
 captureWave: 26
 planet: serpulo
 sector: 31
-difficulty: 5
+difficulty: 4
   research: {
   parent: impact0778
   objectives: [
