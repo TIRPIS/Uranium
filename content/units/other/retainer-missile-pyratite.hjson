@@ -28,9 +28,9 @@ shootVolume: 1
         splashDamageRadius: 60
       buildingDamageMultiplier: 0.25
       hitEffect: hitLaserBlast
-        hitColor: FFAA5F
+        hitColor: FF795E
       shootEffect: scatheExplosion
-      shootColor: FFAA5F
+      shootColor: FF795E
       hitSize: 4
       collidesAir: false
 }
