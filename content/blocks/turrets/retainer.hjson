@@ -50,7 +50,7 @@ preset: impact0078
 researchMultiplier: 5
 shootCone: 15
 ammoTypes: {
-pyratite: {
+blast-compound: {
     ammoMultiplier: 1
     reloadMultiplier: 1
     shootEffect: hitBulletBig
