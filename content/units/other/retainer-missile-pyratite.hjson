@@ -24,8 +24,8 @@ shootSound: blockExplodeFlammable
 shootVolume: 1
     bullet: {
       type: ExplosionBulletType
-      splashDamage: 750
-        splashDamageRadius: 80
+      splashDamage: 500
+        splashDamageRadius: 60
       buildingDamageMultiplier: 0.25
       hitEffect: hitLaserBlast
         hitColor: FFAA5F
