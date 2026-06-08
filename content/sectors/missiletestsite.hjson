@@ -1,0 +1,15 @@
+captureWave: 26
+planet: serpulo
+sector: 31
+difficulty: 4
+  research: {
+  parent: impact0778
+  objectives: [
+    uranium
+    enrichmenter
+    {
+      type: SectorComplete
+      preset: impact0078
+    }
+  ]
+}
