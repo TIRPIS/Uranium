@@ -3,7 +3,7 @@ planet: serpulo
 sector: 31
 difficulty: 4
   research: {
-  parent: impact0778
+  parent: impact0078
   objectives: [
     uranium
     enrichmenter
