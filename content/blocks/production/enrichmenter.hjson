@@ -40,26 +40,26 @@ type: DrawDefault
   {
       type: DrawFlame
 flameX: 3.8
-flameRadius: 1.3
-flameRadiusIn: 0.7
+flameRadius: 1.2
+flameRadiusIn: 0.9
     }
 {
       type: DrawFlame
 flameX: -3.8
-flameRadius: 1.3
-flameRadiusIn: 0.7
+flameRadius: 1.2
+flameRadiusIn: 0.9
 }
 {
       type: DrawFlame
 flameY: 3.8
-flameRadius: 1.3
-flameRadiusIn: 0.7
+flameRadius: 1.2
+flameRadiusIn: 0.9
 }
 {
       type: DrawFlame
 flameY: -3.8
-flameRadius: 1.3
-flameRadiusIn: 0.7
+flameRadius: 1.2
+flameRadiusIn: 0.9
 }
   ]
 }
