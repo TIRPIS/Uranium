@@ -1,6 +1,6 @@
 type: ConsumeGenerator
-name: Uranium reactor
-description: Generates large amounts of energy by consuming uranium and water. It removes uranium water and explodes if there is excess water 
+name: Radioactive reactor
+description: Generates large amounts of energy by consuming radioactive items, graphite and water. It releases uranium water and explodes if there is excess water 
 size: 4
 category: power
 squareSprite: true
@@ -19,12 +19,13 @@ requirements: [
   metaglass/80
   graphite/200
 ]
-powerProduction: 68
+powerProduction: 46
 consumes: {
+itemRadioactive: {}
   items: [
-    uranium/1
+    graphite/2
   ]
-  liquid: water/0.2
+  liquid: water/0.5
     }
 itemDuration: 360
   drawer: {
