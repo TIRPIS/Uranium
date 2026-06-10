@@ -15,9 +15,9 @@ controller: SuicideAI
             rotateSpeed: 4
             wreckSoundVolume: 0.8
             moveSound: loopThruster
-            moveSoundPitchMin: 0.3
-            moveSoundPitchMax: 0.35
-            moveSoundVolume: 0.2
+            moveSoundPitchMin: 0.1
+            moveSoundPitchMax: 0.15
+            moveSoundVolume: 0.1
 range: 1
   abilities: [
   {
