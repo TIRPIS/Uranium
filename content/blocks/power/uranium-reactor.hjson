@@ -54,7 +54,7 @@ flameColor: BFFBFF
         ]
         }
         warmupSpeed: 1
-outputLiquid: uranium-water/0.1
+outputLiquid: uranium-water/0.5
 liquidCapacity: 40
 explodeOnFull: true
 explodeSound: explosionReactor2
