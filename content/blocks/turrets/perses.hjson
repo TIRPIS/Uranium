@@ -49,8 +49,8 @@ frontColor: FFAC9B
     backColor: FF795E
     trailColor: FF795E
 trailChance: -1
-    trailWidth: 10
-    trailLength: 38
+    trailWidth: 4
+    trailLength: 30
     speed: 6
 knockback: 2.5
     lifetime: 150
