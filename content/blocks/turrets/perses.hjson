@@ -52,20 +52,21 @@ trailChance: -1
     trailLength: 38
     speed: 6
 knockback: 2.5
-    lifetime: 95
+    lifetime: 100
+maxRange: 960
     width: 26
     height: 40
 homingPower: 0.06
 homingRange: 960
 hittable: false
 hitEffect: [
-blastExplosion
-shockwave
-titanExplosion
+mineImpactWave
+titanExplosionLarge
+titanSmokeLarge
 ]
 hitColor: FF795E
     splashDamage: 4000
-    splashDamageRadius: 100
+    splashDamageRadius: 110
     splashDamagePierce: true
     status: blasted
     despawnSound: [
@@ -83,49 +84,19 @@ type: drawTurret
 parts: [
 {
 type: RegionPart
-      suffix: -horn
-      mirror: true
+      suffix: -back
+      mirror: false
       under: true
-      progress: warmup
 heatProgress: warmup
-      moveX: 9.25
-      moveY: 3.5
-      moveRot: -45
 }
 {
 type: RegionPart
-      suffix: -side-gun-l
-      mirror: false
-      under: true
-      progress: recoil
-heatProgress: recoil
-      moveY: -3
-    }
-{
-type: RegionPart
-      suffix: -side-gun-m
+      suffix: -gun
       mirror: false
       under: false
       progress: recoil
 heatProgress: recoil
-      moveY: -3
-recoilIndex: 0
-    }
-{
-type: RegionPart
-      suffix: -side-gun-r
-      mirror: false
-      under: true
-      progress: recoil
-heatProgress: recoil
-      moveY: -3
-recoilIndex: 1
-    }
-{
-type: RegionPart
-      suffix: -back
-      mirror: false
-      under: false
+      moveY: -4
     }
 ]
 }
