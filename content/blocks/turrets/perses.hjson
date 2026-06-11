@@ -48,30 +48,28 @@ frontColor: FFAC9B
     backColor: FF795E
     trailColor: FF795E
 trailChance: -1
-    trailWidth: 5
-    trailLength: 20
-    speed: 3
+    trailWidth: 10
+    trailLength: 38
+    speed: 6
 knockback: 2.5
     lifetime: 95
-lifeScaleRandMax: 1.08
-lifeScaleRandMin: 0.95
-    width: 14
-    height: 30
+    width: 26
+    height: 40
 hitEffect: [
 blastExplosion
 shockwave
 titanExplosion
 ]
 hitColor: FF795E
-    splashDamage: 275
-    splashDamageRadius: 65
+    splashDamage: 4000
+    splashDamageRadius: 100
     splashDamagePierce: true
     status: blasted
     despawnSound: [
 explosionTitan
 explosionArtillery
 ]
-despawnSoundVolume: 1.2
+despawnSoundVolume: 2
 sprite: missile-large
 buildingDamageMultiplier: 0
 }
