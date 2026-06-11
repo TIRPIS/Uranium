@@ -1,0 +1,130 @@
+type: ItemTurret
+name: Perses
+description: .
+size: 5
+health: 9200
+range: 960
+rotateSpeed: 0.25
+targetAir: true
+targetGround: false
+shootSound: [
+shootTitan
+shootRipple
+]
+smokeEffect: shootSmokeSquareSparse
+shootEffect: shootSmokeSquareBig
+shootColor: FF905D
+shootSoundVolume: 2
+category: turret
+reload: 300
+shake: 12
+recoil: 0
+minWarmup: 0.50
+consumes: {
+  liquids: {
+    liquids: [
+    oil/0.2
+    ]
+    optional: false
+    booster: false
+  }
+}
+liquidCapacity: 2000
+ammoPerShot: 4
+  maxAmmo: 40
+requirements: [
+uranium/1200
+plastanium/2000
+titanium/1600
+surge-alloy/1000
+metaglass/800
+phase-fabric/920
+copper/3200
+]
+ammoTypes: {
+blast-compound: {
+type: MissileBulletType
+frontColor: FFAC9B
+    backColor: FF795E
+    trailColor: FF795E
+trailChance: -1
+    trailWidth: 5
+    trailLength: 20
+    speed: 3
+knockback: 2.5
+    lifetime: 95
+lifeScaleRandMax: 1.08
+lifeScaleRandMin: 0.95
+    width: 14
+    height: 30
+hitEffect: [
+blastExplosion
+shockwave
+titanExplosion
+]
+hitColor: FF795E
+    splashDamage: 275
+    splashDamageRadius: 65
+    splashDamagePierce: true
+    status: blasted
+    despawnSound: [
+explosionTitan
+explosionArtillery
+]
+despawnSoundVolume: 1.2
+sprite: missile-large
+buildingDamageMultiplier: 0
+}
+}
+drawer: {
+type: drawTurret
+  basePrefix: uran-
+parts: [
+{
+type: RegionPart
+      suffix: -horn
+      mirror: true
+      under: true
+      progress: warmup
+heatProgress: warmup
+      moveX: 9.25
+      moveY: 3.5
+      moveRot: -45
+}
+{
+type: RegionPart
+      suffix: -side-gun-l
+      mirror: false
+      under: true
+      progress: recoil
+heatProgress: recoil
+      moveY: -3
+    }
+{
+type: RegionPart
+      suffix: -side-gun-m
+      mirror: false
+      under: false
+      progress: recoil
+heatProgress: recoil
+      moveY: -3
+recoilIndex: 0
+    }
+{
+type: RegionPart
+      suffix: -side-gun-r
+      mirror: false
+      under: true
+      progress: recoil
+heatProgress: recoil
+      moveY: -3
+recoilIndex: 1
+    }
+{
+type: RegionPart
+      suffix: -back
+      mirror: false
+      under: false
+    }
+]
+}
