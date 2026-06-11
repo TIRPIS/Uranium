@@ -32,6 +32,7 @@ consumes: {
 liquidCapacity: 2000
 ammoPerShot: 4
   maxAmmo: 40
+unitSort: strongest
 requirements: [
 uranium/1200
 plastanium/2000
@@ -56,9 +57,10 @@ knockback: 2.5
 maxRange: 960
     width: 13
     height: 20
-homingPower: 0.06
-homingRange: 960
+homingPower: 0.03
+homingRange: 300
 hittable: false
+collidesGround: false
 hitEffect: [
 mineImpactWave
 titanExplosionLarge
