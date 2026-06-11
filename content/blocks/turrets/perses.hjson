@@ -53,8 +53,9 @@ trailChance: -1
     trailLength: 38
     speed: 6
 knockback: 2.5
-    lifetime: 100
+    lifetime: 150
 maxRange: 960
+shootCone: 30
     width: 13
     height: 20
 homingPower: 0.03
