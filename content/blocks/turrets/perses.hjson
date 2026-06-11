@@ -4,7 +4,7 @@ description: .
 size: 5
 health: 9200
 range: 960
-rotateSpeed: 0.25
+rotateSpeed: 0.45
 targetAir: true
 targetGround: false
 shootSound: [
@@ -16,10 +16,10 @@ shootEffect: shootSmokeSquareBig
 shootColor: FF905D
 shootSoundVolume: 2
 category: turret
-reload: 300
-shake: 12
+reload: 210
+shake: 6
 recoil: 0
-minWarmup: 0.50
+minWarmup: 0.30
 consumes: {
   liquids: {
     liquids: [
@@ -54,8 +54,8 @@ trailChance: -1
 knockback: 2.5
     lifetime: 100
 maxRange: 960
-    width: 26
-    height: 40
+    width: 13
+    height: 20
 homingPower: 0.06
 homingRange: 960
 hittable: false
