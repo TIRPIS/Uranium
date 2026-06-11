@@ -55,6 +55,9 @@ knockback: 2.5
     lifetime: 95
     width: 26
     height: 40
+homingPower: 0.06
+homingRange: 960
+hittable: false
 hitEffect: [
 blastExplosion
 shockwave
