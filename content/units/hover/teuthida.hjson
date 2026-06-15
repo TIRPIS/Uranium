@@ -8,11 +8,11 @@ mechFrontSway: 0
 mechSideSway: 0
 mechStride: 0
 drag: 0.04
-speed: 0.9
-rotateSpeed: 3.8
+speed: 1.1
+rotateSpeed: 4.2
 accel: 0.06
 groundLayer: 60
-health: 820
+health: 900
 armor: 3
 hitSize: 20
 canDrown: false
@@ -93,7 +93,7 @@ useEngineElevation: false
 lowAltitude: true
 weapons: [
     {   name: front-weapon
-        reload: 280
+        reload: 260
         x: 0
         y: 6
         rotate: false
@@ -104,7 +104,7 @@ shootSound: shootMissileLarge
 shootSoundVolume: 0.6
         bullet: {
             type: MissileBulletType
-            recoil: 0.25
+            recoil: 0.35
             knockback: 2
             lifetime: 80
             keepVelocity: false
@@ -138,7 +138,7 @@ shootColor: BF92F9
 }
 }
 { name: teuthida-weapon
-  reload: 60
+  reload: 30
   rotate: true
   mirror: true
   shootY: 4
@@ -151,7 +151,7 @@ shootSound: shootSap
   type: SapBulletType
   sapStrength: 0.8
   length: 130
-  damage: 50
+  damage: 45
   shootEffect: shootSmall
   hitColor: bf92f9
   color: bf92f9
