@@ -99,7 +99,7 @@ useEngineElevation: false
 lowAltitude: true
 weapons: [
   { name: selachii-weapon
-  reload: 60
+  reload: 45
   rotate: true
   mirror: true
   shootY: 2
@@ -123,7 +123,7 @@ shootSound: shootSap
 }
 }
   { name: selachii-weapon
-  reload: 60
+  reload: 40
   rotate: true
   mirror: true
   shootY: 2
