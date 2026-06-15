@@ -113,9 +113,9 @@ weapons: [
 rotateSpeed: 1.5
 shootSound: shootSap
   bullet: {
-buildingDamageMultiplier: 0.7
+buildingDamageMultiplier: 0.85
   type: SapBulletType
-  sapStrength: 0.65
+  sapStrength: 0.35
   length: 450
   damage: 750
   shootEffect: shootSmall
@@ -130,39 +130,39 @@ buildingDamageMultiplier: 0.7
   { 
   name: balaenidae-pointdefence
     type: PointDefenseWeapon
-  reload: 3
+  reload: 5
   mirror: true
   shootY: 2
   recoil: 0.5
   x: 11.25
   y: 25
 shootSound: lasershoot
-targetInterval: 6
-targetSwitchInterval: 6
+targetInterval: 4
+targetSwitchInterval: 4
  bullet: {
 shootEffect: sparkShoot
 hitEffect: pointHit
 maxRange: 180
-damage: 40
+damage: 35
 }
 }
 { 
   name: balaenidae-pointdefence
     type: PointDefenseWeapon
-  reload: 3
+  reload: 5
   mirror: true
   shootY: 2
   recoil: 0.5
   x: 26.5
   y: -17.5
 shootSound: lasershoot
-targetInterval: 6
-targetSwitchInterval: 6
+targetInterval: 4
+targetSwitchInterval: 4
  bullet: {
 shootEffect: sparkShoot
 hitEffect: pointHit
 maxRange: 180
-damage: 40
+damage: 35
 }
 }
 ]
