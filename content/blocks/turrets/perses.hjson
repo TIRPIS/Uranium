@@ -16,9 +16,9 @@ shootColor: FF905D
 shootSoundVolume: 2.5
 category: turret
 reload: 240
-shake: 6
+shake: 10
 recoil: 0
-minWarmup: 0.30
+minWarmup: 0.50
 consumes: {
   liquids: {
     liquids: [
@@ -51,7 +51,7 @@ trailChance: -1
     trailWidth: 4
     trailLength: 30
     speed: 6
-knockback: 5
+knockback: 6
     lifetime: 150
 maxRange: 960
 shootCone: 30
