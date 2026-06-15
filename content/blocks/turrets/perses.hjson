@@ -74,8 +74,6 @@ hitColor: FF795E
     status: blasted
     hitSound: [
 blockExplodeExplosiveAlt
-shockwaveTower
-shieldBreak
 ]
 hitSoundVolume: 2.5
 despawnSound: [
