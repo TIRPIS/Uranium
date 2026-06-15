@@ -9,21 +9,20 @@ targetAir: true
 targetGround: false
 shootSound: [
 explosionMissile
-padLaunch
 ]
-smokeEffect: shootSmokeSquareSparse
-shootEffect: shootSmokeSquareBig
+smokeEffect: shootSmokeSmite
+shootEffect: shieldWave
 shootColor: FF905D
 shootSoundVolume: 2.5
 category: turret
-reload: 210
+reload: 240
 shake: 6
 recoil: 0
 minWarmup: 0.30
 consumes: {
   liquids: {
     liquids: [
-    oil/0.2
+    oil/0.25
     ]
     optional: false
     booster: false
