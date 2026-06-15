@@ -68,7 +68,8 @@ titanExplosionLarge
 titanSmokeLarge
 ]
 hitColor: FF795E
-    splashDamage: 4000
+    damage: 2000
+    splashDamage: 2000
     splashDamageRadius: 110
     splashDamagePierce: true
     status: blasted
