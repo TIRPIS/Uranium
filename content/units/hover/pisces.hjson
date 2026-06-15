@@ -9,7 +9,7 @@ mechSideSway: 0
 mechStride: 0
 drag: 0.08
 speed: 1.5
-rotateSpeed: 5
+rotateSpeed: 5.3
 accel: 0.095
 groundLayer: 60
 health: 520
@@ -119,8 +119,8 @@ hitSound: explosionPlasmaSmall
 shootSound: shootMissile
         bullet: {
             type: MissileBulletType
-            recoil: 0.3
-            knockback: 1.5
+            recoil: 0.4
+            knockback: 3
             lifetime: 70
 inaccuracy: 5
 keepVelocity: false
