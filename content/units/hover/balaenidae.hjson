@@ -123,7 +123,7 @@ buildingDamageMultiplier: 0.85
   color: bf92f9
   despawnEffect: none
   width: 1
-  lifetime: 60
+  lifetime: 90
   knockback: -6
 }
 }
