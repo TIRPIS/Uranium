@@ -63,8 +63,9 @@ hitEffect: pulverize
 speed: 0
 splashDamageRadius: 55
 buildingDamageMultiplier: 1.5
+splashDamagePierce: true
 instantDisappear: true
-splashDamage: 110
+splashDamage: 100
 killShooter: true
 hittable: false
 collidesAir: true
