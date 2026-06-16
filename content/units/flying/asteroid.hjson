@@ -1,6 +1,6 @@
 name: Asteroid
 description: Drops a constant stream of small bombs 
-health: 90
+health: 100
 armor: 1
 speed: 2.3
 drag: 0.04
@@ -40,6 +40,7 @@ range: 140
                 inaccuracy: 15
                 ignoreRotation: true
                 shootSound: shootHorizon
+                shootSoundVolume: 0.7
                 soundPitchMax: 0.8
 bullet: {
 type: BombBulletType
@@ -50,7 +51,7 @@ type: BombBulletType
                     smokeEffect: none
                     status: blasted
                     statusDuration: 0.25
-splashDamage: 15
+splashDamage: 20
 splashDamageRadius: 30
 }
 }
