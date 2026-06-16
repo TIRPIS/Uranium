@@ -6,7 +6,7 @@ research: {
   objectives: [
     {
       type: OnSector
-      preset: impact0048
+      preset: impact0078
     }
   ]
 }
