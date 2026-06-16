@@ -1,5 +1,6 @@
 type: PayloadRouter
 health: 1000
+size: 5
 category: units
 research: {
   parent: payload-router
