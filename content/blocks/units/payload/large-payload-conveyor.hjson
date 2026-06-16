@@ -1,0 +1,21 @@
+type: PayloadConveyor
+health: 850
+category: units
+research: {
+  parent: payload-conveyor
+  objectives: [
+    {
+      type: OnSector
+      preset: impact0048
+    }
+  ]
+}
+requirements: [
+copper/70
+graphite/70
+uranium/30
+plastanium/40
+]
+canOverdrive: false
+payloadLimit: 5.5
+researchCostMultiplier: 20
