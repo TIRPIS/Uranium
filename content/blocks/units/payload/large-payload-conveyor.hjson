@@ -1,5 +1,6 @@
 type: PayloadConveyor
 health: 850
+size: 5
 category: units
 research: {
   parent: payload-conveyor
