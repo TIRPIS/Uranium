@@ -1,7 +1,7 @@
 name: Comet
 description: Fires a constant disassembly laser 
-health: 650
-armor: 1
+health: 360
+armor: 2
 speed: 1.6
 drag: 0.08
 flying: true
@@ -29,7 +29,7 @@ weapons: [
 x: 0
 y: 6.5
 rotate: true
-rotateSpeed: 2
+rotateSpeed: 3
 rotationLimit: 40
 shootCone: 40
 layerOffset: -0.001
@@ -46,7 +46,7 @@ pierceCap: 1
 flareLength: 0
 length: 140
 width: 3
-  buildingDamageMultiplier: 2
+  buildingDamageMultiplier: 3
   damage: 6
 color: D0ACFF
 hitColor: D0ACFF
