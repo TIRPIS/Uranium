@@ -7,7 +7,7 @@ controller: SuicideAI
             accel: 0.06
             drag: 0.04
             flying: true
-            health: 220
+            health: 250
             engineOffset: 5.75
             hitSize: 10
             itemCapacity: 0
@@ -27,10 +27,10 @@ range: 1
                 max: 300
                 whenShooting: false
                 chanceDeflect: -1
-radius: 9
+radius: 11
 width: 2.5
 angle: 180
-y: -1
+y: -1.2
     }
 {
     type: SuppressionFieldAbility
@@ -62,6 +62,7 @@ rangeOverride: 10
 hitEffect: pulverize
 speed: 0
 splashDamageRadius: 55
+buildingDamageMultiplier: 1.5
 instantDisappear: true
 splashDamage: 110
 killShooter: true
