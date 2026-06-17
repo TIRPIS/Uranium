@@ -1,13 +1,13 @@
 type: PayloadMassDriver
 consumes: {
-  power: 2
+  power: 13
 }
 health: 1500
 category: units
 research: {
   parent: 
   objectives: [
-    {
+{
       type: OnSector
       preset: impact0078
     }
