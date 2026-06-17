@@ -16,7 +16,7 @@ research: {
 requirements: [
   copper/800
   uranium/300
-  silicone/500
+  silicon/500
   graphite/350
   surge-alloy/120
   phase-fabric/120
