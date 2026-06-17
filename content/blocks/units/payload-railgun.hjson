@@ -1,0 +1,29 @@
+type: PayloadMassDriver
+consumes: {
+  power: 2
+}
+health: 1500
+category: units
+research: {
+  parent: 
+  objectives: [
+    {
+      type: OnSector
+      preset: impact0078
+    }
+  ]
+}
+requirements: [
+  copper/800
+  uranium/300
+  silicone/500
+  graphite/350
+  surge-alloy/120
+  phase-fabric/120
+]
+reload: 380
+chargeTime: 110
+range: 2240
+maxPayloadSize: 5.5
+size: 7
+researchCostMultiplier: 20
