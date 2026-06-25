@@ -1,0 +1,17 @@
+type: Accelerator
+size: 4
+health: 300
+requirements: [
+  copper/100
+  titanium/250
+  silicone/50
+  ]
+category: effect
+launchBlock: drop-pod
+buildDuration: 220
+chargeRings: 0
+powerBufferRequirement: 10000
+hasPower: true
+consumes: {
+  power: 2
+}
