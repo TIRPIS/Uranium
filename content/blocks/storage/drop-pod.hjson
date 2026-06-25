@@ -1,4 +1,4 @@
-type: StorageBlock
+type: Wall
 size: 3
 health: 220
 itemCapacity: 0
