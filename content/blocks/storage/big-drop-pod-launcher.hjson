@@ -1,0 +1,11 @@
+type: LaunchPad
+size: 5
+health: 550
+category: effect
+itemCapacity: 0
+launchTime: 2400
+hasPower: true
+consumes: {
+  power: 3
+}
+buildVisibility: sandboxOnly
