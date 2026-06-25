@@ -1,0 +1,6 @@
+type: StorageBlock
+size: 4
+health: 450
+itemCapacity: 0
+category: effect
+squareSprite: false
