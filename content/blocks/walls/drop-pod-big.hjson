@@ -1,4 +1,4 @@
-type: StorageBlock
+type: Wall
 size: 4
 health: 450
 category: effect
