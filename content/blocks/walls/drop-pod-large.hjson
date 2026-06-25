@@ -1,0 +1,5 @@
+type: StorageBlock
+size: 5
+health: 670
+category: effect
+squareSprite: false
