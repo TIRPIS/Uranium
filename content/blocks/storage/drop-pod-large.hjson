@@ -1,0 +1,6 @@
+type: Wall
+size: 5
+health: 670
+itemCapacity: 0
+category: effect
+squareSprite: false
