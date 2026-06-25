@@ -3,3 +3,4 @@ size: 4
 health: 450
 category: effect
 squareSprite: false
+buildVisibility: sandboxOnly
