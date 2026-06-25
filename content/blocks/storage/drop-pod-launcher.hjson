@@ -4,7 +4,7 @@ health: 300
 requirements: [
   copper/100
   titanium/250
-  silicone/50
+  silicon/50
   ]
 category: effect
 launchBlock: drop-pod
