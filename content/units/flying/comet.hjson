@@ -7,7 +7,7 @@ drag: 0.08
 flying: true
 accel: 0.15
 targetFlags: [reactor]
-hitSize: 20
+hitSize: 15
 itemCapacity: 0
 lowAltitude: true
 rotateSpeed: 3
