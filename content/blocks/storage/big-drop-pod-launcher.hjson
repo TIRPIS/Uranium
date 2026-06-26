@@ -3,7 +3,7 @@ size: 5
 health: 550
 category: effect
 itemCapacity: 0
-launchTime: 2400
+launchTime: 3600
 hasPower: true
 consumes: {
   power: 3
