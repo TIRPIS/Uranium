@@ -7,7 +7,7 @@ drag: 0.04
 flying: true
 accel: 0.1
 targetFlags: [storage]
-hitSize: 8
+hitSize: 10
 itemCapacity: 0
 lowAltitude: true
 rotateSpeed: 4
