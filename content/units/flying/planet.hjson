@@ -71,4 +71,5 @@ splashDamageRadius: 60
   lifetime: 90
   knockback: -6
 }
+}
 ]
