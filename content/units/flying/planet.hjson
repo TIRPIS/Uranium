@@ -11,8 +11,8 @@ hitSize: 20
 itemCapacity: 0
 lowAltitude: true
 rotateSpeed: 1.5
-engineSize: 3
-engineOffset: 18
+engineSize: 5
+engineOffset: 18.5
 research: {
 parent: comet
 objectives: [
@@ -31,14 +31,14 @@ faceTarget: true
 engines: [
   {
     x: 11
-    y: -7
-    radius: 3
+    y: -7.5
+    radius: 4
 rotation: -90
   }
 {
     x: -11
-    y: -7
-    radius: 3
+    y: -7.5
+    radius: 4
 rotation: -90
   }
 ]
