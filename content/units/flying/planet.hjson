@@ -45,7 +45,7 @@ weapons: [
   { 
 name: planetweapon
   reload: 180
-  rotate: true
+  rotate: false
   mirror: false
   shootY: 0
   recoil: 1
@@ -54,6 +54,7 @@ name: planetweapon
   y: -0.25
 rotateSpeed: 1
 shootSound: shootSap
+shootCone: 1
   bullet: {
 buildingDamageMultiplier: 0.85
   type: BasicBulletType
