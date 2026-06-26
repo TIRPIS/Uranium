@@ -42,10 +42,32 @@ rotation: -90
 rotation: -90
   }
 weapons: [
-{
-x: 0
-y: -0.25
+  { 
 name: planetweapon
-mirror: false
-
-
+  reload: 180
+  rotate: true
+  mirror: false
+  shootY: 0
+  recoil: 1
+  ejectEffect: none
+  x: 0
+  y: -0.25
+rotateSpeed: 1
+shootSound: shootSap
+  bullet: {
+buildingDamageMultiplier: 0.85
+  type: BasicBulletType
+  lifetime: 60
+speed: 5
+  damage: 120
+splashDamage: 80
+splashDamageRadius: 60
+  shootEffect: shootSmall
+  hitColor: bf92f9
+  color: bf92f9
+  despawnEffect: none
+  width: 1
+  lifetime: 90
+  knockback: -6
+}
+]
