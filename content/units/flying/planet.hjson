@@ -49,7 +49,7 @@ name: planetweapon
   rotate: false
   mirror: false
   shootY: 0
-  recoil: 1
+  recoil: 0
   ejectEffect: none
   x: 0
   y: -0.25
@@ -60,19 +60,18 @@ range: 200
   bullet: {
 buildingDamageMultiplier: 0.85
   type: BasicBulletType
-  lifetime: 20
-speed: 30
+  lifetime: 5
+speed: 20
 maxRange: 200
   damage: 120
 splashDamage: 80
-splashDamageRadius: 60
-  shootEffect: shootSmall
+splashDamageRadius: 32
+  shootEffect: teleportOut
   hitColor: bf92f9
   color: bf92f9
-  despawnEffect: none
-  width: 1
-  lifetime: 90
-  knockback: -6
+  despawnEffect: crossExplosion
+  width: 10
+knockback: 3
 }
 }
 ]
