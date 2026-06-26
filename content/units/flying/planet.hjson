@@ -69,7 +69,7 @@ splashDamageRadius: 32
   shootEffect: teleportOut
   hitColor: bf92f9
   color: bf92f9
-  despawnEffect: crossExplosion
+  despawnEffect: mineImpact
   width: 10
 knockback: 3
 }
