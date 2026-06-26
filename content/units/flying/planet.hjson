@@ -41,6 +41,7 @@ rotation: -90
     radius: 3
 rotation: -90
   }
+]
 weapons: [
   { 
 name: planetweapon
