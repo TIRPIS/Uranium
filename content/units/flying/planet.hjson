@@ -17,6 +17,7 @@ research: {
 parent: comet
 objectives: [
 multiplicative-reconstructor
+comet
 ]
 }
 researchCostMultiplier: 7
@@ -27,15 +28,24 @@ moveSoundPitchMax: 0.9
 moveSoundVolume: 0.35
 range: 200
 faceTarget: true
-abilities: [
+engines: [
   {
-    type: MoveEffectAbility
-    teamColor: true
-    effect: missileTrailShort
-    x: 0
-    y: -9
-    interval: 9
-    minVelocity: 0.6
+    x: 11
+    y: -7
+    radius: 3
+rotation: -90
+  }
+{
+    x: -11
+    y: -7
+    radius: 3
+rotation: -90
   }
 weapons: [
 {
+x: 0
+y: -0.25
+name: planetweapon
+mirror: false
+
+
