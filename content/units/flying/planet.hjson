@@ -1,7 +1,7 @@
 name: Planet
 description: . 
-health: 1000
-armor: 4
+health: 650
+armor: 5
 speed: 0.9
 drag: 0.08
 flying: true
@@ -11,18 +11,18 @@ hitSize: 20
 itemCapacity: 0
 lowAltitude: true
 rotateSpeed: 1.5
-engineSize: 4.5
-engineOffset: 4
+engineSize: 3
+engineOffset: 18
 research: {
 parent: comet
 }
-researchCostMultiplier: 3
-wreckSoundVolume: 0.7
+researchCostMultiplier: 7
+wreckSoundVolume: 0.85
 moveSound: loopThruster
 moveSoundPitchMin: 0.4
-moveSoundPitchMax: 0.7
-moveSoundVolume: 0.25
-range: 140
+moveSoundPitchMax: 0.9
+moveSoundVolume: 0.35
+range: 200
 faceTarget: true
 weapons: [
 {
