@@ -56,11 +56,13 @@ name: planetweapon
 rotateSpeed: 1
 shootSound: shootSap
 shootCone: 1
+range: 200
   bullet: {
 buildingDamageMultiplier: 0.85
   type: BasicBulletType
-  lifetime: 60
-speed: 5
+  lifetime: 20
+speed: 30
+maxRange: 200
   damage: 120
 splashDamage: 80
 splashDamageRadius: 60
