@@ -60,7 +60,7 @@ range: 200
   bullet: {
 buildingDamageMultiplier: 0.85
   type: BasicBulletType
-  lifetime: 5
+  lifetime: 13
 speed: 20
 maxRange: 200
   damage: 120
