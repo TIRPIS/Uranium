@@ -49,7 +49,7 @@ name: planetweapon
   rotate: false
   mirror: false
   shootY: 0
-  recoil: 0
+  recoil: 1
   ejectEffect: none
   x: 0
   y: -0.25
