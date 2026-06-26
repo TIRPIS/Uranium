@@ -1,1 +1,28 @@
-
+name: Planet
+description: . 
+health: 1000
+armor: 4
+speed: 0.9
+drag: 0.08
+flying: true
+accel: 0.15
+targetFlags: [crafting]
+hitSize: 20
+itemCapacity: 0
+lowAltitude: true
+rotateSpeed: 1.5
+engineSize: 4.5
+engineOffset: 4
+research: {
+parent: comet
+}
+researchCostMultiplier: 3
+wreckSoundVolume: 0.7
+moveSound: loopThruster
+moveSoundPitchMin: 0.4
+moveSoundPitchMax: 0.7
+moveSoundVolume: 0.25
+range: 140
+faceTarget: true
+weapons: [
+{
