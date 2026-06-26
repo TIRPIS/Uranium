@@ -15,6 +15,9 @@ engineSize: 3
 engineOffset: 18
 research: {
 parent: comet
+objectives: [
+multiplicative-reconstructor
+]
 }
 researchCostMultiplier: 7
 wreckSoundVolume: 0.85
@@ -24,5 +27,15 @@ moveSoundPitchMax: 0.9
 moveSoundVolume: 0.35
 range: 200
 faceTarget: true
+abilities: [
+  {
+    type: MoveEffectAbility
+    teamColor: true
+    effect: missileTrailShort
+    x: 0
+    y: -9
+    interval: 9
+    minVelocity: 0.6
+  }
 weapons: [
 {
