@@ -6,7 +6,7 @@ speed: 0.9
 drag: 0.08
 flying: true
 accel: 0.15
-targetFlags: [crafting]
+targetFlags: [factory]
 hitSize: 20
 itemCapacity: 0
 lowAltitude: true
