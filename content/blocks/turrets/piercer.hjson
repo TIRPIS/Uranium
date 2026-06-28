@@ -45,7 +45,7 @@ thorium: {
 type: ShrapnelBulletType
 length: 200
 width: 25
-damage: 600
+damage: 400
 ammoMultiplier: 2
 toColor: F9A3C7
 shootEffect: thoriumShoot
@@ -55,7 +55,7 @@ uranium: {
 type: ShrapnelBulletType
 length: 240
 width: 20
-damage: 300
+damage: 250
 reloadMultiplier: 1.3
 ammoMultiplier: 2
 toColor: BFFBFF
