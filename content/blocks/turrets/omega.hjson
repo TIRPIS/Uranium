@@ -31,7 +31,6 @@ consumes: {
 liquidCapacity: 300
 shoot: {
   type: ShootBarrel
-  barrels: 3
   shots: 3
   shotDelay: 6
   barrels: [
