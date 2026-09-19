@@ -7,7 +7,7 @@ description:
 wip but im lazy
 '''
 author: "THT 2"
-minGameVersion: 158.1
+minGameVersion: 160.4
 version: "0.7"
 displayName: "Uranium"
 subtitle: "Mod that add uranium, turrets, and units.
