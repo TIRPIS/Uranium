@@ -6,6 +6,7 @@ viscosity: 0.1
 explosiveness: 0
 boilPoint: 0.0001
 color: D6F7FF
+gas: true
 gasColor: D6F7FF
   research: {
   parent: slag
