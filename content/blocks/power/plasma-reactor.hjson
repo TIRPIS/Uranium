@@ -1,0 +1,87 @@
+name: Plasma reactor
+type: ImpactReactor
+size: 5
+health: 1500
+category: power
+squareSprite: false
+requirements: [
+surgeAlloy/500
+graphite/1000
+silicon/550
+lead/900
+uranium/540
+phaseFabric/230
+]
+hasLiquids: true
+consumes: {
+  liquid: [
+    cryoflyid/1.5
+    ]
+  items: [
+    uranium/3
+    blastCompound/0.5
+    surgeAlloy/1
+    ]
+}
+outputLiquid: liquid-plasma/1
+powerProduction: 259
+ambientSound: loopNecroplasm
+ambientSoundVolume: 0.20
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawLiquidTile
+      drawLiquid: 02b-03-necroplasm
+      padding: 3
+      alpha: 0.9
+    }
+    {
+      type: DrawLiquidTile
+      drawLiquid: 02b-07-ectoplasm
+      padding: 3
+    }
+    {
+      type: DrawRegion
+      suffix: -center
+    }
+    {
+      type: DrawCells
+      color: 60c9ad
+      particleColorFrom: ffffff
+      particleColorTo: 869cbe
+      particles: 50
+      range: 8
+    }
+    {
+      type: DrawParticles
+      color: ffffff
+      particleSize: 1.5
+      particleRad: 20
+      particleLife: 60
+      particles: 50
+      reverse: true
+    }
+    {
+      type: DrawDefault
+    }
+    {
+      type: DrawGlowRegion
+      suffix: -glow
+      color: 60c9ad
+    }
+  ]
+}
+research: {
+  parent: 07g-05-tokamak-reactor
+  objectives: [
+    {
+      type: OnSector
+      preset: 19s-19-bisect
+    }
+  ]
+}
