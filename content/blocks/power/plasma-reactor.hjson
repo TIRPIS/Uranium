@@ -17,8 +17,8 @@ consumes: {
   liquid: cryofluid/1.5
   items: [
     uranium/3
-    blast-compound/0.5
-    surge-alloy/1
+    blast-compound/1
+    surge-alloy/2
     ]
 }
 #outputLiquid: liquid-plasma/1
