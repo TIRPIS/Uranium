@@ -5,12 +5,12 @@ health: 1500
 category: power
 squareSprite: false
 requirements: [
-surgeAlloy/500
+surge-alloy/500
 graphite/1000
 silicon/550
 lead/900
 uranium/540
-phaseFabric/230
+phase-fabric/230
 ]
 hasLiquids: true
 consumes: {
@@ -18,7 +18,7 @@ consumes: {
   items: [
     uranium/3
     blast-compound/0.5
-    surgeAlloy/1
+    surge-alloy/1
     ]
 }
 outputLiquid: liquid-plasma/1
