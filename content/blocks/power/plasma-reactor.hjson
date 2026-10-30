@@ -21,8 +21,8 @@ consumes: {
     surge-alloy/1
     ]
 }
-outputLiquid: liquid-plasma/1
-powerProduction: 259
+#outputLiquid: liquid-plasma/1
+powerProduction: 219
 ambientSound: loopNecroplasm
 ambientSoundVolume: 0.20
 drawer: {
