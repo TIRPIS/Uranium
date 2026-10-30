@@ -45,7 +45,7 @@ flameColor: D6F7FF
     }
     {
       type: DrawLiquidTile
-      drawLiquid: cryoflyid
+      drawLiquid: cryofluid
       padding: 16
     }
     {
