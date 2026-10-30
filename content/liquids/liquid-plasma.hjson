@@ -1,0 +1,14 @@
+flammability: 0
+temperature: 1
+heatCapacity: 0.8
+viscosity: 0.8
+explosiveness: 4
+boilPoint: 0.5
+color: D6F7FF
+gasColor: D6F7FF
+  research: {
+  parent: slag
+  objectives: [ 
+    plasma-reactor
+  ]
+    }
