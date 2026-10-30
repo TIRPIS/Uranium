@@ -1,5 +1,5 @@
 name: Plasma reactor
-type: ImpactReactor
+type: ConsumeGenerator
 size: 5
 health: 1500
 category: power
@@ -58,7 +58,6 @@ flameColor: D6F7FF
     }
   ]
 }
-warmupSpeed: 1
 research: {
   parent: impactReactor
   objectives: [
