@@ -14,9 +14,7 @@ phaseFabric/230
 ]
 hasLiquids: true
 consumes: {
-  liquid: [
-    cryofluid/1.5
-    ]
+  liquid: cryofluid/1.5
   items: [
     uranium/3
     blastCompound/0.5
