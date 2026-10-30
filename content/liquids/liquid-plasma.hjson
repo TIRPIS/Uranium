@@ -1,9 +1,10 @@
+name: Plasma
 flammability: 0
-temperature: 1
-heatCapacity: 0.8
-viscosity: 0.8
-explosiveness: 4
-boilPoint: 0.5
+temperature: 3
+heatCapacity: 1.7
+viscosity: 0.1
+explosiveness: 0
+boilPoint: 0.0001
 color: D6F7FF
 gasColor: D6F7FF
   research: {
