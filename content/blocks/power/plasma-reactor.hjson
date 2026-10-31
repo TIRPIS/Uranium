@@ -14,6 +14,7 @@ phase-fabric/230
 ]
 hasLiquids: true
 consumes: {
+power: 42
   liquid: cryofluid/1.5
   items: [
     uranium/3
@@ -22,7 +23,7 @@ consumes: {
     ]
 }
 outputLiquid: liquid-plasma/1
-powerProduction: 160
+powerProduction: 202
 ambientSound: loopNecroplasm
 ambientSoundVolume: 0.15
 drawer: {
