@@ -1,3 +1,4 @@
+name: Plasma turbine
 type: ConsumeGenerator
 size: 3
 health: 700
