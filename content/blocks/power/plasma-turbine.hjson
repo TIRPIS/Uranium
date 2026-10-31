@@ -48,6 +48,9 @@ drawer: {
       rotateSpeed: -20
     }
     {
+      type: DrawRegion
+      suffix: -top
+    {
       type: DrawDefault
     }
     {
