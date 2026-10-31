@@ -14,7 +14,7 @@ phase-fabric/120
 ]
 hasLiquids: true
 consumes: {
-  liquid: liquid-plasma/3.8
+  liquid: liquid-plasma/3.4
 }
 powerProduction: 80
 ambientSound: loopFlux
