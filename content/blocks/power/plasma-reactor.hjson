@@ -50,12 +50,14 @@ flameColor: D6F7FF
       padding: 16
     }
     {
-      type: DrawDefault
-    }
-    {
       type: DrawGlowRegion
       suffix: -glow
       color: D6F7FF
+      spinSprite: true
+      spinSpeed: 20
+    }
+    {
+      type: DrawDefault
     }
   ]
 }
