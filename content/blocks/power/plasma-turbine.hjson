@@ -35,26 +35,15 @@ drawer: {
       type: DrawRegion
       suffix: -bottom2
     }
-    {
-      type: DrawRegion
-      suffix: -center
+    type: DrawRegion
+      suffix: -rotor
+      spinSprite: true
+      rotateSpeed: 20
     }
-    {
-      type: DrawCells
-      color: 60c9ad
-      particleColorFrom: ffffff
-      particleColorTo: 869cbe
-      particles: 50
-      range: 8
-    }
-    {
-      type: DrawParticles
-      color: ffffff
-      particleSize: 1.5
-      particleRad: 20
-      particleLife: 60
-      particles: 50
-      reverse: true
+    type: DrawRegion
+      suffix: -rotor2
+      spinSprite: true
+      rotateSpeed: 20
     }
     {
       type: DrawDefault
@@ -62,7 +51,7 @@ drawer: {
     {
       type: DrawGlowRegion
       suffix: -glow
-      color: 60c9ad
+      color: D6F7FF
     }
   ]
 }
