@@ -1,0 +1,78 @@
+type: ConsumeGenerator
+size: 3
+health: 700
+category: power
+squareSprite: false
+requirements: [
+surge-alloy/250
+graphite/200
+copper/600
+silicon/400
+uranium/50
+phase-fabric/120
+]
+hasLiquids: true
+consumes: {
+  power: 5
+  liquid: liquid-plasma/4
+}
+powerProduction: 100
+ambientSound: loopFlux
+ambientSoundVolume: 0.10
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawLiquidTile
+      drawLiquid: liquid-plasma
+      padding: 3
+    }
+    {
+      type: DrawRegion
+      suffix: -bottom2
+    }
+    {
+      type: DrawRegion
+      suffix: -center
+    }
+    {
+      type: DrawCells
+      color: 60c9ad
+      particleColorFrom: ffffff
+      particleColorTo: 869cbe
+      particles: 50
+      range: 8
+    }
+    {
+      type: DrawParticles
+      color: ffffff
+      particleSize: 1.5
+      particleRad: 20
+      particleLife: 60
+      particles: 50
+      reverse: true
+    }
+    {
+      type: DrawDefault
+    }
+    {
+      type: DrawGlowRegion
+      suffix: -glow
+      color: 60c9ad
+    }
+  ]
+}
+researchCostMultiplier: 9
+research: {
+  parent: plasma-reactor
+  objectives: [
+    {
+      type: OnSector
+      preset: impact0078
+    }
+  ]
+}
